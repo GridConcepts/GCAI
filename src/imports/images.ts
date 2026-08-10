@@ -1,4 +1,4 @@
-import heroImage from "./assets/982001395152230f7b942ae58238d22b7d003e13.png";
+import heroImage from "./assets/hero-woman-tablet.png";
 import valPortrait from "./assets/437db55220169d7534f7739dbfd727b73ffd0bca.png";
 import valTeamPortrait from "./assets/f2a3a8593636b4d548b66e9abc61691a70647682.png";
 import dimitryPortrait from "./assets/e3aa64fddea542e2436303ea7f6e61fb8e991c57.png";
