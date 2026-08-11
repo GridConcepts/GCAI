@@ -7,7 +7,7 @@ import { defineConfig, fontProviders } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://ai.gridconcepts.com.au',
-	base: '/insights',
+	base: '/insights/',
 	outDir: '../dist/insights',
 	integrations: [mdx(), sitemap()],
 	fonts: [

@@ -1,15 +1,15 @@
 ---
-import { SITE_HOME } from '../consts';
-
 const today = new Date();
 ---
 
 <footer>
 	&copy; {today.getFullYear()} Grid Concepts. All rights reserved.
 	<p>
-		<a href={SITE_HOME}>Back to Grid Concepts</a>
+		<a href="/">Home</a>
 		·
-		<a href={`${SITE_HOME}/#contact`}>Contact</a>
+		<a href="/insights/">Insights</a>
+		·
+		<a href="/#contact">Contact</a>
 	</p>
 </footer>
 <style>
