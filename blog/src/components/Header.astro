@@ -1,0 +1,60 @@
+---
+import { SITE_HOME, SITE_TITLE } from '../consts';
+import HeaderLink from './HeaderLink.astro';
+
+const base = import.meta.env.BASE_URL;
+---
+
+<header>
+	<nav>
+		<h2><a href={base}>{SITE_TITLE}</a></h2>
+		<div class="internal-links">
+			<HeaderLink href={base}>Insights</HeaderLink>
+			<a href={`${SITE_HOME}/state-of-ai-report`}>State of AI Report</a>
+			<a href={SITE_HOME}>Grid Concepts</a>
+		</div>
+	</nav>
+</header>
+<style>
+	header {
+		margin: 0;
+		padding: 0 1em;
+		background: #f9faf5;
+		border-bottom: 1px solid rgba(29, 39, 32, 0.1);
+	}
+	h2 {
+		margin: 0;
+		font-size: 1em;
+	}
+
+	h2 a,
+	h2 a.active {
+		text-decoration: none;
+		color: #1d2720;
+	}
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		max-width: 960px;
+		margin: 0 auto;
+	}
+	nav a {
+		padding: 1em 0.5em;
+		color: #465047;
+		border-bottom: 4px solid transparent;
+		text-decoration: none;
+		font-size: 0.85rem;
+		font-weight: 500;
+	}
+	nav a.active {
+		text-decoration: none;
+		border-bottom-color: var(--accent);
+		color: #1d2720;
+	}
+	.internal-links {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.25rem;
+	}
+</style>

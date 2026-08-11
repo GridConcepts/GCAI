@@ -5,7 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "dev:blog": "npm run dev --prefix blog",
+    "build:site": "vite build",
+    "build:blog": "npm run build --prefix blog",
+    "build": "npm run build:site && npm run build:blog",
     "preview": "vite preview",
     "deploy": "npm run build && wrangler deploy",
     "deploy:pages": "npm run build && wrangler pages deploy dist --project-name=gcai --branch=production"

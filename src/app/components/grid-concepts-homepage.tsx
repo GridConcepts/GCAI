@@ -14,6 +14,7 @@ import {
   valTeamPortrait,
 } from "../../imports/images";
 import svgPaths from "../../imports/GridConceptsHomepageLight/svg-vcinlohbnv";
+import { insightPostPath, insightPosts, insightsIndexPath } from "../../data/insights";
 const metropoleLogo = "https://metropole.com.au/wp-content/themes/metropole-theme/assets/images/2025/Metropole_primary_logo.svg";
 const orthodonticsLogo = "https://orthodonticsaustralia.org.au/wp-content/themes/oa2023/img/logo.svg";
 const gmLawLogo = "https://www.gmlaw.com.au/wp-content/uploads/2020/02/GMLaw-logo.svg";
@@ -53,7 +54,113 @@ function StateOfAiTeaser() {
     { label: "Systems integration", value: 43, detail: "Core systems still need to share the customer picture." },
     { label: "People readiness", value: 28, detail: "Training and safe-use guidance determine whether change sticks." },
   ];
-  return <section id="insights" className="border-t border-[#dfe3d8] bg-[#10252a]"><div className="mx-auto max-w-[1180px] px-6 py-20 md:px-12 md:py-28"><div className="grid gap-12 lg:grid-cols-[.9fr_1.1fr]"><div className="flex flex-col"><p className={`${sans} text-[11px] font-semibold tracking-[.18em] text-[#b4cc66]`}>GRID CONCEPTS INSIGHTS · JULY 2026</p><h2 className={`${display} mt-6 max-w-[12ch] text-[43px] leading-[1.08] tracking-[-.035em] text-white sm:text-[58px]`}>The State of AI for Victorian Small & Medium Business</h2><p className={`${sans} mt-8 max-w-[530px] text-[17px] leading-7 text-[#c8d3d0]`}>The AI boom is moving from chatbots to digital workers. Our plain-English report shows why reliable data, connected systems, practical governance, and prepared people are the difference between experimentation and results.</p><a href="/state-of-ai-report" className={`${sans} group mt-10 inline-flex w-fit items-center gap-3 bg-[#92ad39] px-6 py-4 text-[12px] font-semibold text-[#17220d] transition hover:bg-white`}>Explore the full report <ArrowRight size={16} className="transition group-hover:translate-x-1" /></a></div><div className="border border-white/15 bg-[#0b1b1e] p-6 sm:p-8"><div className="flex flex-wrap items-start justify-between gap-4"><div><p className={`${sans} text-[10px] font-semibold tracking-[.16em] text-[#b4cc66]`}>SME AI READINESS · 2026</p><p className={`${display} mt-3 text-[31px] text-white`}>The gap is not ambition. It is foundation.</p></div><div className={`${sans} border border-[#92ad39]/50 px-3 py-2 text-[10px] font-semibold tracking-[.12em] text-[#cfe28a]`}>INTERACTIVE SIGNALS</div></div><div className="mt-10 grid gap-5 sm:grid-cols-[1fr_170px]"><div className="space-y-5">{signals.map((signal,index)=><button key={signal.label} type="button" onClick={()=>setActive(index)} className={`block w-full border-l-2 pl-4 text-left transition ${active===index?"border-[#92ad39]":"border-white/15 hover:border-[#b4cc66]"}`}><div className="flex items-end justify-between gap-4"><p className={`${sans} text-[12px] font-semibold ${active===index?"text-white":"text-[#aab8b4]"}`}>{signal.label}</p><p className={`${display} text-[25px] ${active===index?"text-[#cfe28a]":"text-[#899b96]"}`}>{signal.value}%</p></div><div className="mt-2 h-1.5 bg-white/10"><div className="h-full bg-[#92ad39] transition-all duration-500" style={{width:`${active===index?signal.value:Math.max(signal.value-12,10)}%`}} /></div></button>)}</div><div className="flex min-h-[170px] flex-col justify-between border border-white/10 bg-white/[.035] p-5"><p className={`${display} text-[46px] leading-none text-white`}>{signals[active].value}<span className={`${sans} text-[14px] text-[#b4cc66]`}>%</span></p><p className={`${sans} text-[12px] leading-5 text-[#c8d3d0]`}>{signals[active].detail}</p><p className={`${sans} text-[10px] font-semibold tracking-[.12em] text-[#b4cc66]`}>VIEW IN REPORT →</p></div></div><div className="mt-8 grid grid-cols-3 border-t border-white/10 pt-6"><div className="border-r border-white/10 pr-4"><p className={`${display} text-[30px] text-white`}>1%</p><p className={`${sans} mt-1 text-[10px] leading-4 text-[#aab8b4]`}>feel fully ready to run AI reliably at scale</p></div><div className="border-r border-white/10 px-4"><p className={`${display} text-[30px] text-white`}>95%</p><p className={`${sans} mt-1 text-[10px] leading-4 text-[#aab8b4]`}>of pilots fail to show measurable financial benefit</p></div><div className="pl-4"><p className={`${display} text-[30px] text-white`}>100</p><p className={`${sans} mt-1 text-[10px] leading-4 text-[#aab8b4]`}>days in a practical first-stage roadmap</p></div></div></div></div></div></section>;
+  const latestPosts = insightPosts.slice(0, 3);
+
+  return (
+    <section id="insights" className="border-t border-[#dfe3d8] bg-[#10252a]">
+      <div className="mx-auto max-w-[1180px] px-6 py-20 md:px-12 md:py-28">
+        <div className="grid gap-12 lg:grid-cols-[.9fr_1.1fr]">
+          <div className="flex flex-col">
+            <p className={`${sans} text-[11px] font-semibold tracking-[.18em] text-[#b4cc66]`}>GRID CONCEPTS INSIGHTS · JULY 2026</p>
+            <h2 className={`${display} mt-6 max-w-[12ch] text-[43px] leading-[1.08] tracking-[-.035em] text-white sm:text-[58px]`}>
+              The State of AI for Victorian Small & Medium Business
+            </h2>
+            <p className={`${sans} mt-8 max-w-[530px] text-[17px] leading-7 text-[#c8d3d0]`}>
+              The AI boom is moving from chatbots to digital workers. Our plain-English report shows why reliable data, connected systems, practical governance, and prepared people are the difference between experimentation and results.
+            </p>
+            <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+              <a href="/state-of-ai-report" className={`${sans} group inline-flex w-fit items-center gap-3 bg-[#92ad39] px-6 py-4 text-[12px] font-semibold text-[#17220d] transition hover:bg-white`}>
+                Explore the full report <ArrowRight size={16} className="transition group-hover:translate-x-1" />
+              </a>
+              <a href={insightsIndexPath} className={`${sans} group inline-flex w-fit items-center gap-3 border border-white/25 px-6 py-4 text-[12px] font-semibold text-white transition hover:border-[#92ad39] hover:text-[#cfe28a]`}>
+                Browse all insights <ArrowRight size={16} className="transition group-hover:translate-x-1" />
+              </a>
+            </div>
+          </div>
+
+          <div className="border border-white/15 bg-[#0b1b1e] p-6 sm:p-8">
+            <div className="flex flex-wrap items-start justify-between gap-4">
+              <div>
+                <p className={`${sans} text-[10px] font-semibold tracking-[.16em] text-[#b4cc66]`}>SME AI READINESS · 2026</p>
+                <p className={`${display} mt-3 text-[31px] text-white`}>The gap is not ambition. It is foundation.</p>
+              </div>
+              <div className={`${sans} border border-[#92ad39]/50 px-3 py-2 text-[10px] font-semibold tracking-[.12em] text-[#cfe28a]`}>INTERACTIVE SIGNALS</div>
+            </div>
+            <div className="mt-10 grid gap-5 sm:grid-cols-[1fr_170px]">
+              <div className="space-y-5">
+                {signals.map((signal, index) => (
+                  <button
+                    key={signal.label}
+                    type="button"
+                    onClick={() => setActive(index)}
+                    className={`block w-full border-l-2 pl-4 text-left transition ${active === index ? "border-[#92ad39]" : "border-white/15 hover:border-[#b4cc66]"}`}
+                  >
+                    <div className="flex items-end justify-between gap-4">
+                      <p className={`${sans} text-[12px] font-semibold ${active === index ? "text-white" : "text-[#aab8b4]"}`}>{signal.label}</p>
+                      <p className={`${display} text-[25px] ${active === index ? "text-[#cfe28a]" : "text-[#899b96]"}`}>{signal.value}%</p>
+                    </div>
+                    <div className="mt-2 h-1.5 bg-white/10">
+                      <div className="h-full bg-[#92ad39] transition-all duration-500" style={{ width: `${active === index ? signal.value : Math.max(signal.value - 12, 10)}%` }} />
+                    </div>
+                  </button>
+                ))}
+              </div>
+              <a href="/state-of-ai-report" className="flex min-h-[170px] flex-col justify-between border border-white/10 bg-white/[.035] p-5 transition hover:border-[#92ad39]/60">
+                <p className={`${display} text-[46px] leading-none text-white`}>
+                  {signals[active].value}
+                  <span className={`${sans} text-[14px] text-[#b4cc66]`}>%</span>
+                </p>
+                <p className={`${sans} text-[12px] leading-5 text-[#c8d3d0]`}>{signals[active].detail}</p>
+                <p className={`${sans} text-[10px] font-semibold tracking-[.12em] text-[#b4cc66]`}>VIEW IN REPORT →</p>
+              </a>
+            </div>
+            <div className="mt-8 grid grid-cols-3 border-t border-white/10 pt-6">
+              <div className="border-r border-white/10 pr-4">
+                <p className={`${display} text-[30px] text-white`}>1%</p>
+                <p className={`${sans} mt-1 text-[10px] leading-4 text-[#aab8b4]`}>feel fully ready to run AI reliably at scale</p>
+              </div>
+              <div className="border-r border-white/10 px-4">
+                <p className={`${display} text-[30px] text-white`}>95%</p>
+                <p className={`${sans} mt-1 text-[10px] leading-4 text-[#aab8b4]`}>of pilots fail to show measurable financial benefit</p>
+              </div>
+              <div className="pl-4">
+                <p className={`${display} text-[30px] text-white`}>100</p>
+                <p className={`${sans} mt-1 text-[10px] leading-4 text-[#aab8b4]`}>days in a practical first-stage roadmap</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-16 border-t border-white/10 pt-12">
+          <div className="flex flex-wrap items-end justify-between gap-4">
+            <div>
+              <p className={`${sans} text-[11px] font-semibold tracking-[.18em] text-[#b4cc66]`}>FROM THE INSIGHTS BLOG</p>
+              <h3 className={`${display} mt-3 text-[28px] text-white sm:text-[34px]`}>Recent reading</h3>
+            </div>
+            <a href={insightsIndexPath} className={`${sans} group inline-flex items-center gap-2 text-[12px] font-semibold text-[#cfe28a] transition hover:text-white`}>
+              View all insights <ArrowRight size={14} className="transition group-hover:translate-x-1" />
+            </a>
+          </div>
+          <div className="mt-8 grid gap-4 md:grid-cols-3">
+            {latestPosts.map((post) => (
+              <a
+                key={post.slug}
+                href={insightPostPath(post.slug)}
+                className="group flex flex-col border border-white/12 bg-[#0b1b1e] p-6 transition hover:border-[#92ad39]/55"
+              >
+                <p className={`${sans} text-[10px] font-semibold tracking-[.14em] text-[#b4cc66]`}>{post.dateLabel}</p>
+                <h4 className={`${display} mt-3 text-[22px] leading-[1.2] text-white`}>{post.title}</h4>
+                <p className={`${sans} mt-4 text-[13px] leading-6 text-[#aab8b4]`}>{post.description}</p>
+                <p className={`${sans} mt-auto pt-6 text-[11px] font-semibold tracking-[.12em] text-[#cfe28a] transition group-hover:text-white`}>
+                  READ →
+                </p>
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
 
 const caseStudies = [
