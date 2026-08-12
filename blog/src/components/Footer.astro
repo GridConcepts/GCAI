@@ -1,0 +1,33 @@
+---
+const today = new Date();
+---
+
+<footer>
+	&copy; {today.getFullYear()} Grid Concepts. All rights reserved.
+	<p>
+		<a href="/">Home</a>
+		·
+		<a href="/insights/">Insights</a>
+		·
+		<a href="/#contact">Contact</a>
+	</p>
+</footer>
+<style>
+	footer {
+		padding: 2em 1em 6em 1em;
+		background: #f1f3eb;
+		color: #657067;
+		text-align: center;
+		font-size: 0.95rem;
+	}
+	footer a {
+		color: #657b24;
+		text-decoration: none;
+	}
+	footer a:hover {
+		color: #1d2720;
+	}
+	footer p {
+		margin-top: 0.75em;
+	}
+</style>
