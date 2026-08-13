@@ -1,4 +1,4 @@
-import heroImage from "./assets/hero-woman-tablet.png";
+import heroImage from "./assets/hero-woman-tablet.jpg";
 import valPortrait from "./magnific_change-the-colour-of-the-_5xHLg4xKxe-1.jpeg";
 import valTeamPortrait from "./magnific_change-the-colour-of-the-_5xHLg4xKxe-2.jpeg";
 import dimitryPortrait from "./image-3.png";
