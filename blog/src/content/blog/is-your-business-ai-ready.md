@@ -28,7 +28,7 @@ We wrote more on what that gap looks like across Victorian SMEs specifically in 
 
 ## The fastest way to check
 
-Guessing at this is slower than just checking it. Our complimentary [AI-Readiness Data Check](https://ai.gridconcepts.com.au/#contact) is twelve questions covering exactly the five signs above, and it takes about ten minutes. No setup, no sales call to get the result — just a plain picture of where your foundations stand before you spend on anything.
+Guessing at this is slower than just checking it. Our complimentary [AI-Readiness Data Check](https://gridconcepts.com.au/#contact) is twelve questions covering exactly the five signs above, and it takes about ten minutes. No setup, no sales call to get the result — just a plain picture of where your foundations stand before you spend on anything.
 
 ## Related reading
 

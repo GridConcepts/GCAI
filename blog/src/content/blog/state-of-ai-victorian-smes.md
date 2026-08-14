@@ -22,10 +22,10 @@ When those pieces are weak, AI projects become demos. When they are strong, AI b
 
 We published a plain-English report on this topic for Victorian SMEs:
 
-**[Open The State of AI Report →](https://ai.gridconcepts.com.au/state-of-ai-report)**
+**[Open The State of AI Report →](https://gridconcepts.com.au/state-of-ai-report)**
 
 It covers the readiness picture, the common failure modes, and a practical first-stage path.
 
 ## Start with clarity
 
-If you want a business-specific snapshot first, take the complimentary [Data Check](https://ai.gridconcepts.com.au/#contact) on the Grid Concepts site. It is twelve questions, no setup, and designed to show where the foundations need attention before tools do.
+If you want a business-specific snapshot first, take the complimentary [Data Check](https://gridconcepts.com.au/#contact) on the Grid Concepts site. It is twelve questions, no setup, and designed to show where the foundations need attention before tools do.
