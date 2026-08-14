@@ -30,7 +30,7 @@ If the engagement is being pitched as a pilot rather than a full rollout — whi
 
 The single best signal is what the agency says about your own readiness. One that walks straight past questions about your data and systems into a proposal is optimising for the sale. One that says "here's what needs sorting first, and here's roughly what that costs before we touch AI" is optimising for a project that survives contact with your business. That second answer costs them a slower sales cycle. It's also the one worth paying for.
 
-You don't need an agency's help to check your own foundations before that conversation. Our free [AI-Readiness Data Check](https://ai.gridconcepts.com.au/#contact) takes about ten minutes and gives you a plain answer on where your data, systems and people stand — so you walk into any agency conversation already knowing your own numbers, not just theirs.
+You don't need an agency's help to check your own foundations before that conversation. Our free [AI-Readiness Data Check](https://gridconcepts.com.au/#contact) takes about ten minutes and gives you a plain answer on where your data, systems and people stand — so you walk into any agency conversation already knowing your own numbers, not just theirs.
 
 ## Related reading
 
