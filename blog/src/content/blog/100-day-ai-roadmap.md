@@ -33,4 +33,4 @@ Here is a practical 100-day shape we use with clients.
 
 Tools are the easy part. Sequence is the hard part. Businesses that jump straight to agents usually rediscover, later and at higher cost, that the information layer was never ready.
 
-If you want a starting snapshot, use the complimentary Data Check on the [Grid Concepts site](https://ai.gridconcepts.com.au/), then book a Discovery Call when the picture is clear enough to discuss.
+If you want a starting snapshot, use the complimentary Data Check on the [Grid Concepts site](https://gridconcepts.com.au/), then book a Discovery Call when the picture is clear enough to discuss.
