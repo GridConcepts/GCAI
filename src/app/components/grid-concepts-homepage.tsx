@@ -432,16 +432,21 @@ function DataCheck({ close }: { close: () => void }) {
 }
 
 const contactSolutions = [
-  "Complimentary 30min Discovery Call",
-  "AI Pilot for my company",
-  "AI consulting & a roadmap",
-  "AI Data foundation",
-  "Custom AI integration project",
-  "AI first website rebuild",
-  "AI Search visibility / SEO / GEO",
+  { label: "Complimentary 30min Discovery Call", value: "30 min discovery call" },
+  { label: "AI Pilot for my company", value: "AI pilot" },
+  { label: "AI consulting & a roadmap", value: "AI consultancy and roadmap" },
+  { label: "AI Data foundation", value: "AI data foundation" },
+  { label: "Custom AI integration project", value: "Custom AI integration project" },
+  { label: "AI first website rebuild", value: "AI first website rebuild" },
+  { label: "AI Search visibility / SEO / GEO", value: "AI search visibility" },
 ];
 
-const contactIndustries = ["Real Estate", "Legal", "Multi-location professional services practice", "Other"];
+const contactIndustries = [
+  { label: "Real Estate", value: "Real estate" },
+  { label: "Legal", value: "Legal" },
+  { label: "Multi-location professional services practice", value: "Multi location professional practice" },
+  { label: "Other", value: "Other" },
+];
 
 const contactSteps = [
   "We review your message and research your business",
@@ -559,7 +564,7 @@ function ContactSection() {
                   <select name="solution" defaultValue="" className={contactFieldClass}>
                     <option value="">Select a solution (optional)</option>
                     {contactSolutions.map((solution) => (
-                      <option key={solution} value={solution}>{solution}</option>
+                      <option key={solution.value} value={solution.value}>{solution.label}</option>
                     ))}
                   </select>
                 </ContactField>
@@ -567,7 +572,7 @@ function ContactSection() {
                   <select name="industry" defaultValue="" className={contactFieldClass}>
                     <option value="">Select your industry (optional)</option>
                     {contactIndustries.map((industry) => (
-                      <option key={industry} value={industry}>{industry}</option>
+                      <option key={industry.value} value={industry.value}>{industry.label}</option>
                     ))}
                   </select>
                 </ContactField>
