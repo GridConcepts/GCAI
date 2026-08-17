@@ -1,4 +1,4 @@
-import { useState, type FormEvent } from "react";
+import { useState, type FormEvent, type ReactNode } from "react";
 import { ArrowRight, Check, Download, Menu, RotateCcw, X } from "lucide-react";
 import {
   annaAndreevaTeamPortrait,
@@ -431,6 +431,201 @@ function DataCheck({ close }: { close: () => void }) {
   return <><div className={`${sans} fixed inset-0 z-[100] flex items-end bg-[#1d2720]/50 p-0 backdrop-blur-sm sm:items-center sm:justify-center sm:p-5`} role="dialog" aria-modal="true" aria-label="Complimentary Data Check"><div className="max-h-[94vh] w-full max-w-[960px] overflow-auto bg-[#f9faf5] shadow-2xl"><div className="flex items-center justify-between border-b border-[#dfe3d8] px-6 py-5"><div className="flex items-center gap-3"><span className="size-2 rounded-full bg-[#92ad39]" /><p className="text-[10px] font-semibold tracking-[.17em] text-[#71872b]">COMPLIMENTARY DATA CHECK</p></div><button type="button" onClick={close} aria-label="Close"><X size={20} /></button></div>{done ? <div className="px-6 py-9 sm:px-10 sm:py-11"><div className="grid gap-8 bg-[#10252a] p-7 text-white md:grid-cols-[.82fr_1.18fr] sm:p-9"><div><p className={`${display} text-[62px] leading-none`}>{score}<span className={`${sans} text-[17px] text-[#aac75c]`}> /100</span></p><p className={`${sans} mt-4 inline-flex bg-[#bd513f] px-3 py-1.5 text-[10px] font-semibold tracking-[.12em]`}>{readiness.toUpperCase()}</p></div><div><p className={`${sans} text-[11px] font-semibold tracking-[.16em] text-[#b4cc66]`}>YOUR AI-READINESS ANALYSIS</p><h2 className={`${display} mt-3 max-w-[18ch] text-[30px] leading-[1.15]`}>{score >= 50 ? "You have useful building blocks. Now connect them." : "Your foundations need attention before AI can deliver."}</h2><p className="mt-4 max-w-[520px] text-[14px] leading-6 text-[#c5d0ce]">This snapshot shows where to focus first. Your results point to practical opportunities across data, systems, governance, and the people who make change stick.</p></div></div><div className="mt-6 grid gap-4 sm:grid-cols-2">{pillars.map((pillar) => { const label = getStatus(pillar.score); return <div key={pillar.label} className="border border-[#dfe3d8] bg-white p-5"><div className="flex items-start justify-between gap-4"><div><p className={`${display} text-[19px] text-[#1d2720]`}>{pillar.label}</p><p className="mt-1 max-w-[230px] text-[11px] leading-4 text-[#687269]">{pillar.insight}</p></div><p className="shrink-0 text-[12px] font-semibold text-[#71872b]">{pillar.score}% · {label}</p></div><div className="mt-5 h-1.5 bg-[#e1e5db]"><div className={`h-full ${pillar.score >= 70 ? "bg-[#92ad39]" : pillar.score >= 45 ? "bg-[#bd963f]" : "bg-[#bd7255]"}`} style={{ width: `${pillar.score}%` }} /></div></div>})}</div><div className="mt-6 grid gap-5 md:grid-cols-2"><div className="bg-[#10252a] p-7 text-white"><p className="text-[10px] font-semibold tracking-[.16em] text-[#b4cc66]">NEXT STEP</p><h3 className={`${display} mt-4 text-[27px] leading-tight`}>Book your complimentary Discovery Call</h3><p className="mt-4 text-[14px] leading-6 text-[#c5d0ce]">Spend 30 minutes with a Grid Concepts expert discussing your challenges, systems, data, and the clearest path forward.</p><a href="https://outlook.office.com/book/YourComplimentaryDiscoveryCall@gridconcepts.com.au/?ismsaljsauthenabled" target="_blank" rel="noreferrer" className="mt-6 inline-flex items-center gap-3 bg-[#92ad39] px-5 py-3 text-[12px] font-semibold text-[#17220d] transition hover:bg-[#b4cc66]">Book your Discovery Call <ArrowRight size={15} /></a></div><div className="border border-[#dfe3d8] bg-[#fffefb] p-7"><p className="text-[10px] font-semibold tracking-[.16em] text-[#71872b]">DETAILED AI DATA CHECK REPORT</p><h3 className={`${display} mt-4 text-[27px] leading-tight text-[#1d2720]`}>Get your detailed analysis</h3><p className="mt-4 text-[14px] leading-6 text-[#586058]">Receive your full four-pillar results and a practical, prioritised action plan.</p>{reportSent ? <div className="mt-6 border-l-2 border-[#92ad39] bg-[#f2f5e8] p-4 text-[13px] leading-5 text-[#405016]">Thank you—your detailed AI Data Check report is on its way.</div> : reportOpen ? <form onSubmit={submitReportRequest} className="mt-6 grid gap-3"><div className="grid gap-3 sm:grid-cols-2"><input required name="firstName" placeholder="First name" className="border border-[#cfd7c5] bg-white px-3 py-3 text-[13px] outline-none focus:border-[#92ad39]" /><input required name="lastName" placeholder="Last name" className="border border-[#cfd7c5] bg-white px-3 py-3 text-[13px] outline-none focus:border-[#92ad39]" /></div><input required name="company" placeholder="Company name" className="border border-[#cfd7c5] bg-white px-3 py-3 text-[13px] outline-none focus:border-[#92ad39]" /><input required type="email" name="email" placeholder="Work email" className="border border-[#cfd7c5] bg-white px-3 py-3 text-[13px] outline-none focus:border-[#92ad39]" /><input required type="url" name="website" placeholder="Website (e.g. yourcompany.com.au)" className="border border-[#cfd7c5] bg-white px-3 py-3 text-[13px] outline-none focus:border-[#92ad39]" /><label className="flex items-start gap-2 text-[11px] leading-4 text-[#586058]"><input required name="marketingConsent" type="checkbox" className="mt-0.5 accent-[#92ad39]" />I agree to receive my requested report and relevant communications from Grid Concepts. I can unsubscribe at any time.</label>{reportError && <pre role="alert" className="whitespace-pre-wrap rounded border border-[#e8b4ac] bg-[#fdf2f0] p-3 text-[11px] leading-5 text-[#a74436]">{reportError}</pre>}<button type="submit" disabled={reportSubmitting} className="mt-1 inline-flex items-center justify-center gap-2 bg-[#1d2720] px-5 py-3 text-[12px] font-semibold text-white hover:bg-[#52631e] disabled:cursor-not-allowed disabled:opacity-60">{reportSubmitting ? "Sending your request..." : "Get my detailed report"} <ArrowRight size={15} /></button></form> : <button type="button" onClick={() => setReportOpen(true)} className="mt-6 inline-flex items-center gap-3 border border-[#1d2720] px-5 py-3 text-[12px] font-semibold text-[#1d2720] transition hover:bg-[#1d2720] hover:text-white">Get your detailed AI Data Check report <ArrowRight size={15} /></button>}</div></div><button type="button" onClick={restart} className="mx-auto mt-8 flex items-center gap-2 text-[12px] font-semibold text-[#637827]"><RotateCcw size={14} /> Take the check again</button></div> : <div className="px-6 py-8 sm:px-12 sm:py-10"><div className="flex justify-between text-[11px] font-semibold tracking-[.1em] text-[#71872b]"><span>QUESTION {at + 1} / 12</span><span>{answers.filter(answer => answer >= 0).length} ANSWERED</span></div><div className="mt-3 h-px bg-[#dfe3d8]"><div className="h-full bg-[#92ad39] transition-all" style={{ width: `${((at + 1) / 12) * 100}%` }} /></div><p className="mt-8 text-[10px] font-semibold tracking-[.18em] text-[#71872b]">DATA &amp; AI READINESS</p><h2 className={`${display} mt-4 max-w-[560px] text-[29px] leading-[1.2] text-[#1d2720] sm:text-[36px]`}>{q[0]}</h2><div className="mt-7 space-y-2">{q[1].map((answer, index) => <button key={answer} type="button" onClick={() => { const next = [...answers]; next[at] = index; setAnswers(next); }} className={`flex w-full items-center gap-4 border px-4 py-4 text-left text-[14px] transition ${value === index ? "border-[#92ad39] bg-[#eef2df]" : "border-[#dfe3d8] bg-white hover:border-[#a7bd61]"}`}><span className={`flex size-6 shrink-0 items-center justify-center rounded-full border text-[11px] ${value === index ? "border-[#92ad39] bg-[#92ad39] text-white" : "border-[#c8d0bd] text-[#71872b]"}`}>{value === index ? <Check size={14} /> : String.fromCharCode(65 + index)}</span>{answer}</button>)}</div><div className="mt-8 flex justify-between border-t border-[#dfe3d8] pt-5"><button type="button" onClick={() => setAt(Math.max(0, at - 1))} disabled={at === 0} className="text-[12px] font-semibold text-[#586058] disabled:opacity-30">Back</button><button type="button" disabled={value < 0} onClick={() => at === 11 ? setDone(true) : setAt(at + 1)} className="inline-flex items-center gap-2 bg-[#1d2720] px-5 py-3 text-[12px] font-semibold text-white disabled:opacity-30">{at === 11 ? "See my analysis" : "Continue"}<ArrowRight size={15} /></button></div></div>}</div></div>{previewOpen && <div className="fixed inset-0 z-[110] flex items-center justify-center bg-[#10252a]/70 p-3 backdrop-blur-sm sm:p-6" role="dialog" aria-modal="true" aria-label="Detailed AI Data Check report email preview"><div className="flex h-[92vh] w-full max-w-[760px] flex-col overflow-hidden bg-[#f2f4ed] shadow-2xl"><div className="flex items-center justify-between border-b border-[#dfe3d8] bg-[#1d2720] px-5 py-4 text-white"><div><p className="text-[10px] font-semibold tracking-[.16em] text-[#b4cc66]">EMAIL PREVIEW</p><p className={`${display} mt-1 text-[18px]`}>Detailed AI Data Check Report</p></div><div className="flex items-center gap-4"><button type="button" onClick={downloadPreviewHtml} className="inline-flex items-center gap-2 text-[11px] font-semibold text-[#b4cc66] transition hover:text-white"><Download size={15} /> Download HTML</button><button type="button" onClick={() => setPreviewOpen(false)} aria-label="Close email preview" className="text-white transition hover:text-[#b4cc66]"><X size={20} /></button></div></div><iframe title="Detailed AI Data Check report preview" sandbox="" srcDoc={buildEmailHtml("Jordan", "Taylor", "Example Business", "jordan@example.com")} className="min-h-0 flex-1 bg-[#f2f4ed]" /></div></div>}</>;
 }
 
+const contactSolutions = [
+  "Complimentary 30min Discovery Call",
+  "AI Pilot for my company",
+  "AI consulting & a roadmap",
+  "AI Data foundation",
+  "Custom AI integration project",
+  "AI first website rebuild",
+  "AI Search visibility / SEO / GEO",
+];
+
+const contactIndustries = ["Real Estate", "Legal", "Multi-location professional services practice", "Other"];
+
+const contactSteps = [
+  "We review your message and research your business",
+  "We schedule a complementary 30-minute Discovery Call",
+  "Following the call - we will present an AI implementation plan",
+  "You decide if it's a fit - no pressure",
+];
+
+const CONTACT_WEBHOOK = "https://hook.eu2.make.com/335wsoqp2hh64izx1pfppbg02y7ecjl2";
+
+function ContactField({ label, children }: { label: string; children: ReactNode }) {
+  return (
+    <label className="flex flex-col gap-2">
+      <span className={`${sans} text-[13px] font-medium text-[#1d2720]`}>{label}</span>
+      {children}
+    </label>
+  );
+}
+
+const contactFieldClass = `${sans} border border-[#cfd7c5] bg-white px-3.5 py-3 text-[14px] text-[#1d2720] outline-none transition placeholder:text-[#93998d] focus:border-[#92ad39]`;
+
+function ContactMeta({ label, children }: { label: string; children: ReactNode }) {
+  return (
+    <div>
+      <p className={`${sans} text-[11px] font-semibold tracking-[.14em] text-[#71872b]`}>{label}</p>
+      <div className={`${sans} mt-1.5 text-[13px] leading-[1.6] text-[#3d473e]`}>{children}</div>
+    </div>
+  );
+}
+
+function ContactSection() {
+  const [submitting, setSubmitting] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState("");
+
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    setSubmitting(true);
+    setError("");
+    const formData = new FormData(event.currentTarget);
+    const { gclid, msclkid } = getStoredClickIds();
+    const payload = {
+      name: String(formData.get("name") ?? ""),
+      email: String(formData.get("email") ?? ""),
+      phone: String(formData.get("phone") ?? ""),
+      company: String(formData.get("company") ?? ""),
+      solution: String(formData.get("solution") ?? ""),
+      industry: String(formData.get("industry") ?? ""),
+      message: String(formData.get("message") ?? ""),
+      source: "GCAI Website Contact Section",
+      page_url: window.location.href,
+      gclid,
+      msclkid,
+    };
+    try {
+      const response = await fetch(CONTACT_WEBHOOK, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      if (!response.ok) throw new Error(`Webhook returned ${response.status} ${response.statusText}`);
+      setSubmitted(true);
+    } catch (submitError) {
+      const msg = submitError instanceof Error ? submitError.message : String(submitError);
+      console.error("[ContactSection] Submission failed:", msg);
+      setError("Something went wrong sending your message. Please try again, or call us directly on 1300 976 426.");
+    } finally {
+      setSubmitting(false);
+    }
+  };
+
+  return (
+    <section id="get-in-touch" className="border-t border-[#dfe3d8] bg-white">
+      <div className="mx-auto grid max-w-[1180px] gap-14 px-6 py-20 md:grid-cols-[1fr_.78fr] md:px-12 md:py-28">
+        <div className="flex flex-col gap-8">
+          <div className="flex flex-col gap-5">
+            <h2 className={`${display} max-w-[19ch] text-[35px] leading-[1.16] tracking-[-.03em] text-[#1d2720] sm:text-[45px]`}>
+              Not sure where to start with AI &amp; just want to talk to a human being?
+            </h2>
+            <p className={`${sans} max-w-[46ch] text-[16px] leading-[1.7] text-[#586058]`}>
+              Let&rsquo;s have a complementary 30min Discovery Call about your business &amp; your plans for AI. We&rsquo;ll also review your current workflows and pinpoint where AI can save time and drive revenue.
+            </p>
+            <p className={`${sans} max-w-[46ch] text-[16px] leading-[1.7] text-[#586058]`}>
+              <a
+                href="https://bookings.cloud.microsoft/book/YourComplimentaryDiscoveryCall@gridconcepts.com.au/?ismsaljsauthenabled=true"
+                target="_blank"
+                rel="noreferrer"
+                className="font-semibold text-[#52631e] underline decoration-[#92ad39]/50 underline-offset-4 transition hover:text-[#1d2720]"
+              >
+                Grab a time on the calendar now
+              </a>{" "}
+              or request a call back via the form below and we&rsquo;ll reply within one business day.
+            </p>
+          </div>
+          {submitted ? (
+            <div className={`${sans} border-l-2 border-[#92ad39] bg-[#f2f5e8] p-5 text-[14px] leading-6 text-[#405016]`}>
+              Thanks — your message is on its way to us. We&rsquo;ll reply within one business day.
+            </div>
+          ) : (
+            <form className="flex flex-col gap-5" onSubmit={handleSubmit}>
+              <div className="grid gap-5 sm:grid-cols-2">
+                <ContactField label="Name">
+                  <input required type="text" name="name" placeholder="Your name" className={contactFieldClass} />
+                </ContactField>
+                <ContactField label="Email">
+                  <input required type="email" name="email" placeholder="you@company.com" className={contactFieldClass} />
+                </ContactField>
+                <ContactField label="Phone">
+                  <input type="tel" name="phone" placeholder="Mobile or landline" className={contactFieldClass} />
+                </ContactField>
+                <ContactField label="Company">
+                  <input type="text" name="company" placeholder="Your company" className={contactFieldClass} />
+                </ContactField>
+                <ContactField label="Interested in">
+                  <select name="solution" defaultValue="" className={contactFieldClass}>
+                    <option value="">Select a solution (optional)</option>
+                    {contactSolutions.map((solution) => (
+                      <option key={solution} value={solution}>{solution}</option>
+                    ))}
+                  </select>
+                </ContactField>
+                <ContactField label="Your industry">
+                  <select name="industry" defaultValue="" className={contactFieldClass}>
+                    <option value="">Select your industry (optional)</option>
+                    {contactIndustries.map((industry) => (
+                      <option key={industry} value={industry}>{industry}</option>
+                    ))}
+                  </select>
+                </ContactField>
+              </div>
+              <ContactField label="Message">
+                <textarea
+                  name="message"
+                  rows={5}
+                  placeholder="Tell us about your business and what you'd like to automate..."
+                  className={`${contactFieldClass} resize-y`}
+                />
+              </ContactField>
+              {error && (
+                <p className={`${sans} text-[13px] leading-5 text-[#a74436]`} role="alert">{error}</p>
+              )}
+              <button
+                type="submit"
+                disabled={submitting}
+                className={`${sans} inline-flex h-12 w-full items-center justify-center gap-2 bg-[#1d2720] text-[13px] font-semibold text-white transition hover:bg-[#92ad39] disabled:cursor-not-allowed disabled:opacity-60`}
+              >
+                {submitting ? "Sending..." : "Request a callback"}
+              </button>
+            </form>
+          )}
+        </div>
+        <div className="border border-[#dfe3d8] bg-[#fbfcf8] p-7 sm:p-8">
+          <h3 className={`${display} text-[22px] text-[#1d2720]`}>Get in Touch</h3>
+          <p className={`${sans} mt-3 text-[13px] leading-[1.6] text-[#586058]`}>
+            We typically respond within 24 hours. For urgent inquiries, call us directly on <b className="font-semibold text-[#1d2720]">1300 976 426</b>.
+          </p>
+          <div className="mt-7 flex flex-col gap-5">
+            <ContactMeta label="PREFER A FACE TO FACE MEETING?">
+              <a href="mailto:hello@gridconcepts.com.au" className="text-[#3d473e] transition hover:text-[#52631e]">
+                We can come to your office in Melbourne or we can meet either at a Chadstone or Moorabbin location
+              </a>
+            </ContactMeta>
+            <ContactMeta label="OUR OFFICE">Level 2, 1341 Dandenong Rd, Chadstone, VIC, 3148, Australia</ContactMeta>
+            <ContactMeta label="RESPONSE TIME">Within 24 hours</ContactMeta>
+          </div>
+          <div className="mt-7 border-t border-[#dfe3d8] pt-7">
+            <h4 className={`${sans} text-[14px] font-semibold text-[#1d2720]`}>What Happens Next?</h4>
+            <ol className="mt-4 flex flex-col gap-3">
+              {contactSteps.map((step, index) => (
+                <li key={step} className="flex items-start gap-3">
+                  <span className={`${sans} mt-0.5 flex size-6 shrink-0 items-center justify-center rounded-full bg-[#92ad39]/10 text-[11px] font-semibold text-[#52631e]`}>
+                    {index + 1}
+                  </span>
+                  <span className={`${sans} text-[13px] leading-[1.6] text-[#3d473e]`}>{step}</span>
+                </li>
+              ))}
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function Footer() { return <footer className="bg-[#1d2720]"><div className="mx-auto flex max-w-[1440px] flex-col justify-between gap-8 px-6 py-12 sm:flex-row sm:items-end md:px-20"><div><Logo inverse /><p className={`${sans} mt-5 max-w-[310px] text-[12px] leading-5 text-[#a9b0a4]`}>Data, systems and digital growth for Australian businesses ready to make change stick.</p></div><div className="sm:text-right"><a href="tel:1300976425" className={`${display} text-[24px] tracking-[.03em] text-white transition hover:text-[#b4cc66]`}>1300 976 425</a><address className={`${sans} mt-4 text-[12px] leading-5 not-italic text-[#a9b0a4]`}>6D/596 North Rd,<br />Ormond, Victoria, 3204</address><p className={`${sans} mt-5 text-[11px] text-[#8f978b]`}>© 2026 Grid Concepts Pty Ltd. Melbourne, Australia.</p></div></div></footer>; }
 
-export function GridConceptsHomepage() { const [checking,setChecking]=useState(false); return <main className="min-h-screen bg-[#f9faf5]"><Header onCheck={()=>setChecking(true)} /><Hero onCheck={()=>setChecking(true)} /><Principle /><Story /><Services /><StateOfAiTeaser /><CaseStudies /><SystemsBand /><Work onCheck={()=>setChecking(true)} /><Team /><Closing onCheck={()=>setChecking(true)} /><Footer />{checking && <DataCheck close={()=>setChecking(false)} />}</main>; }
+export function GridConceptsHomepage() { const [checking,setChecking]=useState(false); return <main className="min-h-screen bg-[#f9faf5]"><Header onCheck={()=>setChecking(true)} /><Hero onCheck={()=>setChecking(true)} /><Principle /><Story /><Services /><StateOfAiTeaser /><CaseStudies /><SystemsBand /><Work onCheck={()=>setChecking(true)} /><Team /><Closing onCheck={()=>setChecking(true)} /><ContactSection /><Footer />{checking && <DataCheck close={()=>setChecking(false)} />}</main>; }

@@ -1,0 +1,24 @@
+{
+  "projectId": "effadfb0-df80-454f-90b3-38d0ec45b9b0",
+  "shape": "package",
+  "pkg": "gcai",
+  "globalName": "GCAI",
+  "srcDir": "src/app/components/ui",
+  "cssEntry": ".design-sync/.cache/compiled-tailwind.css",
+  "guidelinesGlob": "guidelines/**/*.md",
+  "readmeHeader": ".design-sync/conventions.md",
+  "runtimeFontPrefixes": ["Inter", "Lora"],
+  "overrides": {
+    "Card": { "cardMode": "column" },
+    "Popover": { "cardMode": "single", "viewport": "360x420" },
+    "Tooltip": { "cardMode": "single", "viewport": "320x200" },
+    "DropdownMenu": { "cardMode": "single", "viewport": "320x360" },
+    "Dialog": { "cardMode": "single", "viewport": "600x480" },
+    "AlertDialog": { "cardMode": "single", "viewport": "600x420" },
+    "Accordion": { "cardMode": "column" },
+    "Tabs": { "cardMode": "column" },
+    "Select": { "cardMode": "single", "primaryStory": "Default" },
+    "Sheet": { "cardMode": "single", "primaryStory": "Default" }
+  },
+  "buildCmd": "npm run build:site && cp dist/assets/index-*.css .design-sync/.cache/compiled-tailwind.css"
+}
