@@ -8,6 +8,13 @@ export type InsightPost = {
 /** Keep in sync with Markdown posts under blog/src/content/blog/ */
 export const insightPosts: InsightPost[] = [
   {
+    slug: "how-much-does-an-ai-agent-cost",
+    title: "How much does an AI agent actually cost?",
+    description:
+      "A plain answer to how much does an AI agent actually cost for a small business — what drives the price, realistic ranges, and how to avoid an open-ended bill.",
+    dateLabel: "Aug 2026",
+  },
+  {
     slug: "is-your-business-ai-ready",
     title: "Most businesses are not AI-ready — how to tell",
     description:
