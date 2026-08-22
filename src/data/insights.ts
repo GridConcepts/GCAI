@@ -8,6 +8,13 @@ export type InsightPost = {
 /** Keep in sync with Markdown posts under blog/src/content/blog/ */
 export const insightPosts: InsightPost[] = [
   {
+    slug: "automating-quoting-scheduling-after-hours-enquiries",
+    title: "Automating quoting, scheduling and after-hours enquiries for service businesses",
+    description:
+      "A plain-English look at automating quoting, scheduling and after-hours enquiries for service businesses — what actually works, what it costs, and where to start.",
+    dateLabel: "Aug 2026",
+  },
+  {
     slug: "is-your-business-ai-ready",
     title: "Most businesses are not AI-ready — how to tell",
     description:

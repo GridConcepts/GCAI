@@ -14,7 +14,7 @@ Persona and gap sourcing: `positioning-cross-examination-and-wedge-translations.
 | Most businesses aren't AI-ready — how to tell | Both (CEO/MD) | drafted | Campaign 1 broad line; run first per the sequencing recommendation — feeds both personas before persona-specific pieces below. |
 | Questions to ask an AI agency before you hire one | Both | pending | Buyer's-guide play identified for both personas; positions Grid Concepts as the honest broker. Strong AEO/GEO candidate. |
 | How much does an AI agent actually cost? | Mark | pending | Directly answers his biggest buying anxiety (price uncertainty). Anchor to the Data Check's fixed-price/free framing. |
-| Automating quoting, scheduling and after-hours enquiries for service businesses | Mark | pending | Task-level language he actually searches — name concrete tasks, not "automation" abstractly. |
+| Automating quoting, scheduling and after-hours enquiries for service businesses | Mark | drafted | Task-level language he actually searches — name concrete tasks, not "automation" abstractly. |
 | Connecting AI tools to simPRO and Xero: what's realistic today | Mark | pending | Tool-name query, near-purchase intent. Keep concrete/plain — no SaaS jargon. |
 | AI agents for trades and field service businesses | Mark | pending | Vertical angle; low-competition phrase per his search-behaviour map. |
 | How to structure an AI pilot for professional services (without pilot theatre) | David | pending | Frame the Data Check as pilot phase 1, not an alternative to AI — his core objection. |
