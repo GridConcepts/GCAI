@@ -8,10 +8,10 @@ export type InsightPost = {
 /** Keep in sync with Markdown posts under blog/src/content/blog/ */
 export const insightPosts: InsightPost[] = [
   {
-    slug: "questions-to-ask-an-ai-agency-before-you-hire-one",
-    title: "Questions to ask an AI agency before you hire one",
+    slug: "automating-quoting-scheduling-after-hours-enquiries",
+    title: "Automating quoting, scheduling and after-hours enquiries for service businesses",
     description:
-      "The questions to ask an AI agency before you hire one — on cost, data, and who owns the result — plus why the honest answer is sometimes \"not yet\".",
+      "A plain-English look at automating quoting, scheduling and after-hours enquiries for service businesses — what actually works, what it costs, and where to start.",
     dateLabel: "Aug 2026",
   },
   {
