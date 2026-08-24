@@ -8,10 +8,10 @@ export type InsightPost = {
 /** Keep in sync with Markdown posts under blog/src/content/blog/ */
 export const insightPosts: InsightPost[] = [
   {
-    slug: "questions-to-ask-an-ai-agency",
+    slug: "questions-to-ask-an-ai-agency-before-you-hire-one",
     title: "Questions to ask an AI agency before you hire one",
     description:
-      "The questions to ask an AI agency before you hire one — on data ownership, pricing, governance and proof — so you can tell real expertise from a reseller with a slide deck.",
+      "The questions to ask an AI agency before you hire one — on cost, data, and who owns the result — plus why the honest answer is sometimes \"not yet\".",
     dateLabel: "Aug 2026",
   },
   {
