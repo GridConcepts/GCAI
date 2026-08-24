@@ -9,10 +9,6 @@
   },
   "routes": [
     {
-      "pattern": "ai.gridconcepts.com.au",
-      "custom_domain": true
-    },
-    {
       "pattern": "gridconcepts.com.au/*",
       "zone_name": "gridconcepts.com.au"
     },
