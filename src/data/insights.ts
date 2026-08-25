@@ -8,6 +8,27 @@ export type InsightPost = {
 /** Keep in sync with Markdown posts under blog/src/content/blog/ */
 export const insightPosts: InsightPost[] = [
   {
+    slug: "connecting-ai-tools-to-simpro-and-xero",
+    title: "Connecting AI tools to simPRO and Xero: what is realistic today",
+    description:
+      "A plain answer on connecting AI tools to simPRO and Xero in 2026 — what already works out of the box, what needs a build, and where to start.",
+    dateLabel: "Aug 2026",
+  },
+  {
+    slug: "how-much-does-an-ai-agent-cost",
+    title: "How much does an AI agent actually cost?",
+    description:
+      "A plain answer to how much does an AI agent actually cost for a small business — what drives the price, realistic ranges, and how to avoid an open-ended bill.",
+    dateLabel: "Aug 2026",
+  },
+  {
+    slug: "questions-to-ask-an-ai-agency",
+    title: "Questions to ask an AI agency before you hire one",
+    description:
+      "The questions to ask an AI agency before you hire one — on data ownership, pricing, governance and proof — so you can tell real expertise from a reseller with a slide deck.",
+    dateLabel: "Aug 2026",
+  },
+  {
     slug: "automating-quoting-scheduling-after-hours-enquiries",
     title: "Automating quoting, scheduling and after-hours enquiries for service businesses",
     description:
