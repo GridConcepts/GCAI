@@ -1,6 +1,6 @@
 # Grid Concepts
 
-> Grid Concepts is a Melbourne-based data, systems and AI consultancy for Australian small and medium businesses. Founded in 2010, the team fixes data foundations, systems integration and marketing measurement first — then helps businesses adopt AI, performance marketing and AI-search visibility on top of a foundation that actually works.
+> Grid Concepts is a Melbourne-based data, systems and AI consultancy for Australian small and medium businesses. Founded in 2010, the team fixes data foundations, systems integration and marketing measurement first - then helps businesses adopt AI, performance marketing and AI-search visibility on top of a foundation that actually works.
 
 Grid Concepts' point of view: most AI projects fail because the business information underneath is disconnected or unreliable. Fix data quality, systems integration and governance first, and AI, reporting and marketing measurement become reliable. Services are sequenced deliberately: Data & Technology first, then Digital Strategy & Growth, then AI Visibility.
 
@@ -13,7 +13,7 @@ Grid Concepts' point of view: most AI projects fail because the business informa
 ## Key pages
 
 - [Homepage](https://gridconcepts.com.au/): Overview, free Data Check (12-question AI-readiness snapshot), service pillars, case studies, team, and contact.
-- [The State of AI Report](https://gridconcepts.com.au/state-of-ai-report): Long-form plain-English report on AI readiness for Victorian small and medium business — adoption statistics, chat-vs-agent framework, why AI pilots fail, data/systems/governance/people foundations, and a 100-day readiness roadmap. Prepared by Val Melamed, Partner.
+- [The State of AI Report](https://gridconcepts.com.au/state-of-ai-report): Long-form plain-English report on AI readiness for Victorian small and medium business - adoption statistics, chat-vs-agent framework, why AI pilots fail, data/systems/governance/people foundations, and a 100-day readiness roadmap. Prepared by Val Melamed, Partner.
 - [Insights blog](https://gridconcepts.com.au/insights/): Practical, plain-English articles on data, systems and AI readiness for SMEs.
 - [Sitemap](https://gridconcepts.com.au/sitemap.xml)
 
@@ -23,9 +23,9 @@ Grid Concepts' point of view: most AI projects fail because the business informa
 - [Connecting AI tools to simPRO and Xero](https://gridconcepts.com.au/insights/connecting-ai-tools-to-simpro-and-xero/)
 - [How much does an AI agent actually cost?](https://gridconcepts.com.au/insights/how-much-does-an-ai-agent-cost/)
 - [Questions to ask an AI agency before you hire one](https://gridconcepts.com.au/insights/questions-to-ask-an-ai-agency/)
-- [Most businesses are not AI-ready — how to tell](https://gridconcepts.com.au/insights/is-your-business-ai-ready/)
+- [Most businesses are not AI-ready - how to tell](https://gridconcepts.com.au/insights/is-your-business-ai-ready/)
 - [The State of AI for Victorian SMEs](https://gridconcepts.com.au/insights/state-of-ai-victorian-smes/)
-- [Fix the data first — then AI works](https://gridconcepts.com.au/insights/fix-the-data-first/)
+- [Fix the data first - then AI works](https://gridconcepts.com.au/insights/fix-the-data-first/)
 - [Why most AI pilots fail to show financial benefit](https://gridconcepts.com.au/insights/why-ai-pilots-fail/)
 - [A 100-day roadmap for practical AI readiness](https://gridconcepts.com.au/insights/100-day-ai-roadmap/)
 
