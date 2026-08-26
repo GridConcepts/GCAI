@@ -8,6 +8,13 @@ export type InsightPost = {
 /** Keep in sync with Markdown posts under blog/src/content/blog/ */
 export const insightPosts: InsightPost[] = [
   {
+    slug: "how-geo-and-ai-overviews-changed-australia-local-business-websites",
+    title: "How GEO and AI Overviews changed Australian local business websites in 2025–2026",
+    description:
+      "How GEO and AI Overviews have reshaped traffic for Australian local business websites in 2025-2026, based on real client data — and what actually still works.",
+    dateLabel: "Aug 2026",
+  },
+  {
     slug: "connecting-ai-tools-to-simpro-and-xero",
     title: "Connecting AI tools to simPRO and Xero: what is realistic today",
     description:
