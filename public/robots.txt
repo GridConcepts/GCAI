@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gridconcepts.com.au/sitemap.xml

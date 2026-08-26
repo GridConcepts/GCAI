@@ -9,7 +9,8 @@
     "postinstall": "npm ci --prefix blog",
     "build:site": "vite build",
     "build:blog": "npm ci --prefix blog && npm run build --prefix blog",
-    "build": "npm run build:site && npm run build:blog",
+    "build:sitemap": "node scripts/generate-sitemap.mjs",
+    "build": "npm run build:site && npm run build:blog && npm run build:sitemap",
     "preview": "vite preview",
     "deploy": "npm run build && wrangler deploy",
     "deploy:pages": "npm run build && wrangler pages deploy dist --project-name=gcai --branch=production"
