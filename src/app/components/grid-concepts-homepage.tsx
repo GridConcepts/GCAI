@@ -23,7 +23,7 @@ const gmLawLogo = "https://www.gmlaw.com.au/wp-content/uploads/2020/02/GMLaw-log
 const sans = "font-['Inter',sans-serif]";
 const display = "font-['Lora',serif]";
 
-function Logo({ inverse = false }: { inverse?: boolean }) {
+export function Logo({ inverse = false }: { inverse?: boolean }) {
   return <div className="relative h-[31px] w-[145px]"><svg className="size-full" viewBox="0 0 195 42" fill="none"><path d={svgPaths.p33e65132} fill={inverse ? "#ffffff" : "#191919"} stroke={inverse ? "#ffffff" : "#191919"} /><path d={svgPaths.p2df517f0} fill="#92AD39" /></svg></div>;
 }
 
