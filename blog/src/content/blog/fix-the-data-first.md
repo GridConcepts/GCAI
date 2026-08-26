@@ -1,5 +1,5 @@
 ---
-title: 'Fix the data first — then AI works'
+title: 'Fix the data first - then AI works'
 description: 'A practical view of why disconnected information quietly kills AI pilots before they start.'
 pubDate: 'Jul 08 2026'
 ---
@@ -21,10 +21,10 @@ Without those, AI amplifies confusion. With them, even modest automation starts 
 
 ## A useful sequence
 
-1. **Find the trustworthy core** — Pick the customer and operational data that matter most.
-2. **Agree the source of truth** — Decide which system owns each key field.
-3. **Clean a manageable slice** — Do not boil the ocean. Fix the records people actually use.
-4. **Then add AI** — Assistants, agents, and reporting work better on connected ground.
+1. **Find the trustworthy core** - Pick the customer and operational data that matter most.
+2. **Agree the source of truth** - Decide which system owns each key field.
+3. **Clean a manageable slice** - Do not boil the ocean. Fix the records people actually use.
+4. **Then add AI** - Assistants, agents, and reporting work better on connected ground.
 
 ## The Grid Concepts view
 

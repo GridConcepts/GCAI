@@ -1,6 +1,6 @@
 ---
 title: 'The State of AI for Victorian SMEs'
-description: 'Why the gap is not ambition but foundation — and what the 2026 readiness signals actually mean.'
+description: 'Why the gap is not ambition but foundation - and what the 2026 readiness signals actually mean.'
 pubDate: 'Jul 15 2026'
 ---
 
@@ -12,9 +12,9 @@ Our reading of the landscape is simple. Ambition is not the bottleneck. Foundati
 
 Across the businesses we speak with, three signals keep repeating:
 
-1. **Data foundations** — Can teams trust the information they use every day?
-2. **Systems integration** — Do CRM, marketing, sales, and service tools share one customer picture?
-3. **People readiness** — Is there enough training and safe-use guidance for change to stick?
+1. **Data foundations** - Can teams trust the information they use every day?
+2. **Systems integration** - Do CRM, marketing, sales, and service tools share one customer picture?
+3. **People readiness** - Is there enough training and safe-use guidance for change to stick?
 
 When those pieces are weak, AI projects become demos. When they are strong, AI becomes useful work.
 

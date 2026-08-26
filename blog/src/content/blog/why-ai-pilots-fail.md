@@ -34,5 +34,5 @@ That approach is slower than a flashy demo. It is much more likely to survive co
 
 ## Related reading
 
-- [Fix the data first — then AI works](/insights/fix-the-data-first/)
+- [Fix the data first - then AI works](/insights/fix-the-data-first/)
 - [A 100-day roadmap for practical AI readiness](/insights/100-day-ai-roadmap/)
