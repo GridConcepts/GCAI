@@ -6,6 +6,8 @@ pubDate: 'Aug 17 2026'
 
 Every second consultancy now has "AI" somewhere on its homepage. There is no licence or accreditation for calling yourself an AI agency in Australia — anyone can put it on a business card, and plenty have. That would matter less if the work reliably paid off. It doesn't: RAND's late-2025 analysis of enterprise AI projects found 80% fail to deliver the business value promised, and MIT's Project NANDA put the figure for generative AI pilots even higher — about 95% show no measurable return on the P&L. So before you sign anything, these are the questions to ask an AI agency before you hire one, and the answers that should make you walk away.
 
+![Two large stats side by side: 80% of enterprise AI projects fail to deliver promised business value (RAND, late 2025), and 95% of generative AI pilots show no measurable P&L return (MIT Project NANDA, 2025)](/insights/media/questions-to-ask-an-ai-agency/failure-rate-stats.png)
+
 ## Questions to ask an AI agency before you hire one
 
 **"Show me a working system, not a case study."** A slide with a logo and a percentage proves nothing. Ask to see something they built running, even a screen-share of a similar client's setup with names removed. If everything they've done is "confidential" and they can't even describe the category of result, that's a sales pitch, not a track record.
@@ -20,7 +22,13 @@ Every second consultancy now has "AI" somewhere on its homepage. There is no lic
 
 **"Can we start small, and what does the exit look like?"** Watch for long lock-in contracts, no trial or pilot phase, and no clear way to get your data back out in a usable format. A short scoped first stage — priced separately from any bigger build — is a normal, healthy way to start.
 
+The pattern is the same for every question on that list — it's not the technology that disqualifies an agency, it's how they answer a direct question about your business:
+
+![Flow diagram: you ask "where does my data go?" — a vague answer leaning on "enterprise-grade security" leads to walk away, while one clear sentence on model, storage and location leads to worth a second meeting](/insights/media/questions-to-ask-an-ai-agency/agency-decision-flow.png)
+
 ## Red flags worth ending the meeting over
+
+![Two-column comparison: five walk-away signals (vague pitch, unexplained "proprietary AI", no answer on data location, unquantified results, long lock-in contracts) each paired with the healthy answer to listen for instead](/insights/media/questions-to-ask-an-ai-agency/red-flags-vs-green-flags.png)
 
 - The pitch leads with a deck about them, not questions about you.
 - "Proprietary AI" they can't explain in plain terms — often a wrapper around an off-the-shelf model with a markup attached.
