@@ -16,9 +16,9 @@ export const insightPosts: InsightPost[] = [
   },
   {
     slug: "connecting-ai-tools-to-simpro-and-xero",
-    title: "Connecting AI tools to simPRO and Xero: what is realistic today",
+    title: "Connecting ActionStep and Keap: turning disconnected CRM data into a marketing engine",
     description:
-      "A plain answer on connecting AI tools to simPRO and Xero in 2026 - what already works out of the box, what needs a build, and where to start.",
+      "The marketing case for connecting ActionStep and Keap - why practice data trapped in your CRM never reaches your marketing automation, and what changes once it does.",
     dateLabel: "Aug 2026",
   },
   {

@@ -15,7 +15,7 @@ Persona and gap sourcing: `positioning-cross-examination-and-wedge-translations.
 | Questions to ask an AI agency before you hire one | Both | published | Buyer's-guide play identified for both personas; positions Grid Concepts as the honest broker. Strong AEO/GEO candidate. |
 | How much does an AI agent actually cost? | Mark | published | Directly answers his biggest buying anxiety (price uncertainty). Anchor to the Data Check's fixed-price/free framing. |
 | Automating quoting, scheduling and after-hours enquiries for service businesses | Mark | published | Task-level language he actually searches — name concrete tasks, not "automation" abstractly. |
-| Connecting AI tools to simPRO and Xero: what's realistic today | Mark | published | Tool-name query, near-purchase intent. Keep concrete/plain — no SaaS jargon. |
+| Connecting ActionStep and Keap: turning disconnected CRM data into a marketing engine | Both | published | Pivoted from the original simPRO/Xero angle to a real case study (GM Law) - the marketing case for joining practice management and marketing automation. Same URL: /insights/connecting-ai-tools-to-simpro-and-xero/. |
 | AI agents for trades and field service businesses | Mark | pending | Vertical angle; low-competition phrase per his search-behaviour map. |
 | How to structure an AI pilot for professional services (without pilot theatre) | David | pending | Frame the Data Check as pilot phase 1, not an alternative to AI — his core objection. |
 | AI data governance in Australia: what to answer before any AI pilot | David | pending | Privacy Act, data residency, model-provider sharing — his gating criterion, almost no competitor covers this in plain language. |
