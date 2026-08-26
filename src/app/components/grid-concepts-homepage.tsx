@@ -69,7 +69,15 @@ function StateOfAiTeaser() {
             <p className={`${sans} mt-8 max-w-[530px] text-[17px] leading-7 text-[#c8d3d0]`}>
               The AI boom is moving from chatbots to digital workers. Our plain-English report shows why reliable data, connected systems, practical governance, and prepared people are the difference between experimentation and results.
             </p>
-            <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <div className="mt-8 max-w-[530px] border-l-2 border-[#92ad39]/60 pl-4">
+              <p className={`${sans} text-[10px] font-semibold tracking-[.16em] text-[#b4cc66]`}>UPDATED 26 AUG 2026</p>
+              <ul className={`${sans} mt-3 space-y-2 text-[12px] leading-5 text-[#c8d3d0]`}>
+                <li>+ Added the Victorian Government's new AI Mission Statement, including its $30B GSP projection.</li>
+                <li>+ New chart on the 2026-27 Victorian Budget's AI funding lines, including the Business Acceleration Fund.</li>
+                <li>+ Refreshed Victorian Chamber of Commerce data on AI as a 2026 growth priority.</li>
+              </ul>
+            </div>
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <a href="/state-of-ai-report" className={`${sans} group inline-flex w-fit items-center gap-3 bg-[#92ad39] px-6 py-4 text-[12px] font-semibold text-[#17220d] transition hover:bg-white`}>
                 Explore the full report <ArrowRight size={16} className="transition group-hover:translate-x-1" />
               </a>
