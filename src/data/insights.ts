@@ -8,6 +8,13 @@ export type InsightPost = {
 /** Keep in sync with Markdown posts under blog/src/content/blog/ */
 export const insightPosts: InsightPost[] = [
   {
+    slug: "ai-agents-for-trades-and-field-service",
+    title: "AI agents for trades and field service businesses",
+    description:
+      "A plain-English guide to AI agents for trades and field service businesses - which tasks they actually handle, what they cost to run, and where to start.",
+    dateLabel: "Aug 2026",
+  },
+  {
     slug: "how-geo-and-ai-overviews-changed-australia-local-business-websites",
     title: "How GEO and AI Overviews changed Australian local business websites in 2025–2026",
     description:
