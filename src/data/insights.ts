@@ -8,6 +8,13 @@ export type InsightPost = {
 /** Keep in sync with Markdown posts under blog/src/content/blog/ */
 export const insightPosts: InsightPost[] = [
   {
+    slug: "how-to-structure-an-ai-pilot-for-professional-services",
+    title: "How to structure an AI pilot for professional services (without pilot theatre)",
+    description:
+      "How to structure an AI pilot for professional services so it survives contact with the business - defined success criteria, data governance answered upfront, and a real path to production instead of pilot theatre.",
+    dateLabel: "Aug 2026",
+  },
+  {
     slug: "ai-agents-for-trades-and-field-service",
     title: "AI agents for trades and field service businesses",
     description:
