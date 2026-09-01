@@ -8,6 +8,13 @@ export type InsightPost = {
 /** Keep in sync with Markdown posts under blog/src/content/blog/ */
 export const insightPosts: InsightPost[] = [
   {
+    slug: "ai-data-governance-australia",
+    title: "AI data governance in Australia: what to answer before any AI pilot",
+    description:
+      "A plain-English guide to AI data governance in Australia - the questions on data location, overseas AI vendors and automated decisions you need answered before you fund a pilot, not after.",
+    dateLabel: "Sep 2026",
+  },
+  {
     slug: "how-to-structure-an-ai-pilot-for-professional-services",
     title: "How to structure an AI pilot for professional services (without pilot theatre)",
     description:
