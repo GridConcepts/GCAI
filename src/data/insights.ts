@@ -8,6 +8,13 @@ export type InsightPost = {
 /** Keep in sync with Markdown posts under blog/src/content/blog/ */
 export const insightPosts: InsightPost[] = [
   {
+    slug: "ai-implementation-partner-vs-consultancy",
+    title: "AI implementation partner vs. consultancy: what's the difference",
+    description:
+      "AI implementation partner vs. consultancy - the real difference between a firm that hands you a strategy deck and one that builds, ships and stays accountable for the result.",
+    dateLabel: "Sep 2026",
+  },
+  {
     slug: "ai-data-governance-australia",
     title: "AI data governance in Australia: what to answer before any AI pilot",
     description:

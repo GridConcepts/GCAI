@@ -19,5 +19,5 @@ Persona and gap sourcing: `positioning-cross-examination-and-wedge-translations.
 | AI agents for trades and field service businesses | Mark | published | Vertical angle; low-competition phrase per his search-behaviour map. |
 | How to structure an AI pilot for professional services (without pilot theatre) | David | published | Frame the Data Check as pilot phase 1, not an alternative to AI — his core objection. |
 | AI data governance in Australia: what to answer before any AI pilot | David | published | Privacy Act, data residency, model-provider sharing - his gating criterion, almost no competitor covers this in plain language. |
-| AI implementation partner vs. consultancy: what's the difference | David | pending | Positions Grid Concepts against slideware consultancies. |
+| AI implementation partner vs. consultancy: what's the difference | David | published | Positions Grid Concepts against slideware consultancies. |
 | AI use cases for buyers agencies and property advisory | David | pending | Anonymised property-industry proof point (Metropole by category, not by name). |
