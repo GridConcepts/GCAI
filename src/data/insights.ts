@@ -8,6 +8,13 @@ export type InsightPost = {
 /** Keep in sync with Markdown posts under blog/src/content/blog/ */
 export const insightPosts: InsightPost[] = [
   {
+    slug: "ai-use-cases-buyers-agencies-property-advisory",
+    title: "AI use cases for buyers agencies and property advisory firms",
+    description:
+      "A COO-level guide to AI use cases for buyers agencies and property advisory firms in Australia - what already works, the AML/CTF obligations landing on 1 July 2026, and how to pilot without pilot theatre.",
+    dateLabel: "Sep 2026",
+  },
+  {
     slug: "ai-implementation-partner-vs-consultancy",
     title: "AI implementation partner vs. consultancy: what's the difference",
     description:
