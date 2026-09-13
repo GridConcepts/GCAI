@@ -70,11 +70,11 @@ function StateOfAiTeaser() {
               The AI boom is moving from chatbots to digital workers. Our plain-English report shows why reliable data, connected systems, practical governance, and prepared people are the difference between experimentation and results.
             </p>
             <div className="mt-8 max-w-[530px] border-l-2 border-[#92ad39]/60 pl-4">
-              <p className={`${sans} text-[10px] font-semibold tracking-[.16em] text-[#b4cc66]`}>UPDATED 6 SEP 2026</p>
+              <p className={`${sans} text-[10px] font-semibold tracking-[.16em] text-[#b4cc66]`}>UPDATED 13 SEP 2026</p>
               <ul className={`${sans} mt-3 space-y-2 text-[12px] leading-5 text-[#c8d3d0]`}>
-                <li>+ Added Victoria's $3.5M AI and deep tech pre-accelerator funding round, announced June 2026.</li>
-                <li>+ Updated the Victorian Budget chart with the new funding line.</li>
-                <li>+ Added a practical resource: the Victorian Chamber of Commerce and Microsoft AI Enablement Program for SME AI skills training.</li>
+                <li>+ Added a free AI-adoption resource for regional Victoria: The Regions: AI Innovation Centre in Gippsland.</li>
+                <li>+ Added new data on Melbourne's AI cluster - 188 companies, ~22% of Australia's AI firms.</li>
+                <li>+ Expanded the governance checklist with support options for businesses outside Melbourne.</li>
               </ul>
             </div>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
