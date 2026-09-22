@@ -8,6 +8,13 @@ export type InsightPost = {
 /** Keep in sync with Markdown posts under blog/src/content/blog/ */
 export const insightPosts: InsightPost[] = [
   {
+    slug: "ai-answering-service-vs-receptionist",
+    title: "AI answering services vs. a real receptionist: what actually stops missed calls",
+    description:
+      "AI answering services vs. a real receptionist - a plain comparison of cost and capability, and what actually stops missed calls from costing you jobs.",
+    dateLabel: "Sep 2026",
+  },
+  {
     slug: "ai-use-cases-buyers-agencies-property-advisory",
     title: "AI use cases for buyers agencies and property advisory firms",
     description:
