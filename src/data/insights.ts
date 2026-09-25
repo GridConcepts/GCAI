@@ -8,6 +8,13 @@ export type InsightPost = {
 /** Keep in sync with Markdown posts under blog/src/content/blog/ */
 export const insightPosts: InsightPost[] = [
   {
+    slug: "chasing-unpaid-invoices-with-ai",
+    title: "Chasing unpaid invoices: can AI actually speed up follow-ups?",
+    description:
+      "A plain-English look at chasing unpaid invoices with AI - what it actually speeds up, what still needs a human, and where to start if cash flow is the problem.",
+    dateLabel: "Sep 2026",
+  },
+  {
     slug: "ai-answering-service-vs-receptionist",
     title: "AI answering services vs. a real receptionist: what actually stops missed calls",
     description:
