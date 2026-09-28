@@ -8,6 +8,13 @@ export type InsightPost = {
 /** Keep in sync with Markdown posts under blog/src/content/blog/ */
 export const insightPosts: InsightPost[] = [
   {
+    slug: "ai-crm-options-small-service-businesses",
+    title: "AI CRM options for small service businesses: what actually matters",
+    description:
+      "A vendor-neutral look at AI CRM options for small service businesses - which AI features actually save time, which are marketing gloss, and what to check before you switch.",
+    dateLabel: "Sep 2026",
+  },
+  {
     slug: "chasing-unpaid-invoices-with-ai",
     title: "Chasing unpaid invoices: can AI actually speed up follow-ups?",
     description:
