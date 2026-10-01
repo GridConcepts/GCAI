@@ -8,6 +8,13 @@ export type InsightPost = {
 /** Keep in sync with Markdown posts under blog/src/content/blog/ */
 export const insightPosts: InsightPost[] = [
   {
+    slug: "fixing-slow-lead-response-time",
+    title: "Website enquiries going cold? Fixing slow lead response time before it costs you jobs",
+    description:
+      "A plain-English look at fixing slow lead response time - why website enquiries go cold, what the data says it costs you, and where to start before you lose the next job.",
+    dateLabel: "Oct 2026",
+  },
+  {
     slug: "ai-crm-options-small-service-businesses",
     title: "AI CRM options for small service businesses: what actually matters",
     description:
