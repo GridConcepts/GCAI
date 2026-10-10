@@ -27,7 +27,7 @@ Persona and gap sourcing: `positioning-cross-examination-and-wedge-translations.
 | Website enquiries going cold? Fixing slow lead response time before it costs you jobs | Mark | published | Names the actual symptom (leads going cold) rather than "automation" or "unify" - strong intent match for his search behaviour. |
 | AI for bookkeepers and accountants: what's really automatable right now | Mark | published | New vertical angle beyond trades; keeps to concrete tasks (reconciliation, data entry, invoice matching) not "AI transformation". |
 | Do you need a website chatbot? What small businesses get wrong about AI chat | Mark | published | Corrects a common misconception (a chatbot isn't an AI strategy) and funnels into the Data Check as the right starting point instead. |
-| How to measure ROI on an AI pilot: metrics that survive board scrutiny | David | pending | Answers his need for defined success criteria; goes deeper on measurement than the pilot-structure piece. |
+| How to measure ROI on an AI pilot: metrics that survive board scrutiny | David | published | Answers his need for defined success criteria; goes deeper on measurement than the pilot-structure piece. |
 | Build vs. buy: choosing between an AI vendor and an internal team | David | pending | Common COO decision point; positions Grid Concepts against the "just hire a data scientist" alternative. |
 | Getting staff buy-in for an AI pilot: a change-management checklist | David | pending | Addresses the adoption-risk objection that sits alongside data governance. |
 | Data quality audit: the checklist to run before any AI initiative | David | pending | Operationalises "fix the data first" into a COO-usable checklist, with a strong internal-link opportunity to the Data Check. |

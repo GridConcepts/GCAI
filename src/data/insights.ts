@@ -8,6 +8,13 @@ export type InsightPost = {
 /** Keep in sync with Markdown posts under blog/src/content/blog/ */
 export const insightPosts: InsightPost[] = [
   {
+    slug: "measuring-ai-pilot-roi",
+    title: "How to measure ROI on an AI pilot: metrics that survive board scrutiny",
+    description:
+      "How to measure ROI on an AI pilot with metrics that hold up at board level - the baseline, the financial attribution, and the risk indicators to report before you ask for scale-up budget.",
+    dateLabel: "Oct 2026",
+  },
+  {
     slug: "do-you-need-a-website-chatbot",
     title: "Do you need a website chatbot? What small businesses get wrong about AI chat",
     description:
