@@ -70,11 +70,10 @@ function StateOfAiTeaser() {
               The AI boom is moving from chatbots to digital workers. Our plain-English report shows why reliable data, connected systems, practical governance, and prepared people are the difference between experimentation and results.
             </p>
             <div className="mt-8 max-w-[530px] border-l-2 border-[#92ad39]/60 pl-4">
-              <p className={`${sans} text-[10px] font-semibold tracking-[.16em] text-[#b4cc66]`}>UPDATED 4 OCT 2026</p>
+              <p className={`${sans} text-[10px] font-semibold tracking-[.16em] text-[#b4cc66]`}>UPDATED 11 OCT 2026</p>
               <ul className={`${sans} mt-3 space-y-2 text-[12px] leading-5 text-[#c8d3d0]`}>
-                <li>+ Added a chart of the 2026-27 Victorian budget's $19M small business support package.</li>
-                <li>+ Added the free Digital Solutions Program - AI and digital workshops for Victorian businesses under 20 staff.</li>
-                <li>+ Added the Digital Jobs Program - free AI and digital skills training for construction and advanced manufacturing.</li>
+                <li>+ Added a law firm analysis of Victoria's new data centre rules (planning, renewable energy and community benefit requirements).</li>
+                <li>+ Added the Victorian Government's AI Mission Statement page, last updated 22 Sep 2026, to the sources.</li>
               </ul>
             </div>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
