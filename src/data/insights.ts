@@ -8,6 +8,13 @@ export type InsightPost = {
 /** Keep in sync with Markdown posts under blog/src/content/blog/ */
 export const insightPosts: InsightPost[] = [
   {
+    slug: "build-vs-buy-ai-vendor-or-internal-team",
+    title: "Build vs. buy: choosing between an AI vendor and an internal team",
+    description:
+      "Build vs. buy for AI - a plain-cost comparison between hiring an internal team and engaging an AI vendor, and the questions that actually decide which one is right for your business.",
+    dateLabel: "Oct 2026",
+  },
+  {
     slug: "measuring-ai-pilot-roi",
     title: "How to measure ROI on an AI pilot: metrics that survive board scrutiny",
     description:
