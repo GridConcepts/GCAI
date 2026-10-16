@@ -8,6 +8,13 @@ export type InsightPost = {
 /** Keep in sync with Markdown posts under blog/src/content/blog/ */
 export const insightPosts: InsightPost[] = [
   {
+    slug: "getting-staff-buy-in-for-an-ai-pilot",
+    title: "Getting staff buy-in for an AI pilot: a change-management checklist",
+    description:
+      "A practical checklist for getting staff buy-in for an AI pilot - why resistance is rising, what actually drives it, and the steps that get a pilot adopted instead of quietly ignored.",
+    dateLabel: "Oct 2026",
+  },
+  {
     slug: "build-vs-buy-ai-vendor-or-internal-team",
     title: "Build vs. buy: choosing between an AI vendor and an internal team",
     description:
