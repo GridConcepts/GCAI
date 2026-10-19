@@ -8,6 +8,13 @@ export type InsightPost = {
 /** Keep in sync with Markdown posts under blog/src/content/blog/ */
 export const insightPosts: InsightPost[] = [
   {
+    slug: "data-quality-audit-checklist",
+    title: "Data quality audit: the checklist to run before any AI initiative",
+    description:
+      "A data quality audit checklist for COOs to run before any AI initiative - what Gartner data shows about skipping it, which fields to check first, and how to score a go/no-go decision.",
+    dateLabel: "Oct 2026",
+  },
+  {
     slug: "getting-staff-buy-in-for-an-ai-pilot",
     title: "Getting staff buy-in for an AI pilot: a change-management checklist",
     description:

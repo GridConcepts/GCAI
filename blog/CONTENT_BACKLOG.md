@@ -30,6 +30,6 @@ Persona and gap sourcing: `positioning-cross-examination-and-wedge-translations.
 | How to measure ROI on an AI pilot: metrics that survive board scrutiny | David | published | Answers his need for defined success criteria; goes deeper on measurement than the pilot-structure piece. |
 | Build vs. buy: choosing between an AI vendor and an internal team | David | published | Common COO decision point; positions Grid Concepts against the "just hire a data scientist" alternative. |
 | Getting staff buy-in for an AI pilot: a change-management checklist | David | published | Addresses the adoption-risk objection that sits alongside data governance. |
-| Data quality audit: the checklist to run before any AI initiative | David | pending | Operationalises "fix the data first" into a COO-usable checklist, with a strong internal-link opportunity to the Data Check. |
+| Data quality audit: the checklist to run before any AI initiative | David | published | Operationalises "fix the data first" into a COO-usable checklist, with a strong internal-link opportunity to the Data Check. |
 | Evaluating AI vendors: a due-diligence checklist for professional services | David | pending | Extends the implementation-partner-vs-consultancy piece into a practical scorecard for procurement. |
 | How long should an AI pilot take? Realistic timelines from discovery to go-live | Both | pending | Sets expectations for both personas and corrects inflated "AI transformation in weeks" claims common among competitors. |
