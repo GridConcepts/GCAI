@@ -8,6 +8,13 @@ export type InsightPost = {
 /** Keep in sync with Markdown posts under blog/src/content/blog/ */
 export const insightPosts: InsightPost[] = [
   {
+    slug: "evaluating-ai-vendors-due-diligence-checklist",
+    title: "Evaluating AI vendors: a due-diligence checklist for professional services",
+    description:
+      "A due-diligence checklist for evaluating AI vendors in professional services - the data, model and contract questions a standard SaaS procurement process misses, and how to score the answers before you sign.",
+    dateLabel: "Oct 2026",
+  },
+  {
     slug: "data-quality-audit-checklist",
     title: "Data quality audit: the checklist to run before any AI initiative",
     description:
