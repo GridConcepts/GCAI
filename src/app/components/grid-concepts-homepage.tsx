@@ -70,11 +70,10 @@ function StateOfAiTeaser() {
               The AI boom is moving from chatbots to digital workers. Our plain-English report shows why reliable data, connected systems, practical governance, and prepared people are the difference between experimentation and results.
             </p>
             <div className="mt-8 max-w-[530px] border-l-2 border-[#92ad39]/60 pl-4">
-              <p className={`${sans} text-[10px] font-semibold tracking-[.16em] text-[#b4cc66]`}>UPDATED 18 OCT 2026</p>
+              <p className={`${sans} text-[10px] font-semibold tracking-[.16em] text-[#b4cc66]`}>UPDATED 25 OCT 2026</p>
               <ul className={`${sans} mt-3 space-y-2 text-[12px] leading-5 text-[#c8d3d0]`}>
-                <li>+ Added a chart of Victorian AI skills funding, led by the $8.2M AI Career Conversion program.</li>
-                <li>+ Added the newly opened AI Career Conversion program - free short AI courses for 1,300 Victorian workers.</li>
-                <li>+ Added Skills Solutions Partnerships Round 3 and Victoria University's 8-week Applied AI for Business course.</li>
+                <li>+ Added a chart of SME AI use by industry: NAB Economics finds 42% of Australian SMEs use AI, from 69% in property services to 21% in transport.</li>
+                <li>+ Added the LaunchVic and Breakthrough Victoria merger into a single interim body, with no dedicated budget funding yet.</li>
               </ul>
             </div>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
