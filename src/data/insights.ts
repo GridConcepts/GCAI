@@ -8,6 +8,13 @@ export type InsightPost = {
 /** Keep in sync with Markdown posts under blog/src/content/blog/ */
 export const insightPosts: InsightPost[] = [
   {
+    slug: "how-long-should-an-ai-pilot-take",
+    title: "How long should an AI pilot take? Realistic timelines from discovery to go-live",
+    description:
+      "How long should an AI pilot take, realistically - the stages from discovery to go-live, what Gartner survey data actually shows, and why \"AI transformation in weeks\" claims rarely hold up.",
+    dateLabel: "Oct 2026",
+  },
+  {
     slug: "evaluating-ai-vendors-due-diligence-checklist",
     title: "Evaluating AI vendors: a due-diligence checklist for professional services",
     description:
