@@ -24,6 +24,8 @@ The barriers named in every survey are time, knowledge and messy data rather tha
 | AuDA Digital Lives 2026 | 81% of office-based workers use AI against 56% of manual workers |
 | CEDA SMB research | Scaling is held back by systems and data; most barriers reduce to a shortage of time, knowledge and capital |
 
+![Bar chart of AI adoption by measure: about 12% on the ABS strict count, under 10% significant use, 44% of SMEs on any-use count but under 30% in construction and agriculture, and 81% of office workers versus 56% of manual workers.](/insights/media/ai-agents-for-trades-and-field-service/adoption-landscape.svg)
+
 **What that means for a trade or field service business:**
 
 - **Adoption is rising but shallow.** It is 12% on the strict count, 44-72% on any-use surveys, and under 10% significant. Most have tried something; few have changed how they operate.
@@ -39,6 +41,8 @@ Strip away the marketing and there are four jobs worth automating, in roughly th
 - **Turning job notes into a quote.** The agent pulls your standard rates, the technician's notes from a similar past job, and a template into a draft quote ready for you to check and send, instead of you rebuilding it from scratch at 9pm. Australian tradies spend an estimated 8 to 12 hours a week on admin, with quoting and invoicing the biggest share - a full day a week off the tools.
 - **Scheduling and dispatch.** New jobs get slotted against who is free, where they already are, and what the job needs - fewer calls to work out who can get there, and automatic reminders so fewer customers forget a booking. The reminder half of this is well proven: a systematic review of 29 studies found automated reminders cut no-shows by an average of 28.9%.
 - **Chasing the boring admin.** Review requests after a job is marked complete, and polite follow-ups on overdue invoices, sent on a schedule instead of when you remember. Xero's data on 520,000 Australian small businesses shows invoices paid an average of 6.6 days late, and a 2025 GoCardless survey found over a quarter of SMBs spend up to an hour a week chasing them.
+
+![The four jobs worth automating in order of value with a key statistic each: after-hours enquiries (about 1 in 3 trade calls missed), quotes (8 to 12 hours a week of admin), scheduling (28.9% fewer no-shows), and admin chasing (invoices 6.6 days late).](/insights/media/ai-agents-for-trades-and-field-service/four-jobs.svg)
 
 | Job | What the agent does | Evidence |
 | --- | --- | --- |
@@ -67,6 +71,8 @@ Field service adds one more wrinkle professional-services agents do not have to 
 ## Where should a trade business start with AI agents?
 
 Pick the single task above that is costing you the most right now - for most emergency and callout trades, that is missed after-hours enquiries, because you can count them before and after. Do not try to fix all four at once, and do not sign up for a system built for accounting firms and relabelled for trades.
+
+![Four steps: pick one task, count it now, check the foundations, automate that one.](/insights/media/ai-agents-for-trades-and-field-service/where-to-start.svg)
 
 Our complimentary [AI-Readiness Data Check](https://gridconcepts.com.au/#contact) takes about ten minutes and tells you plainly which of the four tasks above is worth automating first for your business, and whether your current systems can actually support it - before you spend on anything.
 
