@@ -16,6 +16,7 @@ const OUT_FILE = join(OUT_DIR, "sitemap.xml");
 const staticRoutes = [
   { path: "/", changefreq: "weekly", priority: "1.0" },
   { path: "/state-of-ai-report", changefreq: "monthly", priority: "0.8" },
+  { path: "/case-studies/gm-law", changefreq: "yearly", priority: "0.6" },
   { path: "/insights/", changefreq: "weekly", priority: "0.7" },
 ];
 

@@ -14,6 +14,7 @@ Grid Concepts' point of view: most AI projects fail because the business informa
 
 - [Homepage](https://gridconcepts.com.au/): Overview, free Data Check (12-question AI-readiness snapshot), service pillars, case studies, team, and contact.
 - [The State of AI Report](https://gridconcepts.com.au/state-of-ai-report): Long-form plain-English report on AI readiness for Victorian small and medium business - adoption statistics, chat-vs-agent framework, why AI pilots fail, data/systems/governance/people foundations, and a 100-day readiness roadmap. Prepared by Val Melamed, Partner.
+- [GM Law case study](https://gridconcepts.com.au/case-studies/gm-law): How Grid Concepts fixed a Brisbane law firm's broken lead calculator (rebuilt in Keap with Unbounce) and replaced Parsey with Zapier for an Actionstep-to-Keap referral funnel, with no new software subscriptions.
 - [Insights blog](https://gridconcepts.com.au/insights/): Practical, plain-English articles on data, systems and AI readiness for SMEs.
 - [Sitemap](https://gridconcepts.com.au/sitemap.xml)
 
