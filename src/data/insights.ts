@@ -8,6 +8,13 @@ export type InsightPost = {
 /** Keep in sync with Markdown posts under blog/src/content/blog/ */
 export const insightPosts: InsightPost[] = [
   {
+    slug: "best-ai-for-text-generation-2026",
+    title: "Choosing the best AI for text generation in 2026 (comparative test)",
+    description:
+      "We tested Claude, Gemini, Copilot, DeepSeek and ChatGPT on real SEO writing tasks. See which AI wrote best in 2026 and why ChatGPT came last.",
+    dateLabel: "Oct 2026",
+  },
+  {
     slug: "how-long-should-an-ai-pilot-take",
     title: "How long should an AI pilot take? Realistic timelines from discovery to go-live",
     description:
