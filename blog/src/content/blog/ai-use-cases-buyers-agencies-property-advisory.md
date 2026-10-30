@@ -17,11 +17,15 @@ The use cases that are genuinely in production, not just pitched by vendors, clu
 
 None of these replace the advisor's judgement on a purchase recommendation - Property Council Australia's 2026 PropTech survey of 236 senior property professionals found technology is still more often used to simplify existing work than to reshape the decisions themselves. That's the right ceiling for a first pilot: use AI to compress the research and drafting time, keep the recommendation itself with a named person.
 
+![Four AI use cases already working in buyers agencies: suburb and due-diligence research, document processing, client reporting, and enquiry triage.](/insights/media/ai-use-cases-buyers-agencies-property-advisory/four-jobs.svg)
+
 ## What changes on 1 July 2026
 
 The AML/CTF reforms add a second, less optional layer to the AI conversation. Once a buyer's agent is providing a designated service, the firm has to run customer due diligence (CDD) and identity verification on that client, screen against sanctions and PEP watchlists, retain records for seven years, and report anything suspicious to AUSTRAC. That's a meaningful new workload sitting on top of the advisory work the business already does.
 
 AI has a real role here, but a narrower one than the marketing suggests: automating the collection and cross-checking of CDD documents, flagging watchlist matches for a human to review, and keeping the seven-year record trail organised and retrievable. What it can't do is make the suspicious-matter judgement call itself - that decision, and the accountability for it, has to sit with a named person in the business, the same way the purchase recommendation does. A pilot that tries to automate the CDD workflow end-to-end without that human checkpoint is building a compliance gap into the business at exactly the moment regulators are watching the sector most closely.
+
+![AML/CTF workflow from 1 July 2026: customer due diligence and ID checks, sanctions and PEP screening, seven-year record keeping, and reporting to AUSTRAC. AI can assist the first three steps; a named person makes the suspicious-matter call.](/insights/media/ai-use-cases-buyers-agencies-property-advisory/aml-ctf-flow.svg)
 
 ## What this looks like in practice
 

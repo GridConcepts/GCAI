@@ -20,6 +20,8 @@ A conventional vendor review checks security certifications, data residency and 
 
 Score each area against the specific use case you are buying for, not against an abstract ideal. A tool handling internal scheduling needs far less scrutiny on data handling than one touching client financial or health information.
 
+![Table of five AI vendor due-diligence areas and what to ask: data handling and privacy, model behaviour and change control, security and subprocessors, commercial terms and exit, and accountability.](/insights/media/evaluating-ai-vendors-due-diligence-checklist/five-areas.svg)
+
 ## Where a compliance badge fits - and where it doesn't
 
 ISO 42001 (an AI management-system standard) and SOC 2 are starting to appear in AI vendor RFPs, and it is reasonable to ask for them. But a certificate on a slide is not evidence by itself. Ask for the Statement of Applicability, the certifying body, and the expiry date, and confirm the certification actually covers the product you are buying rather than the vendor's business generally. A badge with no supporting paperwork is a marketing asset, not a due-diligence answer.
@@ -37,6 +39,8 @@ A vendor who answers all five without hedging has done this before. One who need
 ## Turning the checklist into a go/no-go
 
 Set the pass threshold before you see any vendor's answers, the same discipline that should sit behind any pilot's success criteria. Decide in advance which of the five areas are non-negotiable for the data this tool will touch, and which can carry a documented risk acceptance if the vendor is otherwise strong. That turns a subjective "we liked them" decision into one you can defend to a board or an audit committee afterwards.
+
+![Go/no-go flow: set the pass threshold first, score the five areas for the data the tool touches, split them into non-negotiable or documented risk acceptance, then decide go or no-go.](/insights/media/evaluating-ai-vendors-due-diligence-checklist/go-no-go.svg)
 
 ## Where to start
 

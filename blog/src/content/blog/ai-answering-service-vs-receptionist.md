@@ -6,6 +6,8 @@ pubDate: 'Sep 22 2026'
 
 You are down a job, on a ladder, or already on the phone to someone else, and the next call just rang out. A widely cited observational study of small businesses across dozens of industries found only 37.8% of inbound calls were answered live, with the rest going to voicemail or getting no response at all - and separate research on voicemail behaviour found 80% or more of callers who reach it hang up without leaving a message. So the choice most owners land on is not "should we fix this" - it is AI answering services vs. a real receptionist, and which one actually stops the calls falling through.
 
+![Two stat tiles: only 37.8% of inbound calls were answered live, and 80% or more of callers who reach voicemail hang up without leaving a message.](/insights/media/ai-answering-service-vs-receptionist/missed-call-stats.svg)
+
 ## What actually stops a missed call
 
 It is not intelligence, it is speed and consistency. A caller does not need a clever conversation at 7pm - they need to hear a person or a system that takes their name, number, and what they need, confirms someone will call back, and actually gets that message to you before the caller has already rung the next business on the list. Whatever answers the phone, that is the bar. Anything slower than immediate, or anything that drops the message between the call and your inbox, has not solved the problem - it has just moved where it breaks.
@@ -18,6 +20,8 @@ Both can clear that bar. The difference is what you are paying for and where eac
 - **An AI answering service** picks up every time, at any hour, and asks the same questions in the same order, so the message that reaches you is complete rather than whatever the caller managed to blurt into voicemail. It is usually a flat monthly fee, which is easier to budget against than a per-minute bill. It will not manage a genuinely upset caller as well as a person, and it is only as good as the questions it has been set up to ask and the system it hands the answer to.
 
 Neither is automatically the right call. A business with low call volume and calls that are often complex or emotional - a dispute, a complaint, a first conversation with a nervous client - leans human. A trade or service business fielding a high volume of routine "can someone come out and quote this" calls, especially after hours, is usually better served starting with an AI answering service and keeping a person for the calls that need one.
+
+![Comparison table of a real receptionist and an AI answering service across cost, coverage, strengths, weak spots and which business each suits: humans lean towards low-volume complex calls, AI towards high-volume routine quote calls.](/insights/media/ai-answering-service-vs-receptionist/receptionist-vs-ai.svg)
 
 ## Why this fails without the data behind it
 

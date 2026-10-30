@@ -29,6 +29,8 @@ Here is a practical 100-day shape we use with clients.
 - Train the people who will use the workflow every week
 - Review evidence, keep what works, stop what does not
 
+![Roadmap in three phases: days 1 to 30 clarity, days 31 to 60 connection, days 61 to 100 practice, each with four actions ending in one AI use case with guardrails and trained users.](/insights/media/100-day-ai-roadmap/roadmap.svg)
+
 ## Why this order matters
 
 Tools are the easy part. Sequence is the hard part. Businesses that jump straight to agents usually rediscover, later and at higher cost, that the information layer was never ready.

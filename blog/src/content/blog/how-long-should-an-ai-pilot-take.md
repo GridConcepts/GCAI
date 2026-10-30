@@ -6,6 +6,8 @@ pubDate: 'Oct 25 2026'
 
 Almost every AI vendor pitch includes some version of "we can have this live in a couple of weeks." So it's worth asking plainly: how long should an AI pilot actually take? Gartner's 2024 AI Mandates for the Enterprise survey found organisations spend an average of 33.6 weeks going from idea to production on a non-generative AI project, and 29.3 weeks on a generative AI one - that's seven to eight months, not weeks. Of that, roughly seven to eight weeks goes on idea vetting alone, before any build work starts. A single, well-scoped pilot on one workflow should move faster than that enterprise-wide average, but "faster" still means months, not days.
 
+![Gartner 2024 averages: 33.6 weeks from idea to production for a non-generative AI project and 29.3 weeks for a generative one, with roughly seven to eight weeks on idea vetting alone; a single well-scoped pilot runs around three to four months.](/insights/media/how-long-should-an-ai-pilot-take/gartner-timelines.svg)
+
 ## How long should an AI pilot take for one workflow?
 
 The Gartner figure covers the full spread of enterprise AI projects, including large rollouts across multiple teams. For a single pilot on one workflow - which is what most small and mid-sized businesses should be running first - a realistic timeline looks like this:
@@ -16,6 +18,8 @@ The Gartner figure covers the full spread of enterprise AI projects, including l
 - **Review and decision (1-2 weeks).** Comparing the result against a threshold agreed before the pilot started, and deciding to scale, adjust, or stop.
 
 Add it up and a single pilot, done properly, runs around three to four months end to end. That's longer than a weekend build, and considerably shorter than the seven-to-eight-month enterprise average, because it's one workflow with one owner rather than a firm-wide programme trying to move several things at once.
+
+![Four pilot stages: discovery 1-3 weeks, setup and configuration 2-4 weeks, the pilot run 8-12 weeks, review and decision 1-2 weeks, totalling around three to four months end to end.](/insights/media/how-long-should-an-ai-pilot-take/pilot-stages.svg)
 
 ## Why the "weeks" claims don't hold up
 

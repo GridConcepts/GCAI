@@ -14,6 +14,8 @@ At its best, a chatbot answers the questions you get asked twenty times a week -
 
 The research on how people actually feel about AI chat is not encouraging. A 2024 Five9 survey of 4,000 consumers found 56% are often frustrated by AI customer service chatbots, and 48% do not trust the information the chatbots give them. Twilio's 2025 research found 78% of people say being able to move from a bot to a real person matters to them, but only 15% say that handoff has ever felt smooth. And Omnisend's 2025 survey found 39% of shoppers had abandoned a purchase outright because a chatbot interaction frustrated them.
 
+![Five survey tiles: 56% of consumers are often frustrated by AI service chatbots and 48% do not trust their information (Five9, 2024); 78% say a handoff to a person matters but only 15% say it has felt smooth (Twilio, 2025); 39% abandoned a purchase after a frustrating chat (Omnisend, 2025).](/insights/media/do-you-need-a-website-chatbot/chat-survey-stats.svg)
+
 None of that means a chatbot is a bad idea. It means most of the damage happens in a few predictable places:
 
 - **It tries to do too much.** A bot set up to handle every question, including the ones that need judgement - a complaint, a tricky quote, a nervous first-time customer - frustrates people faster than no bot at all. It should hand off, not bluff.
@@ -31,6 +33,8 @@ A chatbot that captures a lead perfectly still fails if that lead has nowhere go
 ## Where to actually start
 
 Before you add a chatbot, write down the five questions your customers actually ask most, and check where an enquiry currently goes when it lands - an inbox, a spreadsheet, a notebook by the phone. If you cannot answer both of those quickly, a chatbot is not your next move.
+
+![Decision flow: write down the five questions customers ask most, check where an enquiry currently lands, and if you cannot answer both quickly a chatbot is not your next move; otherwise consider a chatbot for narrow, repetitive questions.](/insights/media/do-you-need-a-website-chatbot/chatbot-decision-flow.svg)
 
 Our complimentary [AI-Readiness Data Check](https://gridconcepts.com.au/#contact) takes about ten minutes and gives you a plain read on whether a chatbot would actually help your business, or whether something simpler would fix the real problem first.
 

@@ -12,6 +12,8 @@ Gallup's February 2026 survey of over 23,000 US employees found that while half 
 
 For a COO, that reframes the task. Staff buy-in for an AI pilot isn't a communications exercise you run once at kickoff. It's an input to the pilot's success criteria, measured the same way you'd measure the task metric the pilot was meant to move.
 
+![Survey statistics: KPMG found resistance to AI agents rose to 20% from 5%; Gallup found 13% use AI daily, 18% think AI will likely eliminate their job within five years, and employees with visibly supportive managers are nearly twice as likely to use it frequently.](/insights/media/getting-staff-buy-in-for-an-ai-pilot/survey-tiles.svg)
+
 ## The checklist to run before the pilot starts
 
 Run these before anyone touches the tool, not after adoption numbers come in flat:
@@ -21,6 +23,8 @@ Run these before anyone touches the tool, not after adoption numbers come in fla
 - **Write down what happens to the task the AI takes over** - not in vague reassurance language, but specifically: does this role gain time for other work, does headcount change, is this reviewed again at a fixed date. Silence on this question gets filled in by the worst-case assumption, every time.
 - **Name a champion inside the team**, not just a project sponsor above it. KPMG's data shows trust, not capability, is now the leading resistance driver - and trust in a new tool moves faster through a peer who uses it well than through a memo from leadership.
 - **Set one adoption metric alongside the performance metric** - percentage of the target group actively using the tool by week four, for example - and review it with the same rigour as the pilot's efficiency or cost numbers.
+
+![Five-step change-management checklist: name who is affected by role, involve two or three people before scoping, say what happens to the task, name an internal champion, and set an adoption metric such as percentage using the tool by week four.](/insights/media/getting-staff-buy-in-for-an-ai-pilot/buy-in-checklist.svg)
 
 ## Answer the trust question directly, in plain language
 

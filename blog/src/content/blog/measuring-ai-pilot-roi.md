@@ -6,6 +6,8 @@ pubDate: 'Oct 10 2026'
 
 Most organisations can tell you they ran an AI pilot. Far fewer can tell you what it actually returned. McKinsey's most recent global survey found 88% of organisations now use AI in at least one business function, but only 39% can point to any measurable EBIT impact from it - and just 6% qualify as high performers attributing 5% or more of EBIT to AI. The gap isn't that the pilots don't work. It's that most were never set up to produce a number a board would accept. If you're working out how to measure ROI on an AI pilot before you ask for scale-up budget, the measurement plan has to exist before the pilot starts, not get reconstructed afterwards from whatever data happens to be lying around.
 
+![Bar chart from McKinsey's global survey: 88% of organisations use AI in at least one function, 39% can point to measurable EBIT impact, and 6% are high performers attributing 5% or more of EBIT to AI.](/insights/media/measuring-ai-pilot-roi/mckinsey-gap.svg)
+
 ## Why most ROI claims don't survive the first hard question
 
 The pattern shows up the same way in firm after firm: a pilot runs, the team reports it went well, and the first question back from finance or the board is "compared to what?" There's rarely a good answer, because nobody measured the workflow before the pilot touched it. One recent industry study of global capability centres found over 70% of leaders piloting or scaling AI had no structured framework to measure the return at all. Without a baseline, "it feels faster" is the only claim left, and that claim doesn't survive scrutiny.
@@ -22,6 +24,8 @@ A pilot that survives board scrutiny reports on a small set of numbers, chosen b
 - **A risk and quality indicator.** Error rate, rework rate, or audit exceptions on the pilot's output, tracked alongside the efficiency number. A pilot that moves faster but quietly raises the error rate hasn't actually improved anything - and a board will ask this before they ask about speed.
 
 Four numbers, agreed before the pilot starts, beats twelve numbers argued over afterwards.
+
+![Four metrics agreed before the pilot: a dollar number, a baseline, a payback period and a risk indicator, feeding a four-line board report of baseline, result, dollar value, and the ask to scale, adjust or stop.](/insights/media/measuring-ai-pilot-roi/four-numbers.svg)
 
 ## Set the threshold before you see the result
 

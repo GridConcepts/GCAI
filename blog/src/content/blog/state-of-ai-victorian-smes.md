@@ -18,6 +18,8 @@ Across the businesses we speak with, three signals keep repeating:
 
 When those pieces are weak, AI projects become demos. When they are strong, AI becomes useful work.
 
+![Three readiness signals: data foundations, systems integration and people readiness. Weak foundations turn AI projects into demos; strong foundations make AI useful work.](/insights/media/state-of-ai-victorian-smes/three-signals.svg)
+
 ## Read the full report
 
 We published a plain-English report on this topic for Victorian SMEs:

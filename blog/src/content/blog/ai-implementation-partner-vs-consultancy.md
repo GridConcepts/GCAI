@@ -12,6 +12,8 @@ A consultancy's deliverable is clarity - a strategy document, a prioritised road
 
 An implementation partner's deliverable is a working system - built, integrated into your actual tools, in front of real users, adjusted based on what they do with it. The partnership is structured around shipping something, not producing a report. That difference shows up fastest in the first month: a credible implementation partner puts a working slice of the system in front of real users within four to eight weeks. A firm still running "discovery workshops" at week eight with nothing running is telling you which category it belongs to, whatever the pitch deck says.
 
+![Comparison: a consultancy delivers a strategy and roadmap and is accountable for the analysis, while an implementation partner delivers a working system in your tools, with a working slice in front of real users in four to eight weeks.](/insights/media/ai-implementation-partner-vs-consultancy/consultancy-vs-partner.svg)
+
 ## Why the distinction matters more than the price
 
 Boards and audit committees rarely push back on a strategy engagement - it's a bounded cost with a bounded output. The expensive mistake is engaging a strategy-only firm to also own the build, then discovering months in that nobody on the project is accountable for whether the thing actually works in production. Recommendations don't fail; systems do, and only one of these two engagement types is measured against that outcome.
@@ -24,6 +26,8 @@ There's a second risk worth naming directly: leaning entirely on an external con
 - **"Who is accountable if this doesn't move the number we agreed on?"** If the answer is "the client owns the rollout," you've hired analysis, not delivery.
 - **"What will be running, and touching real data, by week eight?"** Long discovery with nothing shipped by then is a strategy engagement wearing an implementation partner's pricing.
 - **"Once the engagement ends, who can operate and extend this?"** If the honest answer is "only us," you've bought a dependency, not a capability.
+
+![Four first-meeting questions: what the last engagement produced, who is accountable for the agreed number, what is running by week eight, and who can operate it once the engagement ends.](/insights/media/ai-implementation-partner-vs-consultancy/four-questions.svg)
 
 ## Why the split answer is usually the right one
 

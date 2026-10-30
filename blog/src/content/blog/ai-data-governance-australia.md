@@ -16,6 +16,8 @@ Every AI pilot that touches personal information needs these settled before day 
 
 If nobody on the project can answer all three cleanly, that's the actual output of week one - and it's worth knowing before the pilot's success criteria get written, not after.
 
+![Three questions to answer before an AI pilot: which system processes the data, whether the data is used to train anything beyond your own output, and whether it is stored onshore or overseas under Australian Privacy Principle 8.](/insights/media/ai-data-governance-australia/three-governance-questions.svg)
+
 ## What changes on 10 December 2026
 
 From 10 December 2026, a new transparency obligation under the Privacy Act requires businesses to disclose in their privacy policy when personal information feeds into a computer program that makes, or substantially supports, a decision significantly affecting an individual - and to say what kind of information and what kind of decision is involved. That covers more than it sounds like at first read: automated screening of loan or credit applications, algorithmic pricing, job-applicant shortlisting and eligibility checks all qualify if a model is doing the substantive work. If your pilot's output feeds into any decision a customer or applicant would reasonably call significant, this is a gating question, not a launch-day afterthought - your privacy policy needs to say so before the system goes live, not once someone asks.
@@ -32,6 +34,8 @@ The firms that get this right treat AI data governance in Australia as part of t
 2. **Draft the automated-decision disclosure language early** if the pilot's output touches customer-facing decisions, even if 10 December 2026 feels a long way off.
 3. **Put one person's name against the answer** to all three questions above - not "IT" or "the vendor," a person who can restate the answer in a meeting with no notice.
 4. **Revisit the exemption question annually**, not once. A pilot approved under today's rules should still hold up if the small-business threshold changes.
+
+![Four governance steps: name the systems and vendors in scope, draft automated-decision disclosure language early ahead of 10 December 2026, put one person's name against the three answers, and revisit the small-business exemption annually.](/insights/media/ai-data-governance-australia/governance-steps.svg)
 
 ## Where to start
 

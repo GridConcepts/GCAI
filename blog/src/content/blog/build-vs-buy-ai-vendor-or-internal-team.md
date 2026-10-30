@@ -28,6 +28,8 @@ Engaging an AI vendor trades that fixed headcount cost for a different set of ri
 
 The honest cost of buy is "vendor fee plus the work of managing that relationship well," and a vendor relationship managed badly can be just as expensive as an in-house team managed badly.
 
+![Side by side costs. Build: data scientist salaries of $115,000 to $135,000, one hire over $200,000 fully loaded, a second engineering skill set, and 15% to 25% annual upkeep. Buy: usage-based pricing, lock-in risk, and varying vendor accountability for outcomes.](/insights/media/build-vs-buy-ai-vendor-or-internal-team/cost-comparison.svg)
+
 ## The build vs. buy question that actually decides it
 
 Skip "which is cheaper" - on a fair accounting, they're often closer than either side's pitch suggests. The question that actually separates the two cases is: **does this capability create an advantage specific to our business, or is it something every business in our position needs in roughly the same form?**
@@ -40,6 +42,8 @@ Gartner has forecast that more than 40% of agentic AI projects will be abandoned
 ## A simpler test for a resource-constrained SME
 
 If you don't have the budget to build a proper team (engineering and data science both, not just one hire), buying isn't a compromise - it's the realistic option, and you can revisit build later once a use case has proven its value and its advantage is clear enough to justify owning it outright. Most Victorian SMEs are better served starting there: prove the use case with a vendor or implementation partner, keep the contract terms clean on data ownership and exit, and only consider building in-house once you can name the specific advantage that justifies the cost of owning it.
+
+![Decision guide: if the capability is not specific to your business, buy from a vendor; if it creates an advantage a competitor could not copy, build or co-build; resource-constrained SMEs should buy first and revisit build later.](/insights/media/build-vs-buy-ai-vendor-or-internal-team/decision-guide.svg)
 
 ## Where to start
 

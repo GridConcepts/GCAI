@@ -19,11 +19,15 @@ A CRM's actual job for a small service business is simple: hold every customer, 
 
 None of that requires the most expensive plan. It requires the plan that actually includes the two or three features above, which is not always the one with "AI" in bold on the pricing page.
 
+![Four AI CRM features that matter: automatic follow-up reminders, drafting rather than deciding, lead sorting that matches how you work, and data entry done for you. One widely cited figure puts lost inbound leads at around 18%.](/insights/media/ai-crm-options-small-service-businesses/ai-crm-features.svg)
+
 ## Where the well-known options sit
 
 This is not an endorsement of any one tool - test-drive whichever fits your existing systems - but as a starting shape: **HubSpot** and **Zoho CRM** both connect directly to Xero and MYOB and include AI drafting and lead-scoring on their paid tiers, which suits a business that wants everything - quoting, invoicing, follow-ups - visible in one place. **Pipedrive** leans toward a visual pipeline with an assistant that nudges you on stalled deals, which suits a business with a handful of active jobs at any time rather than a high volume of small enquiries. Trade-specific tools built around job management sometimes fold basic AI follow-ups in as standard rather than as an add-on, which can work out cheaper if quoting and scheduling are your bigger pain point than sales pipeline reporting.
 
 None of these is the right answer on its own. The right answer depends on what you already use for invoicing, scheduling, and quoting, because a CRM that will not talk to those systems just becomes a fourth place information goes to die.
+
+![Table of options: HubSpot and Zoho CRM connect to Xero and MYOB with AI drafting and lead scoring on paid tiers; Pipedrive has a visual pipeline suiting a handful of active jobs; trade-specific job tools sometimes include basic AI follow-ups as standard.](/insights/media/ai-crm-options-small-service-businesses/ai-crm-options.svg)
 
 ## Why the switch goes wrong
 

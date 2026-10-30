@@ -14,6 +14,8 @@ Three things drive the price more than anything else:
 - **How much judgement it needs.** Answering "what are your opening hours" is easy. Deciding whether an after-hours enquiry is urgent enough to text a technician is harder, and harder means more setup and testing before you can trust it.
 - **Whether it is off-the-shelf or built for you.** A ready-made chat widget you configure yourself is a subscription. A system built around your specific quoting or scheduling process is a project, priced like one.
 
+![Three cards showing what drives AI agent price: how much it connects to, how much judgement it needs, and whether it is off-the-shelf or built for you.](/insights/media/how-much-does-an-ai-agent-cost/price-drivers.svg)
+
 ## Realistic ranges for a small business
 
 Take these as a starting shape, not a quote - every agency prices differently and your numbers will depend on your systems:
@@ -22,6 +24,8 @@ Take these as a starting shape, not a quote - every agency prices differently an
 - **A configured tool for one job** - answering after-hours enquiries, or triaging quote requests before a person sees them - commonly lands in the low thousands to set up, plus a monthly fee for hosting and the AI usage itself.
 - **A custom workflow build** - one that reads a job in, checks something in another system, and drafts an output for a person to approve - is typically a multi-thousand-dollar project, priced against the specific tasks it needs to handle, not a flat rate.
 - **Ongoing running costs** - hosting, support, and the AI usage itself - usually sit somewhere between a couple of hundred and a couple of thousand dollars a month, depending on how much the tool is actually used.
+
+![Table of ranges: off-the-shelf chat tools roughly $0 to $150 a month; a configured one-job tool in the low thousands to set up plus a monthly fee; a custom workflow build as a multi-thousand-dollar project; running costs of a couple of hundred to a couple of thousand dollars a month.](/insights/media/how-much-does-an-ai-agent-cost/cost-ranges.svg)
 
 Treat any of those numbers with healthy scepticism until someone has actually looked at your systems. The honest answer to "how much will this cost me" is "it depends on what we find" - and a fair agency will say that too, then tell you how they intend to find out.
 
@@ -36,6 +40,8 @@ Before you accept a price, expect the agency to be able to name:
 - What it needs to connect to, and what happens if that connection breaks
 - A fixed setup cost and a fixed monthly running cost, not an hourly rate with no ceiling
 - What you get if you want to stop paying them and run it yourselves
+
+![Four things a fair quote should name: the exact task, what it connects to, a fixed setup and monthly cost, and what you get if you stop paying and run it yourself.](/insights/media/how-much-does-an-ai-agent-cost/fair-quote-checklist.svg)
 
 ## The first step that removes the guesswork
 

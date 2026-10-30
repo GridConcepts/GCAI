@@ -6,6 +6,8 @@ pubDate: 'Oct 19 2026'
 
 A data quality audit is the step most AI initiatives skip, and it is the single biggest reason they stall after the proof of concept. Gartner's February 2025 research found that through 2026, organisations will abandon 60% of AI projects that are not supported by AI-ready data - and the same survey of over 1,200 data management leaders found 63% either lack the right data practices for AI or are not sure if they have them. That is not a capability gap you discover once a pilot is underway. It is a question you can answer in a week, before anyone signs off on a budget, with a structured look at the handful of fields the use case actually depends on.
 
+![Three stat tiles: Gartner expects 60% of AI projects without AI-ready data to be abandoned through 2026; 63% of over 1,200 data leaders lack the right data practices or are unsure; 90% or higher is a reasonable starting completeness threshold.](/insights/media/data-quality-audit-checklist/gartner-stats.svg)
+
 ## What a data quality audit actually checks
 
 A data quality audit for an AI initiative is narrower than a general data-governance review, and that is what makes it fast. You are not auditing every system the business runs - you are auditing the specific fields the pilot will read from and write to. For most service and professional-services businesses, that means checking:
@@ -17,6 +19,8 @@ A data quality audit for an AI initiative is narrower than a general data-govern
 - **Lineage and access.** Where does each field originate, who can edit it, and is there a governance sign-off on using it for an AI initiative at all? This is where the data quality audit meets the Privacy Act and vendor-contract questions a pilot also needs answered.
 
 Score each of these against the two or three fields the specific use case depends on - not every field in every system. A narrow, accurate audit beats a broad, superficial one every time.
+
+![The five checks of a data quality audit: completeness, consistency, duplication, freshness, and lineage and access, each scored against the few fields the AI use case depends on.](/insights/media/data-quality-audit-checklist/five-checks.svg)
 
 ## Why this is a gating question, not a parallel workstream
 

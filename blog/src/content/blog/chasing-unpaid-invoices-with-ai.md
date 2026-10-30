@@ -6,6 +6,8 @@ pubDate: 'Sep 25 2026'
 
 You did the job, sent the invoice, and now you are the one chasing someone else's money to pay your own bills and wages. Xero's Small Business Insights data shows just over half of the invoices Australian small businesses send are paid late, arriving an average of six to seven days past the due date, with the typical invoice taking over three weeks to be paid in full. So "can AI actually speed up chasing unpaid invoices" is a fair question, and it deserves a straight answer rather than a sales pitch: yes, for the repetitive part. No, not for the part that actually gets a stuck invoice paid.
 
+![Xero Small Business Insights: just over half of invoices are paid late, by an average of six to seven days, and the typical invoice takes over three weeks to be paid in full.](/insights/media/chasing-unpaid-invoices-with-ai/late-payment-stats.svg)
+
 ## The two different jobs hiding inside "chasing invoices"
 
 Most owners lump "chasing unpaid invoices" into one dreaded task. It is really two:
@@ -23,6 +25,8 @@ Automating the reminding half is the realistic win, and it is more useful than i
 - **Matching payments to invoices.** When a client pays part of an amount, or pays against the wrong reference, that gets reconciled automatically instead of sitting in your account waiting for you to work out what it was for.
 
 None of that replaces the phone call that actually gets a difficult invoice paid. It just means you are only making that call for the invoices that genuinely need it, instead of every overdue invoice on the list.
+
+![Two columns. Reminding, which AI can do: reminders on day 1, 7 and 14 overdue, flagging invoices early, matching payments. Resolving, which needs a human: payment plan calls, relationship decisions, handing bad debt to collections.](/insights/media/chasing-unpaid-invoices-with-ai/reminding-vs-resolving.svg)
 
 ## Why this goes wrong without the data behind it
 

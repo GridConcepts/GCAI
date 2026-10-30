@@ -20,6 +20,8 @@ When customer data is fragmented, the pilot spends its energy on workarounds. Th
 
 Pilots die in the gap between a sandbox and day-to-day operations. Training, access, governance, and process design are not optional extras.
 
+![Three failure modes of AI pilots: no measurable outcome, foundations too thin because customer data is fragmented, and no path from sandbox experiment to day-to-day practice.](/insights/media/why-ai-pilots-fail/failure-modes.svg)
+
 ## What to do instead
 
 Treat the first AI initiative as a foundation test:
@@ -31,6 +33,8 @@ Treat the first AI initiative as a foundation test:
 - Time-box the work and review the evidence
 
 That approach is slower than a flashy demo. It is much more likely to survive contact with the business.
+
+![Five steps for a first AI initiative: one workflow with a clear owner, the metric that would change, confirmed data and systems, a definition of safe to use, and a time-boxed review of the evidence.](/insights/media/why-ai-pilots-fail/foundation-test.svg)
 
 ## Related reading
 

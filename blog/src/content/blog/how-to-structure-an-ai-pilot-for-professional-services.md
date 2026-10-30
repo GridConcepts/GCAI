@@ -6,6 +6,8 @@ pubDate: 'Aug 31 2026'
 
 Most professional services firms do not have an AI adoption problem. They have a pilot-to-production problem. MIT's Project NANDA found 95% of generative AI pilots show no measurable return on the P&L, and separate industry tracking shows the share of enterprises abandoning most of their AI programs jumped from 17% to 42% in a single year. The pilots themselves are rarely the issue - the demo usually works. What fails is the structure around it: no defined success criteria, no answer ready on data governance, and no plan for what happens if it works. If you're weighing how to structure an AI pilot for professional services, that structure matters more than the tool you pick.
 
+![Two tiles: 95% of generative AI pilots show no measurable return on the P&L (MIT Project NANDA), and the share of enterprises abandoning most AI programs jumped from 17% to 42% in a single year (industry tracking).](/insights/media/how-to-structure-an-ai-pilot-for-professional-services/pilot-failure-stats.svg)
+
 ## What "pilot theatre" looks like from the inside
 
 Pilot theatre is a pilot that was never going to be evaluated against anything. A team runs a promising trial, people in the room like the demo, and three months later nobody can say whether it actually moved a number. There was no baseline to compare against, no owner accountable for the outcome, and no criteria written down before the trial started that would have forced a real decision - scale it, fix it, or stop. The pilot doesn't fail so much as quietly dissolve, and the next one inherits the same scepticism.
@@ -22,6 +24,8 @@ A pilot needs three things settled before it starts, not after:
 
 Keep the pilot itself short - 60 to 90 days in one team or practice group, not a firm-wide rollout. A tightly scoped pilot with a clear metric is also a much easier approval to get in the first place than an open-ended technology investment.
 
+![Three things settled before a pilot starts: one business metric, a baseline taken in advance, and a pre-agreed threshold such as a 15% improvement with no unresolved security or compliance flags, over 60 to 90 days in one team.](/insights/media/how-to-structure-an-ai-pilot-for-professional-services/success-criteria.svg)
+
 ## Answer data governance before anyone asks
 
 For a firm bound by APES 110 confidentiality obligations and client privilege, the governance questions are not a compliance afterthought to handle if the pilot succeeds - they're gating criteria that need an answer before day one. At minimum: which system or model processes client data, whether it's used to train anything beyond your own output, and where it's stored and processed. From 10 December 2026, the Privacy Act's automated decision-making transparency reforms require Australian businesses to disclose in their privacy policy when personal information feeds into automated decisions that affect people - so any pilot that touches client-facing decisions should already have that answer ready, not scrambled together after the OAIC's final guidance lands.
@@ -35,6 +39,8 @@ If your team can't answer those questions cleanly for the systems already in use
 3. **Confirm what the pilot will touch** - which systems, which client data, who else's systems it reaches into.
 4. **Set the threshold for advancing or stopping**, agreed with whoever holds the budget decision.
 5. **Time-box it, then hold the review** against what was written down in step 2, not against how the demo felt.
+
+![Five-step pilot structure: pick one workflow with a named owner, write the metric and baseline down, confirm what the pilot will touch, set the threshold for advancing or stopping, then time-box it and hold the review.](/insights/media/how-to-structure-an-ai-pilot-for-professional-services/five-step-structure.svg)
 
 That sequence is slower than picking a vendor and running with it. It is also the version that gives you an actual answer at the end, which is the entire point of running a pilot in the first place.
 

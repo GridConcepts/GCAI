@@ -26,6 +26,8 @@ Without those, AI amplifies confusion. With them, even modest automation starts 
 3. **Clean a manageable slice** - Do not boil the ocean. Fix the records people actually use.
 4. **Then add AI** - Assistants, agents, and reporting work better on connected ground.
 
+![Four-step sequence: find the trustworthy core of customer and operational data, agree the source of truth for each key field, clean a manageable slice, then add AI.](/insights/media/fix-the-data-first/data-first-sequence.svg)
+
 ## The Grid Concepts view
 
 We exist for this middle ground: practical Melbourne-based help for SMEs that want AI without building theatre.

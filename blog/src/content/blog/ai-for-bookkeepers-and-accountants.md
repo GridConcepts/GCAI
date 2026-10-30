@@ -6,6 +6,8 @@ pubDate: 'Oct 04 2026'
 
 Every software vendor selling into accounting firms now has an "AI" feature on its pricing page, which makes it hard to tell what AI for bookkeepers and accountants actually changes day to day versus what is just a new label on an old feature. CPA Australia's latest Business Technology Survey found AI adoption across Asia-Pacific accounting and finance roles jumped to 89% in the past year, up from 69% the year before - so the tools are clearly in use. The harder question for anyone running a bookkeeping practice or an in-house finance function is which of those tools save real hours, and which just move the same manual checking into a different screen.
 
+![Bar chart from CPA Australia's Business Technology Survey: AI adoption in Asia-Pacific accounting and finance roles rose from 69% the year before to 89% in the past year.](/insights/media/ai-for-bookkeepers-and-accountants/adoption.svg)
+
 ## The tasks that are genuinely automatable now
 
 These are rules-based, high-volume, low-judgement tasks - exactly the kind AI handles well, because the "right answer" is usually obvious from the data itself:
@@ -25,6 +27,8 @@ The tasks above are not the whole job, and treating them as if they were is wher
 - **Client conversations.** Explaining to a client why their margin has slipped, or why a BAS payment looks different this quarter, needs a person who understands their business, not a generated summary.
 - **Anything with regulatory or tax consequence.** Lodgements, tax positions, and advice that carries a professional obligation stay with a registered BAS or tax agent. A tool can prepare the numbers; it cannot carry the sign-off.
 - **Catching the thing nobody told it to look for.** AI is good at flagging patterns it has seen before - a duplicate charge, an amount outside the normal range. It is not good at spotting a genuinely new kind of problem in a business it has no history on yet, which is still where an experienced bookkeeper earns their fee.
+
+![Comparison: bank reconciliation, transaction categorisation, invoice and receipt matching and data entry are automatable now; classification judgement, client conversations, lodgements and tax positions, and spotting new problems still need a person.](/insights/media/ai-for-bookkeepers-and-accountants/automatable-vs-human.svg)
 
 ## Why this still goes wrong in practice
 

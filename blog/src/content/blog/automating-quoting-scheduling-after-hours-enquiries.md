@@ -12,9 +12,13 @@ ABS figures for 2024–25 show AI use among small and micro businesses is still 
 
 **After-hours enquiries.** This does not have to mean a chatbot pretending to be a person. At its simplest, it means a call or message after hours is captured immediately - name, number, what they need - and a reply goes out within minutes confirming someone will call back, instead of a caller hitting voicemail and hanging up. Speed matters more than most owners expect: a widely cited 2007 MIT/InsideSales.com study of over 100,000 call attempts found that leads contacted within five minutes were 21 times more likely to be qualified than leads contacted after 30 minutes, and a separate 2011 audit of 2,241 companies found the average first response took 42 hours, with 23% of enquiries never answered at all. Whatever the true number is for your business, it is costing you more than the tool would.
 
+![Stat tiles: leads contacted within five minutes are 21 times more likely to be qualified than after 30 minutes; average first response took 42 hours; 23% of enquiries were never answered; AI use among small and micro businesses is about 11%.](/insights/media/automating-quoting-scheduling-after-hours-enquiries/speed-stats.svg)
+
 **Quoting.** Automating quoting does not mean an algorithm invents a price. It means the boring half of the job - pulling your standard rates, past job notes, and a template into a draft you check and send - happens in minutes instead of at 9pm after the last job. You still set the price. The tool removes the retyping.
 
 **Scheduling.** This means new jobs get slotted against who is available, where they already are, and what the job needs, without three phone calls to work out who is free. Confirmation and reminder messages go out on their own, so fewer people forget a booking.
+
+![Three cards: after-hours enquiries (capture details at once and reply within minutes), quoting (rates, notes and a template become a draft you check and send), and scheduling (slot jobs by availability with automatic confirmations and reminders).](/insights/media/automating-quoting-scheduling-after-hours-enquiries/three-tasks.svg)
 
 ## Why this goes wrong without the data behind it
 

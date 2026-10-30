@@ -10,6 +10,8 @@ A customer fills in your website form at 9pm, gets an automatic "thanks, we'll b
 
 The research on this is blunt. A widely cited analysis of leads contacted within five minutes versus 30 minutes found a 21-times difference in qualification rates, and a separate large-scale study of first-touch response found that leads called back within 60 seconds converted at roughly four times the rate of leads called back after 30 minutes. On the Australian side, a survey of leading Australian organisations found 34% did not respond to an email enquiry at all, and only 21% of those that did reply managed it within 24 hours. A separate industry audit found replies ranging from 25 minutes to never. None of these businesses think of themselves as slow - they just have no system that flags an enquiry the moment it lands, so it waits behind whatever job is in front of the owner that day.
 
+![Stat tiles: 21 times qualification gap for contact within five minutes versus 30; about four times conversion for callbacks within 60 seconds versus 30 minutes; 34% of leading Australian organisations never answered an email enquiry; only 21% of those that replied did so within 24 hours.](/insights/media/fixing-slow-lead-response-time/going-cold-stats.svg)
+
 ## Why the delay happens
 
 It is rarely a lack of effort. It is almost always one of three gaps:
@@ -27,6 +29,8 @@ Fixing slow lead response time does not require a full CRM overhaul or a chatbot
 **Second, send an instant acknowledgement.** Not a sales pitch - just confirmation that the enquiry arrived and a real person will follow up, ideally with a rough timeframe. This alone stops a lot of the "did this even send?" drop-off.
 
 **Third, flag anything urgent so a human follows up fast.** Most enquiries can wait a few hours. A few cannot, and if your system cannot tell the difference, everything gets treated like it can wait - which is how the five-minute window turns into two days.
+
+![Three numbered steps to fix slow lead response: get every enquiry into one place, send an instant acknowledgement, and flag urgent enquiries so a human follows up fast.](/insights/media/fixing-slow-lead-response-time/three-step-fix.svg)
 
 ## Why this breaks down without the data behind it
 
