@@ -172,7 +172,7 @@ export const insightPosts: InsightPost[] = [
     slug: "is-your-business-ai-ready",
     title: "Most businesses are not AI-ready - how to tell",
     description:
-      "A plain-English way to check whether your business is AI-ready, before you spend on tools you do not need yet.",
+      "Is your business AI-ready? Ten plain-English signs that it is not, what AI-ready looks like, three real client cases, and a free ten-minute test.",
     dateLabel: "Aug 2026",
   },
   {
