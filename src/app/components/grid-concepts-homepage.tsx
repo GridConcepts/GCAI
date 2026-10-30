@@ -24,13 +24,31 @@ const gmLawLogo = "https://www.gmlaw.com.au/wp-content/uploads/2020/02/GMLaw-log
 const sans = "font-['Inter',sans-serif]";
 const display = "font-['Lora',serif]";
 
+function HomeLink({ children }: { children: ReactNode }) {
+  return (
+    <a
+      href="/"
+      aria-label="Grid Concepts home"
+      onClick={(e) => {
+        if (window.location.pathname === "/") {
+          e.preventDefault();
+          window.history.replaceState(null, "", "/");
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+      }}
+    >
+      {children}
+    </a>
+  );
+}
+
 export function Logo({ inverse = false }: { inverse?: boolean }) {
   return <div className="relative h-[31px] w-[145px]"><svg className="size-full" viewBox="0 0 195 42" fill="none"><path d={svgPaths.p33e65132} fill={inverse ? "#ffffff" : "#191919"} stroke={inverse ? "#ffffff" : "#191919"} /><path d={svgPaths.p2df517f0} fill="#92AD39" /></svg></div>;
 }
 
 function Header({ onCheck }: { onCheck: () => void }) {
   const [open, setOpen] = useState(false);
-  return <header className="sticky top-0 z-50 border-b border-[#1d2720]/10 bg-[#f9faf5]/90 backdrop-blur"><div className="mx-auto flex h-[72px] max-w-[1440px] items-center justify-between px-6 md:px-12 lg:px-20"><Logo /><nav className={`${sans} hidden items-center gap-8 text-[12px] font-medium text-[#465047] md:flex`}><a href="#approach" className="hover:text-[#6d8226]">Approach</a><a href="#services" className="hover:text-[#6d8226]">Capabilities</a><a href="#story" className="hover:text-[#6d8226]">Our story</a><a href={insightsIndexPath} className="hover:text-[#6d8226]">Insights</a><a href="/state-of-ai-report" className="hover:text-[#6d8226]">The State of AI Report</a><a href="#get-in-touch" className="hover:text-[#6d8226]">Contact</a></nav><button type="button" onClick={onCheck} className={`${sans} hidden border border-[#92ad39] px-4 py-2 text-[12px] font-semibold text-[#53661c] transition hover:bg-[#92ad39] hover:text-white md:block`}>Take the Data Check</button><button type="button" onClick={() => setOpen(!open)} className="md:hidden" aria-label="Toggle navigation">{open ? <X size={22} /> : <Menu size={22} />}</button></div>{open && <div className={`${sans} border-t border-[#1d2720]/10 bg-[#f9faf5] px-6 py-5 md:hidden`}><nav className="flex flex-col gap-4 text-[14px] text-[#465047]"><a onClick={() => setOpen(false)} href="#approach">Approach</a><a onClick={() => setOpen(false)} href="#services">Capabilities</a><a onClick={() => setOpen(false)} href="#story">Our story</a><a onClick={() => setOpen(false)} href={insightsIndexPath}>Insights</a><a href="/state-of-ai-report">The State of AI Report</a><a onClick={() => setOpen(false)} href="#get-in-touch">Contact</a><button onClick={() => { setOpen(false); onCheck(); }} className="w-fit border border-[#92ad39] px-4 py-2 font-semibold text-[#53661c]">Take the Data Check</button></nav></div>}</header>;
+  return <header className="sticky top-0 z-50 border-b border-[#1d2720]/10 bg-[#f9faf5]/90 backdrop-blur"><div className="mx-auto flex h-[72px] max-w-[1440px] items-center justify-between px-6 md:px-12 lg:px-20"><HomeLink><Logo /></HomeLink><nav className={`${sans} hidden items-center gap-8 text-[12px] font-medium text-[#465047] md:flex`}><a href="#approach" className="hover:text-[#6d8226]">Approach</a><a href="#services" className="hover:text-[#6d8226]">Capabilities</a><a href="#story" className="hover:text-[#6d8226]">Our story</a><a href={insightsIndexPath} className="hover:text-[#6d8226]">Insights</a><a href="/state-of-ai-report" className="hover:text-[#6d8226]">The State of AI Report</a><a href="#get-in-touch" className="hover:text-[#6d8226]">Contact</a></nav><button type="button" onClick={onCheck} className={`${sans} hidden border border-[#92ad39] px-4 py-2 text-[12px] font-semibold text-[#53661c] transition hover:bg-[#92ad39] hover:text-white md:block`}>Take the Data Check</button><button type="button" onClick={() => setOpen(!open)} className="md:hidden" aria-label="Toggle navigation">{open ? <X size={22} /> : <Menu size={22} />}</button></div>{open && <div className={`${sans} border-t border-[#1d2720]/10 bg-[#f9faf5] px-6 py-5 md:hidden`}><nav className="flex flex-col gap-4 text-[14px] text-[#465047]"><a onClick={() => setOpen(false)} href="#approach">Approach</a><a onClick={() => setOpen(false)} href="#services">Capabilities</a><a onClick={() => setOpen(false)} href="#story">Our story</a><a onClick={() => setOpen(false)} href={insightsIndexPath}>Insights</a><a href="/state-of-ai-report">The State of AI Report</a><a onClick={() => setOpen(false)} href="#get-in-touch">Contact</a><button onClick={() => { setOpen(false); onCheck(); }} className="w-fit border border-[#92ad39] px-4 py-2 font-semibold text-[#53661c]">Take the Data Check</button></nav></div>}</header>;
 }
 
 function Hero({ onCheck }: { onCheck: () => void }) {
@@ -642,6 +660,6 @@ function ContactSection() {
   );
 }
 
-function Footer() { return <footer className="bg-[#1d2720]"><div className="mx-auto flex max-w-[1440px] flex-col justify-between gap-8 px-6 py-12 sm:flex-row sm:items-end md:px-20"><div><Logo inverse /><p className={`${sans} mt-5 max-w-[310px] text-[12px] leading-5 text-[#a9b0a4]`}>Data, systems and digital growth for Australian businesses ready to make change stick.</p></div><div className="sm:text-right"><a href="tel:1300976425" className={`${display} text-[24px] tracking-[.03em] text-white transition hover:text-[#b4cc66]`}>1300 976 425</a><address className={`${sans} mt-4 text-[12px] leading-5 not-italic text-[#a9b0a4]`}>6D/596 North Rd,<br />Ormond, Victoria, 3204</address><p className={`${sans} mt-5 text-[11px] text-[#8f978b]`}>© 2026 Grid Concepts Pty Ltd. Melbourne, Australia.</p></div></div></footer>; }
+function Footer() { return <footer className="bg-[#1d2720]"><div className="mx-auto flex max-w-[1440px] flex-col justify-between gap-8 px-6 py-12 sm:flex-row sm:items-end md:px-20"><div><HomeLink><Logo inverse /></HomeLink><p className={`${sans} mt-5 max-w-[310px] text-[12px] leading-5 text-[#a9b0a4]`}>Data, systems and digital growth for Australian businesses ready to make change stick.</p></div><div className="sm:text-right"><a href="tel:1300976425" className={`${display} text-[24px] tracking-[.03em] text-white transition hover:text-[#b4cc66]`}>1300 976 425</a><address className={`${sans} mt-4 text-[12px] leading-5 not-italic text-[#a9b0a4]`}>6D/596 North Rd,<br />Ormond, Victoria, 3204</address><p className={`${sans} mt-5 text-[11px] text-[#8f978b]`}>© 2026 Grid Concepts Pty Ltd. Melbourne, Australia.</p></div></div></footer>; }
 
 export function GridConceptsHomepage() { const [checking,setChecking]=useState(false); useEffect(()=>{const id=window.location.hash.slice(1); if(!id) return; const t=window.setTimeout(()=>document.getElementById(id)?.scrollIntoView(),0); return ()=>window.clearTimeout(t)},[]); return <main className="min-h-screen bg-[#f9faf5]"><Header onCheck={()=>setChecking(true)} /><Hero onCheck={()=>setChecking(true)} /><Principle /><Story /><Services /><StateOfAiTeaser /><CaseStudies /><SystemsBand /><Work onCheck={()=>setChecking(true)} /><Team /><Closing onCheck={()=>setChecking(true)} /><ContactSection /><Footer />{checking && <DataCheck close={()=>setChecking(false)} />}</main>; }
