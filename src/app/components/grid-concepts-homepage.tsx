@@ -16,6 +16,7 @@ import {
 import svgPaths from "../../imports/GridConceptsHomepageLight/svg-vcinlohbnv";
 import { insightPostPath, insightPosts, insightsIndexPath } from "../../data/insights";
 import { getStoredClickIds } from "../../lib/click-ids";
+import { trackConversion } from "../../lib/oaiq";
 const metropoleLogo = "https://metropole.com.au/wp-content/themes/metropole-theme/assets/images/2025/Metropole_primary_logo.svg";
 const orthodonticsLogo = "https://orthodonticsaustralia.org.au/wp-content/themes/oa2023/img/logo.svg";
 const gmLawLogo = "https://www.gmlaw.com.au/wp-content/uploads/2020/02/GMLaw-logo.svg";
@@ -427,6 +428,7 @@ function DataCheck({ close }: { close: () => void }) {
       }
       console.log("[DataCheck] Success - webhook accepted the submission.");
       setReportSent(true);
+      trackConversion();
     } catch (error) {
       const msg = error instanceof Error ? error.message : String(error);
       console.error("[DataCheck] Submission failed:", msg);
@@ -517,6 +519,7 @@ function ContactSection() {
       });
       if (!response.ok) throw new Error(`Webhook returned ${response.status} ${response.statusText}`);
       setSubmitted(true);
+      trackConversion();
     } catch (submitError) {
       const msg = submitError instanceof Error ? submitError.message : String(submitError);
       console.error("[ContactSection] Submission failed:", msg);
