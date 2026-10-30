@@ -1,4 +1,4 @@
-import { useState, type FormEvent, type ReactNode } from "react";
+import { useEffect, useState, type FormEvent, type ReactNode } from "react";
 import { ArrowRight, Check, Download, Menu, RotateCcw, X } from "lucide-react";
 import {
   annaAndreevaTeamPortrait,
@@ -644,4 +644,4 @@ function ContactSection() {
 
 function Footer() { return <footer className="bg-[#1d2720]"><div className="mx-auto flex max-w-[1440px] flex-col justify-between gap-8 px-6 py-12 sm:flex-row sm:items-end md:px-20"><div><Logo inverse /><p className={`${sans} mt-5 max-w-[310px] text-[12px] leading-5 text-[#a9b0a4]`}>Data, systems and digital growth for Australian businesses ready to make change stick.</p></div><div className="sm:text-right"><a href="tel:1300976425" className={`${display} text-[24px] tracking-[.03em] text-white transition hover:text-[#b4cc66]`}>1300 976 425</a><address className={`${sans} mt-4 text-[12px] leading-5 not-italic text-[#a9b0a4]`}>6D/596 North Rd,<br />Ormond, Victoria, 3204</address><p className={`${sans} mt-5 text-[11px] text-[#8f978b]`}>© 2026 Grid Concepts Pty Ltd. Melbourne, Australia.</p></div></div></footer>; }
 
-export function GridConceptsHomepage() { const [checking,setChecking]=useState(false); return <main className="min-h-screen bg-[#f9faf5]"><Header onCheck={()=>setChecking(true)} /><Hero onCheck={()=>setChecking(true)} /><Principle /><Story /><Services /><StateOfAiTeaser /><CaseStudies /><SystemsBand /><Work onCheck={()=>setChecking(true)} /><Team /><Closing onCheck={()=>setChecking(true)} /><ContactSection /><Footer />{checking && <DataCheck close={()=>setChecking(false)} />}</main>; }
+export function GridConceptsHomepage() { const [checking,setChecking]=useState(false); useEffect(()=>{const id=window.location.hash.slice(1); if(!id) return; const t=window.setTimeout(()=>document.getElementById(id)?.scrollIntoView(),0); return ()=>window.clearTimeout(t)},[]); return <main className="min-h-screen bg-[#f9faf5]"><Header onCheck={()=>setChecking(true)} /><Hero onCheck={()=>setChecking(true)} /><Principle /><Story /><Services /><StateOfAiTeaser /><CaseStudies /><SystemsBand /><Work onCheck={()=>setChecking(true)} /><Team /><Closing onCheck={()=>setChecking(true)} /><ContactSection /><Footer />{checking && <DataCheck close={()=>setChecking(false)} />}</main>; }
