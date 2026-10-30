@@ -130,7 +130,7 @@ export const insightPosts: InsightPost[] = [
     slug: "ai-agents-for-trades-and-field-service",
     title: "AI agents for trades and field service businesses",
     description:
-      "A plain-English guide to AI agents for trades and field service businesses - which tasks they actually handle, what they cost to run, and where to start.",
+      "AI agents for trades and field service: the four admin jobs worth automating, Australian adoption data, real client examples and where to start.",
     dateLabel: "Aug 2026",
   },
   {
