@@ -21,6 +21,7 @@ Grid Concepts' point of view: most AI projects fail because the business informa
 ## Insights (blog posts)
 
 - [Choosing the best AI for text generation in 2026 (comparative test)](https://gridconcepts.com.au/insights/best-ai-for-text-generation-2026/)
+- [How to use the em dash in 2026: why the web turned it off and what it means for your content](https://gridconcepts.com.au/insights/how-to-use-the-em-dash-in-2026/)
 - [Automating quoting, scheduling and after-hours enquiries for service businesses](https://gridconcepts.com.au/insights/automating-quoting-scheduling-after-hours-enquiries/)
 - [Connecting AI tools to simPRO and Xero](https://gridconcepts.com.au/insights/connecting-ai-tools-to-simpro-and-xero/)
 - [How much does an AI agent actually cost?](https://gridconcepts.com.au/insights/how-much-does-an-ai-agent-cost/)

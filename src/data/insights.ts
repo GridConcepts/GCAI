@@ -99,6 +99,13 @@ export const insightPosts: InsightPost[] = [
     dateLabel: "Sep 2026",
   },
   {
+    slug: "how-to-use-the-em-dash-in-2026",
+    title: "How to use the em dash in 2026: why the web turned it off and what it means for your content",
+    description:
+      "Why top-ranking sites dropped the em dash in 2026, whether it affects SEO or AI detectors, and how to stop ChatGPT, Claude, Gemini and Copilot using it.",
+    dateLabel: "Sep 2026",
+  },
+  {
     slug: "ai-use-cases-buyers-agencies-property-advisory",
     title: "AI use cases for buyers agencies and property advisory firms",
     description:
