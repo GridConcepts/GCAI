@@ -24,6 +24,12 @@ const pages = [
     description:
       "How Grid Concepts unified Metropole's CRM, marketing, eCommerce, analytics, webinar and ticketing data into one Central Customer View, queryable by humans and AI agents alike.",
   },
+  {
+    path: "case-studies/orthodontics-australia",
+    title: "Orthodontics Australia Case Study: 340% More Practice Visits | Grid Concepts",
+    description:
+      "How Grid Concepts rebuilt Orthodontics Australia's Find an Orthodontist tool as a Laravel application with proper specialist-to-practice data modelling and Google geolocation search, growing practice visits 340%.",
+  },
 ];
 
 for (const { path, title, description } of pages) {

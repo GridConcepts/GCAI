@@ -18,6 +18,7 @@ const staticRoutes = [
   { path: "/state-of-ai-report", changefreq: "monthly", priority: "0.8" },
   { path: "/case-studies/gm-law", changefreq: "yearly", priority: "0.6" },
   { path: "/case-studies/metropole", changefreq: "yearly", priority: "0.6" },
+  { path: "/case-studies/orthodontics-australia", changefreq: "yearly", priority: "0.6" },
   { path: "/insights/", changefreq: "weekly", priority: "0.7" },
 ];
 
