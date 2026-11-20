@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 540" role="img" aria-labelledby="t d" font-family="Inter, Segoe UI, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 730" role="img" aria-labelledby="t d" font-family="Inter, Segoe UI, Arial, sans-serif">
   <title id="t">A real Metropole client's path, from newsletter subscriber to property investor</title>
-  <desc id="d">An eight-step client journey reconstructed from the Central Customer View, spanning Mailchimp, the website, a webinar, a discovery call, a confirmation email and a Strategic Property Plan purchase over about three months. The client's name, email and portfolio details are redacted.</desc>
+  <desc id="d">A nine-step client journey reconstructed from the Central Customer View: a newsletter subscription, two separate website visits, a webinar registration, a callback enquiry, a discovery call, a confirmation email, a Strategic Property Plan purchase and a returned fact-finder, over about three months. The client's name, email and portfolio details are redacted.</desc>
 
-  <rect width="1180" height="540" fill="#f9faf5" stroke="#d8ded0" />
+  <rect width="1180" height="730" fill="#f9faf5" stroke="#d8ded0" />
 
   <!-- Header -->
   <text x="40" y="22" font-size="10" font-weight="700" letter-spacing="1.2" fill="#71872b">CENTRAL CUSTOMER VIEW &#183; A REAL CLIENT JOURNEY</text>
@@ -16,110 +16,121 @@
   <text x="780" y="88" font-size="10" font-weight="700" letter-spacing="1" fill="#9a7442">EMAIL</text>
   <rect x="780" y="94" width="200" height="16" rx="3" fill="#dfe3d8" />
 
-  <!-- Row 1 label -->
-  <text x="40" y="148" font-size="11" font-weight="700" letter-spacing="1" fill="#92ad39">DAY 0-63 &#183; FIRST CONTACT TO ENQUIRY</text>
+  <!-- Row 1 -->
+  <text x="40" y="148" font-size="11" font-weight="700" letter-spacing="1" fill="#92ad39">DAY 0-62 &#183; AWARENESS</text>
 
-  <!-- Row 1 boxes -->
   <g>
-    <rect x="40" y="160" width="252" height="110" fill="#ffffff" stroke="#d8ded0" stroke-width="1" />
-    <text x="56" y="188" font-size="11" font-weight="700" letter-spacing="0.5" fill="#92ad39">DAY 0</text>
-    <text x="56" y="214" font-size="13" font-weight="600" fill="#1d2720">Subscribed to the newsletter</text>
-    <line x1="56" y1="238" x2="276" y2="238" stroke="#e9ede0" />
-    <text x="56" y="256" font-size="11" fill="#657067">Mailchimp</text>
+    <rect x="40" y="160" width="348" height="130" fill="#ffffff" stroke="#d8ded0" stroke-width="1" />
+    <text x="60" y="190" font-size="11" font-weight="700" letter-spacing="0.5" fill="#92ad39">DAY 0</text>
+    <text x="60" y="218" font-size="14" font-weight="600" fill="#1d2720">Subscribed to the property</text>
+    <text x="60" y="238" font-size="14" font-weight="600" fill="#1d2720">newsletter</text>
+    <line x1="60" y1="256" x2="368" y2="256" stroke="#e9ede0" />
+    <text x="60" y="276" font-size="11" fill="#657067">Mailchimp &#183; newsletter registration</text>
   </g>
 
-  <line x1="292" y1="215" x2="312" y2="215" stroke="#92ad39" stroke-width="2" />
-  <path d="M312 215 L305.7 218 M312 215 L305.7 212" fill="none" stroke="#92ad39" stroke-width="2" stroke-linecap="round" />
+  <line x1="388" y1="225" x2="416" y2="225" stroke="#92ad39" stroke-width="2" />
+  <path d="M416 225 L408 229 M416 225 L408 221" fill="none" stroke="#92ad39" stroke-width="2" stroke-linecap="round" />
 
   <g>
-    <rect x="322" y="160" width="252" height="110" fill="#ffffff" stroke="#d8ded0" stroke-width="1" />
-    <text x="338" y="188" font-size="11" font-weight="700" letter-spacing="0.5" fill="#92ad39">DAY 60</text>
-    <text x="338" y="214" font-size="13" font-weight="600" fill="#1d2720">Viewed the Investor Scorecard</text>
-    <line x1="338" y1="238" x2="558" y2="238" stroke="#e9ede0" />
-    <text x="338" y="256" font-size="11" fill="#657067">Website</text>
+    <rect x="416" y="160" width="348" height="130" fill="#ffffff" stroke="#d8ded0" stroke-width="1" />
+    <text x="436" y="190" font-size="11" font-weight="700" letter-spacing="0.5" fill="#92ad39">DAY 60</text>
+    <text x="436" y="218" font-size="14" font-weight="600" fill="#1d2720">Visited the Investor Scorecard</text>
+    <text x="436" y="238" font-size="14" font-weight="600" fill="#1d2720">page</text>
+    <line x1="436" y1="256" x2="744" y2="256" stroke="#e9ede0" />
+    <text x="436" y="276" font-size="11" fill="#657067">Website &#183; website visit</text>
   </g>
 
-  <line x1="574" y1="215" x2="594" y2="215" stroke="#92ad39" stroke-width="2" />
-  <path d="M594 215 L587.7 218 M594 215 L587.7 212" fill="none" stroke="#92ad39" stroke-width="2" stroke-linecap="round" />
+  <line x1="764" y1="225" x2="792" y2="225" stroke="#92ad39" stroke-width="2" />
+  <path d="M792 225 L784 229 M792 225 L784 221" fill="none" stroke="#92ad39" stroke-width="2" stroke-linecap="round" />
 
   <g>
-    <rect x="604" y="160" width="252" height="110" fill="#ffffff" stroke="#d8ded0" stroke-width="1" />
-    <text x="620" y="188" font-size="11" font-weight="700" letter-spacing="0.5" fill="#92ad39">DAY 62</text>
-    <text x="620" y="214" font-size="13" font-weight="600" fill="#1d2720">Registered for a webinar</text>
-    <line x1="620" y1="238" x2="840" y2="238" stroke="#e9ede0" />
-    <text x="620" y="256" font-size="11" fill="#657067">Webinar</text>
+    <rect x="792" y="160" width="348" height="130" fill="#ffffff" stroke="#d8ded0" stroke-width="1" />
+    <text x="812" y="190" font-size="11" font-weight="700" letter-spacing="0.5" fill="#92ad39">DAY 62</text>
+    <text x="812" y="218" font-size="14" font-weight="600" fill="#1d2720">Registered for a property</text>
+    <text x="812" y="238" font-size="14" font-weight="600" fill="#1d2720">webinar</text>
+    <line x1="812" y1="256" x2="1120" y2="256" stroke="#e9ede0" />
+    <text x="812" y="276" font-size="11" fill="#657067">Webinar</text>
   </g>
 
-  <line x1="856" y1="215" x2="876" y2="215" stroke="#92ad39" stroke-width="2" />
-  <path d="M876 215 L869.7 218 M876 215 L869.7 212" fill="none" stroke="#92ad39" stroke-width="2" stroke-linecap="round" />
+  <!-- Row 2 -->
+  <text x="40" y="330" font-size="11" font-weight="700" letter-spacing="1" fill="#92ad39">DAY 63-73 &#183; CONSIDERATION</text>
 
   <g>
-    <rect x="886" y="160" width="252" height="110" fill="#ffffff" stroke="#d8ded0" stroke-width="1" />
-    <text x="902" y="188" font-size="11" font-weight="700" letter-spacing="0.5" fill="#92ad39">DAY 63</text>
-    <text x="902" y="214" font-size="13" font-weight="600" fill="#1d2720">Submitted a callback enquiry</text>
-    <line x1="902" y1="238" x2="1122" y2="238" stroke="#e9ede0" />
-    <text x="902" y="256" font-size="11" fill="#657067">Website form</text>
+    <rect x="40" y="342" width="348" height="130" fill="#ffffff" stroke="#d8ded0" stroke-width="1" />
+    <text x="60" y="372" font-size="11" font-weight="700" letter-spacing="0.5" fill="#92ad39">DAY 63</text>
+    <text x="60" y="400" font-size="14" font-weight="600" fill="#1d2720">Submitted a callback</text>
+    <text x="60" y="420" font-size="14" font-weight="600" fill="#1d2720">enquiry</text>
+    <line x1="60" y1="438" x2="368" y2="438" stroke="#e9ede0" />
+    <text x="60" y="458" font-size="11" fill="#657067">Website form</text>
   </g>
 
-  <!-- Transition -->
-  <line x1="589" y1="280" x2="589" y2="332" stroke="#92ad39" stroke-width="2" stroke-dasharray="4 3" />
-  <path d="M589 332 L585 324 M589 332 L593 324" fill="none" stroke="#92ad39" stroke-width="2" stroke-linecap="round" />
-  <text x="604" y="310" font-size="11" fill="#657067">3 days later</text>
+  <line x1="388" y1="407" x2="416" y2="407" stroke="#92ad39" stroke-width="2" />
+  <path d="M416 407 L408 411 M416 407 L408 403" fill="none" stroke="#92ad39" stroke-width="2" stroke-linecap="round" />
 
-  <!-- Row 2 label -->
-  <text x="40" y="338" font-size="11" font-weight="700" letter-spacing="1" fill="#92ad39">DAY 66-92 &#183; DISCOVERY TO PURCHASE</text>
-
-  <!-- Row 2 boxes -->
   <g>
-    <rect x="40" y="350" width="252" height="130" fill="#faf3ea" stroke="#c8a27a" stroke-width="1.5" />
-    <text x="56" y="378" font-size="11" font-weight="700" letter-spacing="0.5" fill="#9a7442">DAY 66</text>
-    <text x="56" y="404" font-size="13" font-weight="600" fill="#1d2720">Had a discovery call</text>
-    <line x1="56" y1="418" x2="276" y2="418" stroke="#e8d9c4" />
-    <text x="56" y="432" font-size="9" font-weight="700" letter-spacing="0.8" fill="#9a7442">PORTFOLIO DETAILS</text>
-    <rect x="56" y="438" width="180" height="16" rx="3" fill="#ecdfc9" />
-    <line x1="56" y1="438" x2="236" y2="454" stroke="#9a7442" stroke-width="1.4" />
-    <line x1="56" y1="454" x2="236" y2="438" stroke="#9a7442" stroke-width="1.4" />
+    <rect x="416" y="342" width="348" height="130" fill="#faf3ea" stroke="#c8a27a" stroke-width="1.5" />
+    <text x="436" y="372" font-size="11" font-weight="700" letter-spacing="0.5" fill="#9a7442">DAY 66</text>
+    <text x="436" y="400" font-size="14" font-weight="600" fill="#1d2720">Had a discovery call</text>
+    <line x1="436" y1="416" x2="744" y2="416" stroke="#e8d9c4" />
+    <text x="436" y="432" font-size="9" font-weight="700" letter-spacing="0.8" fill="#9a7442">PORTFOLIO DETAILS</text>
+    <rect x="436" y="438" width="180" height="16" rx="3" fill="#ecdfc9" />
+    <line x1="436" y1="438" x2="616" y2="454" stroke="#9a7442" stroke-width="1.4" />
+    <line x1="436" y1="454" x2="616" y2="438" stroke="#9a7442" stroke-width="1.4" />
   </g>
 
-  <line x1="292" y1="405" x2="312" y2="405" stroke="#92ad39" stroke-width="2" />
-  <path d="M312 405 L305.7 408 M312 405 L305.7 402" fill="none" stroke="#92ad39" stroke-width="2" stroke-linecap="round" />
+  <line x1="764" y1="407" x2="792" y2="407" stroke="#92ad39" stroke-width="2" />
+  <path d="M792 407 L784 411 M792 407 L784 403" fill="none" stroke="#92ad39" stroke-width="2" stroke-linecap="round" />
 
   <g>
-    <rect x="322" y="350" width="252" height="130" fill="#ffffff" stroke="#d8ded0" stroke-width="1" />
-    <text x="338" y="378" font-size="11" font-weight="700" letter-spacing="0.5" fill="#92ad39">DAY 73</text>
-    <text x="338" y="404" font-size="13" font-weight="600" fill="#1d2720">Confirmed plan commitment</text>
-    <line x1="338" y1="428" x2="558" y2="428" stroke="#e9ede0" />
-    <text x="338" y="446" font-size="11" fill="#657067">Email</text>
+    <rect x="792" y="342" width="348" height="130" fill="#ffffff" stroke="#d8ded0" stroke-width="1" />
+    <text x="812" y="372" font-size="11" font-weight="700" letter-spacing="0.5" fill="#92ad39">DAY 73</text>
+    <text x="812" y="400" font-size="14" font-weight="600" fill="#1d2720">Researched the plan FAQs</text>
+    <text x="812" y="420" font-size="14" font-weight="600" fill="#1d2720">online</text>
+    <line x1="812" y1="438" x2="1120" y2="438" stroke="#e9ede0" />
+    <text x="812" y="458" font-size="11" fill="#657067">Website &#183; website visit</text>
   </g>
 
-  <line x1="574" y1="405" x2="594" y2="405" stroke="#92ad39" stroke-width="2" />
-  <path d="M594 405 L587.7 408 M594 405 L587.7 402" fill="none" stroke="#92ad39" stroke-width="2" stroke-linecap="round" />
+  <!-- Row 3 -->
+  <text x="40" y="512" font-size="11" font-weight="700" letter-spacing="1" fill="#92ad39">DAY 73-92 &#183; COMMITMENT &amp; CLOSE</text>
 
   <g>
-    <rect x="604" y="350" width="252" height="130" fill="#f1f5e2" stroke="#92ad39" stroke-width="1.5" />
-    <text x="620" y="378" font-size="11" font-weight="700" letter-spacing="0.5" fill="#71872b">DAY 86</text>
-    <text x="620" y="400" font-size="13" font-weight="700" fill="#1d2720">Strategic Property Plan</text>
-    <text x="620" y="418" font-size="13" font-weight="700" fill="#1d2720">purchased</text>
-    <line x1="620" y1="438" x2="840" y2="438" stroke="#d7e2bb" />
-    <text x="620" y="456" font-size="11" fill="#52611e">Sale</text>
+    <rect x="40" y="524" width="348" height="130" fill="#ffffff" stroke="#d8ded0" stroke-width="1" />
+    <text x="60" y="554" font-size="11" font-weight="700" letter-spacing="0.5" fill="#92ad39">DAY 73</text>
+    <text x="60" y="582" font-size="14" font-weight="600" fill="#1d2720">Confirmed plan commitment</text>
+    <text x="60" y="602" font-size="14" font-weight="600" fill="#1d2720">by email</text>
+    <line x1="60" y1="620" x2="368" y2="620" stroke="#e9ede0" />
+    <text x="60" y="640" font-size="11" fill="#657067">Email</text>
   </g>
 
-  <line x1="856" y1="405" x2="876" y2="405" stroke="#92ad39" stroke-width="2" />
-  <path d="M876 405 L869.7 408 M876 405 L869.7 402" fill="none" stroke="#92ad39" stroke-width="2" stroke-linecap="round" />
+  <line x1="388" y1="589" x2="416" y2="589" stroke="#92ad39" stroke-width="2" />
+  <path d="M416 589 L408 593 M416 589 L408 585" fill="none" stroke="#92ad39" stroke-width="2" stroke-linecap="round" />
 
   <g>
-    <rect x="886" y="350" width="252" height="130" fill="#ffffff" stroke="#d8ded0" stroke-width="1" />
-    <text x="902" y="378" font-size="11" font-weight="700" letter-spacing="0.5" fill="#92ad39">DAY 92</text>
-    <text x="902" y="404" font-size="13" font-weight="600" fill="#1d2720">Returned the fact-finder</text>
-    <line x1="902" y1="428" x2="1122" y2="428" stroke="#e9ede0" />
-    <text x="902" y="446" font-size="11" fill="#657067">Email</text>
+    <rect x="416" y="524" width="348" height="130" fill="#f1f5e2" stroke="#92ad39" stroke-width="1.5" />
+    <text x="436" y="554" font-size="11" font-weight="700" letter-spacing="0.5" fill="#71872b">DAY 86</text>
+    <text x="436" y="582" font-size="14" font-weight="700" fill="#1d2720">Strategic Property Plan</text>
+    <text x="436" y="602" font-size="14" font-weight="700" fill="#1d2720">purchased</text>
+    <line x1="436" y1="620" x2="744" y2="620" stroke="#d7e2bb" />
+    <text x="436" y="640" font-size="11" fill="#52611e">Sale</text>
+  </g>
+
+  <line x1="764" y1="589" x2="792" y2="589" stroke="#92ad39" stroke-width="2" />
+  <path d="M792 589 L784 593 M792 589 L784 585" fill="none" stroke="#92ad39" stroke-width="2" stroke-linecap="round" />
+
+  <g>
+    <rect x="792" y="524" width="348" height="130" fill="#ffffff" stroke="#d8ded0" stroke-width="1" />
+    <text x="812" y="554" font-size="11" font-weight="700" letter-spacing="0.5" fill="#92ad39">DAY 92</text>
+    <text x="812" y="582" font-size="14" font-weight="600" fill="#1d2720">Returned the completed</text>
+    <text x="812" y="602" font-size="14" font-weight="600" fill="#1d2720">fact-finder</text>
+    <line x1="812" y1="620" x2="1120" y2="620" stroke="#e9ede0" />
+    <text x="812" y="640" font-size="11" fill="#657067">Email</text>
   </g>
 
   <!-- Legend -->
-  <rect x="40" y="500" width="24" height="12" rx="2" fill="#dfe3d8" />
-  <text x="72" y="510" font-size="11" fill="#657067">Personal detail, redacted</text>
-  <rect x="300" y="500" width="24" height="12" rx="2" fill="#ecdfc9" />
-  <line x1="300" y1="500" x2="324" y2="512" stroke="#9a7442" stroke-width="1.4" />
-  <line x1="300" y1="512" x2="324" y2="500" stroke="#9a7442" stroke-width="1.4" />
-  <text x="332" y="510" font-size="11" fill="#657067">Portfolio detail, redacted</text>
+  <rect x="40" y="690" width="24" height="12" rx="2" fill="#dfe3d8" />
+  <text x="72" y="700" font-size="11" fill="#657067">Personal detail, redacted</text>
+  <rect x="300" y="690" width="24" height="12" rx="2" fill="#ecdfc9" />
+  <line x1="300" y1="690" x2="324" y2="702" stroke="#9a7442" stroke-width="1.4" />
+  <line x1="300" y1="702" x2="324" y2="690" stroke="#9a7442" stroke-width="1.4" />
+  <text x="332" y="700" font-size="11" fill="#657067">Portfolio detail, redacted</text>
 </svg>

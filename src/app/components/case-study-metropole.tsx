@@ -234,7 +234,7 @@ export function MetropoleCaseStudy() {
             <h2 className={`${display} mt-5 max-w-[24ch] text-[35px] leading-[1.15] tracking-[-.03em] sm:text-[46px]`}>One real client, every touchpoint, in order.</h2>
             <p className={`${sans} mt-6 max-w-[720px] text-[16px] leading-7 text-[#586058]`}>Below is a real client journey pulled straight from the Central Customer View - newsletter signup to webinar to discovery call to purchase, with the actual gaps in between. It took 63 days from first contact to enquiry, and 86 to a signed Strategic Property Plan. The client's name, contact details and portfolio specifics are redacted.</p>
             <div className="mt-10 overflow-x-auto border border-[#d8ded0] bg-[#f9faf5] p-4 md:p-6">
-              <img src={journeyIllustration} alt="An eight-step real client journey through Metropole's Central Customer View, from subscribing to a property newsletter through to purchasing a Strategic Property Plan 86 days later, with the client's name, email and portfolio details shown redacted." className="min-w-[980px]" />
+              <img src={journeyIllustration} alt="A nine-step real client journey through Metropole's Central Customer View: a newsletter subscription, two separate website visits, a webinar registration, a callback enquiry, a discovery call, a confirmation email, a Strategic Property Plan purchase 86 days in and a returned fact-finder, with the client's name, email and portfolio details shown redacted." className="min-w-[980px]" />
             </div>
           </div>
         </section>
