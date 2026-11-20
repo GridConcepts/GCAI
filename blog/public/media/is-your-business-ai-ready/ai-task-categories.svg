@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-labelledby="t d" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <title id="t">Eight categories where AI tools are already mature</title>
+  <desc id="d">A grid of eight task categories with mature AI solutions available now: text and correspondence, document and PDF processing, data analysis and spreadsheets, presentation creation, meetings and calls, programming and coding, visuals and design, and task planning.</desc>
+  <rect width="900" height="300" fill="#f9faf5" stroke="#d8ded0"/>
+
+  <text x="30" y="40" font-family="Lora, Georgia, serif" font-weight="600" font-size="22" fill="#1d2720">Where mature AI tools exist right now</text>
+  <text x="30" y="62" font-size="13" fill="#657067">Eight categories of tasks, each with established solutions today</text>
+
+  <!-- Row 1 -->
+  <rect x="30" y="84" width="200" height="90" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+  <text x="130" y="122" text-anchor="middle" font-size="13" fill="#1d2720" font-weight="600">Text &amp;</text>
+  <text x="130" y="140" text-anchor="middle" font-size="13" fill="#1d2720" font-weight="600">correspondence</text>
+
+  <rect x="240" y="84" width="200" height="90" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+  <text x="340" y="122" text-anchor="middle" font-size="13" fill="#1d2720" font-weight="600">Document &amp;</text>
+  <text x="340" y="140" text-anchor="middle" font-size="13" fill="#1d2720" font-weight="600">PDF processing</text>
+
+  <rect x="450" y="84" width="200" height="90" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+  <text x="550" y="112" text-anchor="middle" font-size="13" fill="#1d2720" font-weight="600">Data analysis &amp;</text>
+  <text x="550" y="130" text-anchor="middle" font-size="13" fill="#1d2720" font-weight="600">spreadsheets</text>
+
+  <rect x="660" y="84" width="210" height="90" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+  <text x="765" y="122" text-anchor="middle" font-size="13" fill="#1d2720" font-weight="600">Presentation</text>
+  <text x="765" y="140" text-anchor="middle" font-size="13" fill="#1d2720" font-weight="600">creation</text>
+
+  <!-- Row 2 -->
+  <rect x="30" y="186" width="200" height="90" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+  <text x="130" y="224" text-anchor="middle" font-size="13" fill="#1d2720" font-weight="600">Meetings &amp;</text>
+  <text x="130" y="242" text-anchor="middle" font-size="13" fill="#1d2720" font-weight="600">calls</text>
+
+  <rect x="240" y="186" width="200" height="90" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+  <text x="340" y="224" text-anchor="middle" font-size="13" fill="#1d2720" font-weight="600">Programming &amp;</text>
+  <text x="340" y="242" text-anchor="middle" font-size="13" fill="#1d2720" font-weight="600">coding</text>
+
+  <rect x="450" y="186" width="200" height="90" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+  <text x="550" y="224" text-anchor="middle" font-size="13" fill="#1d2720" font-weight="600">Visuals &amp;</text>
+  <text x="550" y="242" text-anchor="middle" font-size="13" fill="#1d2720" font-weight="600">design</text>
+
+  <rect x="660" y="186" width="210" height="90" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+  <text x="765" y="224" text-anchor="middle" font-size="13" fill="#1d2720" font-weight="600">Task</text>
+  <text x="765" y="242" text-anchor="middle" font-size="13" fill="#1d2720" font-weight="600">planning</text>
+</svg>

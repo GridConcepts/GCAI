@@ -6,6 +6,8 @@ pubDate: 'Jun 24 2026'
 
 A pilot that impresses in a meeting can still fail as a business decision. The usual pattern is familiar: a promising demo, unclear ownership, no baseline, and no plan for what “done” looks like in the real workflow.
 
+![Simple two-box diagram showing that a pilot impressing people in the room is a different test from the pilot actually paying off as a business decision.](/insights/media/why-ai-pilots-fail/demo-vs-business-result.svg)
+
 ## Three common failure modes
 
 ### 1. No measurable outcome

@@ -31,3 +31,5 @@ It covers the readiness picture, the common failure modes, and a practical first
 ## Start with clarity
 
 If you want a business-specific snapshot first, take the complimentary [Data Check](https://gridconcepts.com.au/#contact) on the Grid Concepts site. It is twelve questions, no setup, and designed to show where the foundations need attention before tools do.
+
+![Stat call-out showing the complimentary Data Check is 12 questions and takes about 10 minutes to complete.](/insights/media/state-of-ai-victorian-smes/data-check-stat.svg)

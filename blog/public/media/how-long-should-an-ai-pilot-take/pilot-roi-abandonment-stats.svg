@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-labelledby="t d" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <title id="t">What rushed AI pilots actually deliver</title>
+  <desc id="d">Two stat call-outs: 95% of generative AI pilots show no measurable return on the P&amp;L per MIT Project NANDA, and the share of businesses abandoning most of their AI programs jumped from 17% to 42% in a single year.</desc>
+  <rect width="900" height="300" fill="#f9faf5" stroke="#d8ded0"/>
+
+  <text x="30" y="42" font-family="Lora, Georgia, serif" font-weight="600" font-size="22" fill="#1d2720">What skipping the slow parts costs you</text>
+  <text x="30" y="64" font-size="13" fill="#657067">Rushed pilots, not bad tools, drive most of this</text>
+
+  <!-- Tile 1 -->
+  <rect x="30" y="90" width="400" height="180" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+  <text x="230" y="178" text-anchor="middle" font-family="Lora, Georgia, serif" font-weight="600" font-size="56" fill="#92ad39">95%</text>
+  <text x="230" y="210" text-anchor="middle" font-size="15" fill="#1d2720">of generative AI pilots show no</text>
+  <text x="230" y="230" text-anchor="middle" font-size="15" fill="#1d2720">measurable return on the P&amp;L</text>
+  <text x="230" y="254" text-anchor="middle" font-size="12" fill="#657067">Source: MIT Project NANDA</text>
+
+  <!-- Tile 2 -->
+  <rect x="470" y="90" width="400" height="180" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+  <text x="670" y="150" text-anchor="middle" font-family="Lora, Georgia, serif" font-weight="600" font-size="34" fill="#657067">17%</text>
+  <text x="730" y="150" text-anchor="middle" font-family="Lora, Georgia, serif" font-weight="600" font-size="22" fill="#1d2720">&#8594;</text>
+  <text x="790" y="150" text-anchor="middle" font-family="Lora, Georgia, serif" font-weight="600" font-size="56" fill="#c8a27a">42%</text>
+  <text x="670" y="210" text-anchor="middle" font-size="15" fill="#1d2720">share of businesses abandoning most</text>
+  <text x="670" y="230" text-anchor="middle" font-size="15" fill="#1d2720">of their AI programs in a single year</text>
+  <text x="670" y="254" text-anchor="middle" font-size="12" fill="#657067">Source: industry tracking survey, year over year</text>
+</svg>

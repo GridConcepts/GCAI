@@ -6,6 +6,8 @@ pubDate: 'Sep 04 2026'
 
 Most COOs who go looking for AI help end up with a folder of recommendations and no working system. That is not always a sign the firm was dishonest - it is often a sign of what they were built to sell. RAND's analysis of enterprise AI projects found 80% fail to deliver the business value promised, and MIT's Project NANDA put the figure for generative AI pilots even higher, at around 95% showing no measurable P&L return. A good share of that gap traces back to one unexamined decision at the start: whether you hired a consultancy to tell you what to build, or a partner accountable for building it. The AI implementation partner vs. consultancy question is worth settling before you sign anything, because the two engagements are structured to produce different things.
 
+![Bar chart showing RAND found 80% of enterprise AI projects fail to deliver the promised business value, and MIT's Project NANDA found around 95% of generative AI pilots show no measurable profit and loss return.](/insights/media/ai-implementation-partner-vs-consultancy/project-failure-rates.svg)
+
 ## What each one is actually built to deliver
 
 A consultancy's deliverable is clarity - a strategy document, a prioritised roadmap, a view on where AI could create value and in what order to pursue it. That is genuinely useful work when the gap is direction, not execution. But the engagement usually ends at the recommendation. The consultant is accountable for the quality of the analysis, not for whether anyone acts on it or whether the eventual build produces a result.

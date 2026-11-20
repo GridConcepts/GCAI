@@ -46,6 +46,8 @@ Yes, if you want your content to sit comfortably alongside what is currently ran
 - thegoodmarketer.co.uk/blog/
 - londonmarketingcompany.co.uk/our-blog/
 
+![A checklist of the four top-ranking marketing blogs reviewed in July 2026, each showing near-zero em dash usage with the shorter en dash used in its place.](/insights/media/how-to-use-the-em-dash-in-2026/sites-reviewed-checklist.svg)
+
 The pattern is hard to miss. Across every one of these blogs, posts contain very few em dashes at all, and where a dash is needed the shorter en dash does the job. We reviewed these blogs in July 2026, so feel free to click through and scan the articles from that period yourself. If you are a copywriter, an SEO specialist or a marketer, the near-total absence of em dashes will jump out at you.
 
 So if you want your content to match the 2026 norm, ask your writers to rein in the em dash, and if you are generating copy with AI, make that instruction an explicit part of your prompt.

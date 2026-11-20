@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-labelledby="t d" font-family="Inter, Segoe UI, Arial, sans-serif">
+<title id="t">Automating on top of disconnected data</title>
+<desc id="d">Flow diagram showing job history, customer details and pricing sitting in three disconnected places feeding into an automated quoting or scheduling tool, which then sends mistakes to customers in seconds instead of a phone call catching them in a week.</desc>
+<rect width="900" height="360" fill="#f9faf5" stroke="#d8ded0"/>
+
+<text x="30" y="42" font-family="Lora, Georgia, serif" font-weight="600" font-size="22" fill="#1d2720">Automating on top of disconnected data</text>
+<text x="30" y="64" font-size="13" fill="#657067">Why speed without a fix underneath makes mistakes travel faster</text>
+
+<!-- Three source boxes -->
+<rect x="40" y="95" width="200" height="80" rx="6" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="140" y="130" text-anchor="middle" font-size="13" font-weight="600" fill="#1d2720">Job history</text>
+<text x="140" y="150" text-anchor="middle" font-size="11" fill="#657067">in one system</text>
+
+<rect x="260" y="95" width="200" height="80" rx="6" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="360" y="130" text-anchor="middle" font-size="13" font-weight="600" fill="#1d2720">Customer details</text>
+<text x="360" y="150" text-anchor="middle" font-size="11" fill="#657067">in a spreadsheet</text>
+
+<rect x="480" y="95" width="200" height="80" rx="6" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="580" y="130" text-anchor="middle" font-size="13" font-weight="600" fill="#1d2720">Pricing</text>
+<text x="580" y="150" text-anchor="middle" font-size="11" fill="#657067">in someone's head</text>
+
+<!-- Converging arrows to automation box -->
+<line x1="140" y1="175" x2="390" y2="230" stroke="#92ad39" stroke-width="2"/>
+<line x1="360" y1="175" x2="400" y2="230" stroke="#92ad39" stroke-width="2"/>
+<line x1="580" y1="175" x2="420" y2="230" stroke="#92ad39" stroke-width="2"/>
+<path d="M 416 232 L 406 224 L 403 236 Z" fill="#92ad39"/>
+
+<!-- Automation box -->
+<rect x="320" y="235" width="200" height="60" rx="6" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="420" y="262" text-anchor="middle" font-size="13" font-weight="600" fill="#1d2720">Automated quoting</text>
+<text x="420" y="280" text-anchor="middle" font-size="11" fill="#657067">or scheduling tool</text>
+
+<!-- Arrow to outcome -->
+<line x1="520" y1="265" x2="632" y2="265" stroke="#92ad39" stroke-width="2"/>
+<path d="M 632 265 L 620 259 L 620 271 Z" fill="#92ad39"/>
+
+<!-- Outcome box: highlighted -->
+<rect x="635" y="225" width="225" height="80" rx="6" fill="#faf3ea" stroke="#c8a27a" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="747" y="255" text-anchor="middle" font-size="13" font-weight="600" fill="#1d2720">Mistake reaches the</text>
+<text x="747" y="273" text-anchor="middle" font-size="13" font-weight="600" fill="#1d2720">customer in seconds</text>
+<text x="747" y="293" text-anchor="middle" font-size="11" fill="#657067">not a phone call in a week</text>
+
+<text x="30" y="335" font-size="12" fill="#657067">Fix: know where your data lives and how clean it is, before you automate on top of it</text>
+</svg>

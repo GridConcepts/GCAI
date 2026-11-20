@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" role="img" aria-labelledby="t1 d1" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <title id="t1">Over 70% of leaders piloting AI have no structured measurement framework</title>
+  <desc id="d1">A stat call-out showing that more than 70% of leaders piloting or scaling AI at global capability centres had no structured framework in place to measure the return.</desc>
+  <rect width="900" height="200" fill="#f9faf5" stroke="#d8ded0"/>
+
+  <text x="60" y="38" font-size="12" letter-spacing="1.5" fill="#657067">NO MEASUREMENT FRAMEWORK</text>
+
+  <text x="60" y="130" font-family="Lora, Georgia, serif" font-weight="600" font-size="72" fill="#1d2720">70%+</text>
+
+  <line x1="230" y1="55" x2="230" y2="150" stroke="#d8ded0" stroke-width="1"/>
+
+  <text x="260" y="78" font-size="17" fill="#1d2720">of leaders piloting or scaling AI</text>
+  <text x="260" y="100" font-size="17" fill="#1d2720">have no structured framework</text>
+  <text x="260" y="122" font-size="17" fill="#1d2720">to measure the return at all</text>
+
+  <text x="60" y="175" font-size="12" fill="#657067">Source: industry study of global capability centres piloting or scaling AI, 2025</text>
+</svg>

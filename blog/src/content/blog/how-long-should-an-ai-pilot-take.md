@@ -25,6 +25,8 @@ Add it up and a single pilot, done properly, runs around three to four months en
 
 The gap between a two-week promise and a three-to-four-month reality isn't a sales trick so much as a scope mismatch. A demo can be built in a couple of weeks. A pilot that produces a number a business owner or a board can trust takes longer, because the baseline, the real data connections, and the measurement period all have to happen before anyone can say whether it actually worked. MIT's Project NANDA found 95% of generative AI pilots show no measurable return on the P&L - and the pattern behind most of that 95% isn't a bad tool, it's a pilot that skipped the slow parts to hit a fast deadline. Separate industry tracking found the share of businesses abandoning most of their AI programs jumped from 17% to 42% in a single year, which tracks with pilots that were rushed into a result nobody can defend.
 
+![Two stat call-outs showing that 95 percent of generative AI pilots show no measurable return on the P&L per MIT Project NANDA, and the share of businesses abandoning most of their AI programs jumped from 17 percent to 42 percent in a single year.](/insights/media/how-long-should-an-ai-pilot-take/pilot-roi-abandonment-stats.svg)
+
 On the other end, a pilot can also run too long. If there's no review date and no pre-agreed threshold, a trial can drift on for six months or more without anyone deciding whether it's actually working - which is just as unhelpful as rushing it. The fix in both directions is the same: agree the timeline and the success criteria before the pilot starts, not while you're already running it.
 
 ## What actually slows a pilot down

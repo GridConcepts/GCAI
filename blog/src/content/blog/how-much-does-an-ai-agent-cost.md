@@ -33,6 +33,8 @@ Treat any of those numbers with healthy scepticism until someone has actually lo
 
 The costly mistake is not paying too much upfront. It is signing an open-ended "day rate" arrangement with no fixed scope, where the bill keeps growing as the agency discovers your CRM has duplicate records or your quoting process is not actually one process but three. That discovery work needs to happen - it should just happen before you get a number, not after you have already signed.
 
+![A comparison of two flows: an open-ended day-rate path where discovery happens after signing and the bill grows as problems surface, against a fixed-quote path where discovery happens before a number is given and the setup and monthly cost are fixed.](/insights/media/how-much-does-an-ai-agent-cost/discovery-order-flow.svg)
+
 ## What a fair quote actually looks like
 
 Before you accept a price, expect the agency to be able to name:

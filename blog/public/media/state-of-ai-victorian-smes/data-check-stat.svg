@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 160" role="img" aria-labelledby="t3 d3" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <title id="t3">The Data Check: 12 questions, about 10 minutes</title>
+  <desc id="d3">A stat call-out showing the complimentary Data Check takes 12 questions and about 10 minutes to complete.</desc>
+  <rect width="900" height="160" fill="#f9faf5" stroke="#d8ded0"/>
+
+  <text x="60" y="34" font-size="12" letter-spacing="1.5" fill="#657067">THE DATA CHECK</text>
+
+  <text x="220" y="100" font-family="Lora, Georgia, serif" font-weight="600" font-size="56" fill="#1d2720" text-anchor="middle">12</text>
+  <text x="220" y="124" font-size="13" letter-spacing="1" fill="#657067" text-anchor="middle">QUESTIONS</text>
+
+  <line x1="450" y1="45" x2="450" y2="130" stroke="#d8ded0" stroke-width="1"/>
+
+  <text x="680" y="100" font-family="Lora, Georgia, serif" font-weight="600" font-size="56" fill="#1d2720" text-anchor="middle">~10</text>
+  <text x="680" y="124" font-size="13" letter-spacing="1" fill="#657067" text-anchor="middle">MINUTES</text>
+
+  <text x="450" y="150" font-size="12" fill="#657067" text-anchor="middle">Grid Concepts' complimentary AI-Readiness Data Check</text>
+</svg>

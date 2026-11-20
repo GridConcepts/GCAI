@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" aria-labelledby="t d" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <title id="t">Marketing blogs reviewed for em dash usage</title>
+  <desc id="d">A checklist of the four top-ranking marketing blogs reviewed in July 2026 for digital marketing New York and London searches, each showing near-zero em dash usage with the shorter en dash used in its place.</desc>
+  <rect width="900" height="320" fill="#f9faf5" stroke="#d8ded0"/>
+
+  <text x="30" y="40" font-family="Lora, Georgia, serif" font-weight="600" font-size="22" fill="#1d2720">Sites reviewed, July 2026</text>
+  <text x="30" y="62" font-size="13" fill="#657067">Top-ranking blogs for "digital marketing New York" and "digital marketing London"</text>
+
+  <rect x="30" y="86" width="840" height="50" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+  <circle cx="56" cy="111" r="10" fill="#92ad39"/>
+  <path d="M51 111 L54.5 115 L62 106" stroke="#f9faf5" stroke-width="2" fill="none"/>
+  <text x="80" y="107" font-size="14" fill="#1d2720" font-family="Lora, Georgia, serif" font-weight="600">aumcore.com/blog/</text>
+  <text x="80" y="124" font-size="12" fill="#657067">Near-zero em dash use - en dash used instead</text>
+
+  <rect x="30" y="144" width="840" height="50" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+  <circle cx="56" cy="169" r="10" fill="#92ad39"/>
+  <path d="M51 169 L54.5 173 L62 164" stroke="#f9faf5" stroke-width="2" fill="none"/>
+  <text x="80" y="165" font-size="14" fill="#1d2720" font-family="Lora, Georgia, serif" font-weight="600">digitaldrewsem.com/blog/</text>
+  <text x="80" y="182" font-size="12" fill="#657067">Near-zero em dash use - en dash used instead</text>
+
+  <rect x="30" y="202" width="840" height="50" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+  <circle cx="56" cy="227" r="10" fill="#c8a27a"/>
+  <path d="M51 227 L54.5 231 L62 222" stroke="#f9faf5" stroke-width="2" fill="none"/>
+  <text x="80" y="223" font-size="14" fill="#1d2720" font-family="Lora, Georgia, serif" font-weight="600">thegoodmarketer.co.uk/blog/</text>
+  <text x="80" y="240" font-size="12" fill="#657067">Near-zero em dash use - en dash used instead</text>
+
+  <rect x="30" y="260" width="840" height="50" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+  <circle cx="56" cy="285" r="10" fill="#c8a27a"/>
+  <path d="M51 285 L54.5 289 L62 280" stroke="#f9faf5" stroke-width="2" fill="none"/>
+  <text x="80" y="281" font-size="14" fill="#1d2720" font-family="Lora, Georgia, serif" font-weight="600">londonmarketingcompany.co.uk/our-blog/</text>
+  <text x="80" y="298" font-size="12" fill="#657067">Near-zero em dash use - en dash used instead</text>
+</svg>

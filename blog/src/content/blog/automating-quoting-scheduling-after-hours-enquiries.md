@@ -24,6 +24,8 @@ ABS figures for 2024–25 show AI use among small and micro businesses is still 
 
 None of the above works if your job history is in one system, your customer details are in a spreadsheet, and your pricing lives in someone's head. Automating a task that draws on three disconnected places just moves the mess faster and further - a wrong customer detail now reaches someone by text in seconds instead of a phone call in a week. The fix is not more software; it is knowing, before you buy anything, where your data actually lives and how clean it is. We cover that gap in more detail in [Fix the data first - then AI works](/insights/fix-the-data-first/).
 
+![Flow diagram showing job history, customer details and pricing sitting in three disconnected places feeding into an automated quoting or scheduling tool, which then sends mistakes to customers in seconds instead of a phone call catching them in a week.](/insights/media/automating-quoting-scheduling-after-hours-enquiries/disconnected-data-risk.svg)
+
 ## Where to actually start
 
 Pick one of the three tasks above - after-hours enquiries is usually the cheapest to fix and the easiest to measure, since you can count missed calls before and after. Do not try to automate all three at once. Get a plain read on your current data and systems first, so whatever you set up for that one task actually connects to where your job and customer information already lives, rather than becoming a fourth place to check.

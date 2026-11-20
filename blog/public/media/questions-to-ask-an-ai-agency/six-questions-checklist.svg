@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="t2 d2" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <title id="t2">Six questions to ask an AI agency before you sign</title>
+  <desc id="d2">A vertical checklist flow of the six questions to ask an AI agency before hiring one: show us a working system; what will you connect to and who owns it after; what data will this see and where does it go; what would tell us this worked; what happens if it underdelivers; and can we start small with a clear exit.</desc>
+  <rect width="900" height="520" fill="#f9faf5" stroke="#d8ded0"/>
+
+  <text x="60" y="44" font-family="Lora, Georgia, serif" font-weight="600" font-size="22" fill="#1d2720">Six questions to ask before you sign</text>
+  <text x="60" y="64" font-size="13" fill="#657067">Ask every one of these before an AI agency gets a contract</text>
+
+  <!-- Box 1 -->
+  <circle cx="178" cy="98" r="16" fill="#92ad39"/>
+  <text x="178" y="103" font-size="14" fill="#ffffff" text-anchor="middle">1</text>
+  <rect x="210" y="75" width="630" height="46" rx="6" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+  <text x="232" y="103" font-size="15" fill="#1d2720">Show us a working system, not a case study</text>
+  <line x1="178" y1="114" x2="178" y2="140" stroke="#92ad39" stroke-width="2"/>
+  <path d="M 172 134 L 178 144 L 184 134 Z" fill="#92ad39"/>
+
+  <!-- Box 2 -->
+  <circle cx="178" cy="164" r="16" fill="#c8a27a"/>
+  <text x="178" y="169" font-size="14" fill="#ffffff" text-anchor="middle">2</text>
+  <rect x="210" y="141" width="630" height="46" rx="6" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+  <text x="232" y="169" font-size="15" fill="#1d2720">What will you connect to, and who owns it after?</text>
+  <line x1="178" y1="180" x2="178" y2="206" stroke="#92ad39" stroke-width="2"/>
+  <path d="M 172 200 L 178 210 L 184 200 Z" fill="#92ad39"/>
+
+  <!-- Box 3 -->
+  <circle cx="178" cy="230" r="16" fill="#92ad39"/>
+  <text x="178" y="235" font-size="14" fill="#ffffff" text-anchor="middle">3</text>
+  <rect x="210" y="207" width="630" height="46" rx="6" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+  <text x="232" y="235" font-size="15" fill="#1d2720">What data will this see, and where does it go?</text>
+  <line x1="178" y1="246" x2="178" y2="272" stroke="#92ad39" stroke-width="2"/>
+  <path d="M 172 266 L 178 276 L 184 266 Z" fill="#92ad39"/>
+
+  <!-- Box 4 -->
+  <circle cx="178" cy="296" r="16" fill="#c8a27a"/>
+  <text x="178" y="301" font-size="14" fill="#ffffff" text-anchor="middle">4</text>
+  <rect x="210" y="273" width="630" height="46" rx="6" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+  <text x="232" y="301" font-size="15" fill="#1d2720">What would tell us this worked?</text>
+  <line x1="178" y1="312" x2="178" y2="338" stroke="#92ad39" stroke-width="2"/>
+  <path d="M 172 332 L 178 342 L 184 332 Z" fill="#92ad39"/>
+
+  <!-- Box 5 -->
+  <circle cx="178" cy="362" r="16" fill="#92ad39"/>
+  <text x="178" y="367" font-size="14" fill="#ffffff" text-anchor="middle">5</text>
+  <rect x="210" y="339" width="630" height="46" rx="6" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+  <text x="232" y="367" font-size="15" fill="#1d2720">What happens if it underdelivers?</text>
+  <line x1="178" y1="378" x2="178" y2="404" stroke="#92ad39" stroke-width="2"/>
+  <path d="M 172 398 L 178 408 L 184 398 Z" fill="#92ad39"/>
+
+  <!-- Box 6 -->
+  <circle cx="178" cy="428" r="16" fill="#c8a27a"/>
+  <text x="178" y="433" font-size="14" fill="#ffffff" text-anchor="middle">6</text>
+  <rect x="210" y="405" width="630" height="46" rx="6" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+  <text x="232" y="433" font-size="15" fill="#1d2720">Can we start small, with a clear exit?</text>
+
+  <text x="60" y="492" font-size="12" fill="#657067">Six questions worth asking before any AI agency sees a signature</text>
+</svg>

@@ -22,6 +22,8 @@ Every second consultancy now has "AI" somewhere on its homepage. There is no lic
 
 **"Can we start small, and what does the exit look like?"** Watch for long lock-in contracts, no trial or pilot phase, and no clear way to get your data back out in a usable format. A short scoped first stage - priced separately from any bigger build - is a normal, healthy way to start.
 
+![A vertical checklist of the six questions to ask an AI agency before signing: show a working system, clarify what it connects to and who owns the output, ask what data it will see and where it goes, define what would prove it worked, ask what happens if it underdelivers, and confirm you can start small with a clear exit.](/insights/media/questions-to-ask-an-ai-agency/six-questions-checklist.svg)
+
 The pattern is the same for every question on that list - it's not the technology that disqualifies an agency, it's how they answer a direct question about your business:
 
 ![Flow diagram: you ask "where does my data go?" - a vague answer leaning on "enterprise-grade security" leads to walk away, while one clear sentence on model, storage and location leads to worth a second meeting](/insights/media/questions-to-ask-an-ai-agency/agency-decision-flow.png)

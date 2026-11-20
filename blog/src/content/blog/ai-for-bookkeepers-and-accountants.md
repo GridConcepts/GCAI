@@ -34,6 +34,8 @@ The tasks above are not the whole job, and treating them as if they were is wher
 
 The most common failure is not the AI getting the maths wrong. It is a firm turning on "smart" categorisation or auto-matching against records that were never clean to begin with - multiple suppliers entered under different spellings, old chart-of-accounts categories nobody tidied up, bank feeds that have been manually overridden for years without anyone documenting why. An automated rule built on that history just repeats the mess faster, and now it is harder to spot because nobody is checking every line by hand anymore. This is the same gap covered in more detail in [Fix the data first - then AI works](/insights/fix-the-data-first/): the tool is only as good as what it is reading from.
 
+![A three-step flow diagram showing that inconsistent records lead to an automated categorisation rule being applied, which then repeats the same mess faster while nobody checks each line by hand anymore.](/insights/media/ai-for-bookkeepers-and-accountants/messy-data-failure-flow.svg)
+
 ## Where to actually start
 
 Before you buy a new "AI-powered" bookkeeping add-on, check two things: how consistent your chart of accounts and coding rules already are, and how much of your invoice and receipt handling already happens in one place rather than across emails, folders and a shoebox. If those are mostly in order, automating reconciliation and data entry is a genuine, fast win. If they are not, that is the first job - an AI tool trained on inconsistent records will just make inconsistent decisions faster.

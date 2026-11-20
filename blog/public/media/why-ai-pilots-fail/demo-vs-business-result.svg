@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 170" role="img" aria-labelledby="t4 d4" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <title id="t4">A pilot can clear the wrong bar</title>
+  <desc id="d4">A simple two-box diagram showing that a pilot impressing people in the room is a different test from the pilot actually paying off as a business decision.</desc>
+  <rect width="900" height="170" fill="#f9faf5" stroke="#d8ded0"/>
+
+  <text x="450" y="34" font-family="Lora, Georgia, serif" font-weight="600" font-size="20" fill="#1d2720" text-anchor="middle">A pilot can clear the wrong bar</text>
+  <text x="450" y="52" font-size="12" fill="#657067" text-anchor="middle">Impressing a room is not the same test as paying off as a business decision</text>
+
+  <rect x="80" y="75" width="300" height="56" rx="6" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+  <text x="230" y="109" font-size="15" fill="#1d2720" text-anchor="middle">Impresses in the room</text>
+
+  <line x1="380" y1="103" x2="500" y2="103" stroke="#92ad39" stroke-width="2"/>
+  <path d="M 494 97 L 504 103 L 494 109 Z" fill="#92ad39"/>
+
+  <rect x="520" y="75" width="300" height="56" rx="6" fill="#faf3ea" stroke="#c8a27a" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="670" y="109" font-size="15" fill="#1d2720" text-anchor="middle">Fails as a business decision</text>
+</svg>

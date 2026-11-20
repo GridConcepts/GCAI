@@ -30,6 +30,8 @@ Keep the pilot itself short - 60 to 90 days in one team or practice group, not a
 
 For a firm bound by APES 110 confidentiality obligations and client privilege, the governance questions are not a compliance afterthought to handle if the pilot succeeds - they're gating criteria that need an answer before day one. At minimum: which system or model processes client data, whether it's used to train anything beyond your own output, and where it's stored and processed. From 10 December 2026, the Privacy Act's automated decision-making transparency reforms require Australian businesses to disclose in their privacy policy when personal information feeds into automated decisions that affect people - so any pilot that touches client-facing decisions should already have that answer ready, not scrambled together after the OAIC's final guidance lands.
 
+![A checklist of three governance questions to answer before a pilot starts - which system processes client data, whether it trains on that data, and where it is stored - alongside a marker for the Privacy Act's automated decision-making disclosure reforms taking effect 10 December 2026.](/insights/media/how-to-structure-an-ai-pilot-for-professional-services/governance-questions-checklist.svg)
+
 If your team can't answer those questions cleanly for the systems already in use, that's the actual finding of the pilot - and it's worth knowing before you scale anything, not after.
 
 ## A structure that survives contact with the business

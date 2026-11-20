@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-labelledby="t d" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <title id="t">Governance questions to answer before day one</title>
+  <desc id="d">A checklist of three data governance questions a pilot should answer before it starts - which system or model processes client data, whether that data trains anything beyond your own output, and where it is stored and processed - plus a marker for the Privacy Act's automated decision-making transparency reforms taking effect 10 December 2026.</desc>
+  <rect width="900" height="360" fill="#f9faf5" stroke="#d8ded0"/>
+
+  <text x="30" y="40" font-family="Lora, Georgia, serif" font-weight="600" font-size="22" fill="#1d2720">Gating questions, not a compliance afterthought</text>
+  <text x="30" y="62" font-size="13" fill="#657067">Answer these before day one, not after the pilot succeeds</text>
+
+  <!-- Checklist items -->
+  <rect x="30" y="86" width="840" height="56" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+  <circle cx="58" cy="114" r="12" fill="#92ad39"/>
+  <text x="58" y="119" text-anchor="middle" font-size="13" fill="#ffffff" font-weight="600">1</text>
+  <text x="84" y="119" font-size="14" fill="#1d2720">Which system or model processes client data</text>
+
+  <rect x="30" y="152" width="840" height="56" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+  <circle cx="58" cy="180" r="12" fill="#92ad39"/>
+  <text x="58" y="185" text-anchor="middle" font-size="13" fill="#ffffff" font-weight="600">2</text>
+  <text x="84" y="185" font-size="14" fill="#1d2720">Whether it's used to train anything beyond your own output</text>
+
+  <rect x="30" y="218" width="840" height="56" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+  <circle cx="58" cy="246" r="12" fill="#92ad39"/>
+  <text x="58" y="251" text-anchor="middle" font-size="13" fill="#ffffff" font-weight="600">3</text>
+  <text x="84" y="251" font-size="14" fill="#1d2720">Where it's stored and processed</text>
+
+  <!-- Deadline marker -->
+  <line x1="30" y1="300" x2="870" y2="300" stroke="#92ad39" stroke-width="2"/>
+  <path d="M870 300 L860 295 L860 305 Z" fill="#92ad39"/>
+  <rect x="610" y="310" width="260" height="40" fill="#faf3ea" stroke="#c8a27a" stroke-dasharray="4 3"/>
+  <text x="740" y="327" text-anchor="middle" font-size="12" fill="#1d2720" font-weight="600">10 Dec 2026</text>
+  <text x="740" y="343" text-anchor="middle" font-size="11" fill="#657067">Privacy Act ADM disclosure reforms take effect</text>
+</svg>

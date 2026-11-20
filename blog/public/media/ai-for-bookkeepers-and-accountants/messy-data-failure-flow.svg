@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" role="img" aria-labelledby="t d" font-family="Inter, Segoe UI, Arial, sans-serif">
+<title id="t">Why automation fails on messy data</title>
+<desc id="d">A three-step flow diagram showing that inconsistent records lead to an automated categorisation rule being applied, which then repeats the same mess faster while nobody checks each line by hand anymore.</desc>
+<rect width="900" height="340" fill="#f9faf5" stroke="#d8ded0"/>
+
+<text x="30" y="42" font-family="Lora, Georgia, serif" font-weight="600" font-size="22" fill="#1d2720">Why automation fails on messy data</text>
+<text x="30" y="64" font-size="13" fill="#657067">The most common failure mode when "smart" rules go on first</text>
+
+<!-- Box 1 -->
+<rect x="40" y="100" width="230" height="110" rx="6" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="155" y="132" text-anchor="middle" font-size="14" font-weight="600" fill="#1d2720">Inconsistent records</text>
+<text x="155" y="154" text-anchor="middle" font-size="12" fill="#657067">Duplicate supplier names,</text>
+<text x="155" y="171" text-anchor="middle" font-size="12" fill="#657067">stale chart-of-accounts codes,</text>
+<text x="155" y="188" text-anchor="middle" font-size="12" fill="#657067">undocumented overrides</text>
+
+<!-- Arrow 1 -->
+<line x1="270" y1="155" x2="332" y2="155" stroke="#92ad39" stroke-width="2"/>
+<path d="M 332 155 L 320 149 L 320 161 Z" fill="#92ad39"/>
+
+<!-- Box 2 -->
+<rect x="335" y="100" width="230" height="110" rx="6" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="450" y="132" text-anchor="middle" font-size="14" font-weight="600" fill="#1d2720">Automated rule applied</text>
+<text x="450" y="154" text-anchor="middle" font-size="12" fill="#657067">"Smart" categorisation or</text>
+<text x="450" y="171" text-anchor="middle" font-size="12" fill="#657067">auto-matching turned on</text>
+<text x="450" y="188" text-anchor="middle" font-size="12" fill="#657067">against the existing history</text>
+
+<!-- Arrow 2 -->
+<line x1="565" y1="155" x2="627" y2="155" stroke="#92ad39" stroke-width="2"/>
+<path d="M 627 155 L 615 149 L 615 161 Z" fill="#92ad39"/>
+
+<!-- Box 3: highlighted outcome -->
+<rect x="630" y="95" width="235" height="120" rx="6" fill="#faf3ea" stroke="#c8a27a" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="747" y="128" text-anchor="middle" font-size="14" font-weight="600" fill="#1d2720">Mess repeats faster</text>
+<text x="747" y="150" text-anchor="middle" font-size="12" fill="#657067">Errors multiply at machine</text>
+<text x="747" y="167" text-anchor="middle" font-size="12" fill="#657067">speed, and nobody is checking</text>
+<text x="747" y="184" text-anchor="middle" font-size="12" fill="#657067">every line by hand anymore</text>
+
+<text x="450" y="270" text-anchor="middle" font-family="Lora, Georgia, serif" font-weight="600" font-size="16" fill="#1d2720">Clean data first, then automate - not the other way around</text>
+<text x="450" y="300" text-anchor="middle" font-size="12" fill="#657067">Source: Grid Concepts AI - on fixing the data before applying AI</text>
+</svg>

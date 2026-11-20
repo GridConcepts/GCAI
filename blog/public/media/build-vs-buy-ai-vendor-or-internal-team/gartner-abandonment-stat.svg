@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" role="img" aria-labelledby="t1 d1" font-family="Inter, Segoe UI, Arial, sans-serif">
+<title id="t1">Gartner forecast: more than 40% of agentic AI projects abandoned by 2027</title>
+<desc id="d1">A stat callout showing Gartner's forecast that more than 40% of agentic AI projects will be abandoned by the end of 2027 due to escalating costs, unclear business value, and inadequate risk controls - a failure mode that hits build and buy decisions equally.</desc>
+<rect width="900" height="280" fill="#f9faf5" stroke="#d8ded0"/>
+<text x="40" y="48" font-family="Lora, Georgia, serif" font-size="22" font-weight="600" fill="#1d2720">The question both sides skip</text>
+<text x="40" y="72" font-size="13" fill="#657067">Gartner forecast - agentic AI projects, by end of 2027</text>
+
+<text x="40" y="178" font-family="Lora, Georgia, serif" font-size="88" font-weight="600" fill="#1d2720">40%+</text>
+
+<text x="300" y="100" font-size="13" fill="#657067">Share of agentic AI projects forecast to be abandoned</text>
+<rect x="300" y="110" width="520" height="30" fill="#e9ede0"/>
+<rect x="300" y="110" width="212" height="30" fill="#92ad39"/>
+
+<text x="300" y="168" font-size="16" fill="#1d2720" font-weight="600">will be abandoned due to escalating costs, unclear</text>
+<text x="300" y="190" font-size="16" fill="#1d2720" font-weight="600">business value, and inadequate risk controls.</text>
+<text x="300" y="222" font-size="13" fill="#657067">That failure mode hits build and buy decisions equally</text>
+<text x="300" y="242" font-size="13" fill="#657067">when the ownership question was skipped.</text>
+</svg>

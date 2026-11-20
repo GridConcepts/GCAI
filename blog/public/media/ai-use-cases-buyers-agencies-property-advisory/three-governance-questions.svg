@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-labelledby="t d" font-family="Inter, Segoe UI, Arial, sans-serif">
+<title id="t">Three questions to answer before funding a pilot</title>
+<desc id="d">Three call-out boxes listing the data governance questions a COO needs answered before funding an AI pilot: which system or model processes client data and where it is hosted, whether any vendor trains models on that data beyond your own output, and how the seven-year AML/CTF record-keeping obligation interacts with existing data retention policy.</desc>
+<rect width="900" height="300" fill="#f9faf5" stroke="#d8ded0"/>
+
+<text x="30" y="42" font-family="Lora, Georgia, serif" font-weight="600" font-size="22" fill="#1d2720">Before you fund a pilot, answer this</text>
+<text x="30" y="64" font-size="13" fill="#657067">Three questions a COO needs settled first</text>
+
+<!-- Box 1 -->
+<rect x="40" y="95" width="255" height="170" rx="6" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="65" y="128" font-family="Lora, Georgia, serif" font-weight="600" font-size="22" fill="#92ad39">1</text>
+<text x="65" y="156" font-size="13" font-weight="600" fill="#1d2720">Where does it live?</text>
+<text x="65" y="178" font-size="12" fill="#657067">Which system or model</text>
+<text x="65" y="195" font-size="12" fill="#657067">processes client data,</text>
+<text x="65" y="212" font-size="12" fill="#657067">and where is it hosted?</text>
+
+<!-- Box 2 -->
+<rect x="322" y="95" width="255" height="170" rx="6" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="347" y="128" font-family="Lora, Georgia, serif" font-weight="600" font-size="22" fill="#92ad39">2</text>
+<text x="347" y="156" font-size="13" font-weight="600" fill="#1d2720">Who trains on it?</text>
+<text x="347" y="178" font-size="12" fill="#657067">Does any vendor use that</text>
+<text x="347" y="195" font-size="12" fill="#657067">data to train models beyond</text>
+<text x="347" y="212" font-size="12" fill="#657067">your own output?</text>
+
+<!-- Box 3: highlighted -->
+<rect x="604" y="95" width="255" height="170" rx="6" fill="#faf3ea" stroke="#c8a27a" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="629" y="128" font-family="Lora, Georgia, serif" font-weight="600" font-size="22" fill="#c8a27a">3</text>
+<text x="629" y="156" font-size="13" font-weight="600" fill="#1d2720">Does retention line up?</text>
+<text x="629" y="178" font-size="12" fill="#657067">How does the 7-year AML/CTF</text>
+<text x="629" y="195" font-size="12" fill="#657067">record-keeping rule interact</text>
+<text x="629" y="212" font-size="12" fill="#657067">with your retention policy?</text>
+
+</svg>

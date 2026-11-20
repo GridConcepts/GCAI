@@ -104,6 +104,8 @@ The tools have settled into clear categories. Right now there are mature AI solu
 | Visuals and design | Images, video and ad creatives |
 | Task planning | Scheduling, prioritising and keeping projects on track |
 
+![A grid of eight task categories with mature AI solutions available now: text and correspondence, document and PDF processing, data analysis and spreadsheets, presentation creation, meetings and calls, programming and coding, visuals and design, and task planning.](/insights/media/is-your-business-ai-ready/ai-task-categories.svg)
+
 The list is specific, yet in practice nine out of ten business owners we speak to still cannot say which of their own tasks AI could take off their plate. That is not a gap you need to close on your own. If you would like a clearer picture of which of your processes could run cheaper and faster with AI, [book a meeting with us](https://gridconcepts.com.au/#get-in-touch). The consultation is free and comes with no obligation.
 
 ## Frequently asked questions

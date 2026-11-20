@@ -12,6 +12,8 @@ Most organisations can tell you they ran an AI pilot. Far fewer can tell you wha
 
 The pattern shows up the same way in firm after firm: a pilot runs, the team reports it went well, and the first question back from finance or the board is "compared to what?" There's rarely a good answer, because nobody measured the workflow before the pilot touched it. One recent industry study of global capability centres found over 70% of leaders piloting or scaling AI had no structured framework to measure the return at all. Without a baseline, "it feels faster" is the only claim left, and that claim doesn't survive scrutiny.
 
+![Stat call-out showing that over 70% of leaders piloting or scaling AI at global capability centres have no structured framework to measure the return at all.](/insights/media/measuring-ai-pilot-roi/no-measurement-framework-stat.svg)
+
 The fix isn't a more sophisticated dashboard after the fact. It's capturing the baseline before anyone switches a tool on, and deciding in advance which three or four numbers will carry the entire argument for scaling.
 
 ## The metrics that actually hold up

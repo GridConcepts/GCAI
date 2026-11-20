@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" role="img" aria-labelledby="t2 d2" font-family="Inter, Segoe UI, Arial, sans-serif">
+<title id="t2">What happens when invoice data lives in three different places</title>
+<desc id="d2">A flow diagram showing invoicing software, job records, and client contact details feeding into an automated reminder, which then either goes to an old email address, chases an invoice already paid in cash, or misses an invoice entirely.</desc>
+<rect width="900" height="460" fill="#f9faf5" stroke="#d8ded0"/>
+<text x="40" y="38" font-family="Lora, Georgia, serif" font-size="22" font-weight="600" fill="#1d2720">When invoice data lives in three places</text>
+<text x="40" y="60" font-size="13" fill="#657067">Scattered records undermine automated follow-ups</text>
+
+<rect x="40" y="70" width="220" height="70" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="150" y="110" text-anchor="middle" font-size="14" fill="#1d2720">Invoicing software</text>
+
+<rect x="40" y="215" width="220" height="70" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="150" y="255" text-anchor="middle" font-size="14" fill="#1d2720">Job records</text>
+
+<rect x="40" y="360" width="220" height="70" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="150" y="394" text-anchor="middle" font-size="14" fill="#1d2720">Client contact</text>
+<text x="150" y="412" text-anchor="middle" font-size="14" fill="#1d2720">details</text>
+
+<rect x="340" y="200" width="220" height="100" fill="#faf3ea" stroke="#c8a27a" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="450" y="245" text-anchor="middle" font-size="14" fill="#1d2720" font-weight="600">Automated reminder</text>
+<text x="450" y="266" text-anchor="middle" font-size="14" fill="#1d2720" font-weight="600">goes out</text>
+
+<rect x="640" y="70" width="220" height="70" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="750" y="100" text-anchor="middle" font-size="13" fill="#1d2720">Goes to an old</text>
+<text x="750" y="118" text-anchor="middle" font-size="13" fill="#1d2720">email address</text>
+
+<rect x="640" y="215" width="220" height="70" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="750" y="241" text-anchor="middle" font-size="13" fill="#1d2720">Chases an invoice</text>
+<text x="750" y="259" text-anchor="middle" font-size="13" fill="#1d2720">already paid in cash</text>
+
+<rect x="640" y="360" width="220" height="70" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="750" y="386" text-anchor="middle" font-size="13" fill="#1d2720">Misses the invoice</text>
+<text x="750" y="404" text-anchor="middle" font-size="13" fill="#1d2720">entirely</text>
+
+<line x1="260" y1="105" x2="338" y2="235" stroke="#92ad39" stroke-width="2"/>
+<path d="M 338 235 L 326 229 L 328 240 Z" fill="#92ad39"/>
+<line x1="260" y1="250" x2="338" y2="250" stroke="#92ad39" stroke-width="2"/>
+<path d="M 338 250 L 328 245 L 328 255 Z" fill="#92ad39"/>
+<line x1="260" y1="395" x2="338" y2="265" stroke="#92ad39" stroke-width="2"/>
+<path d="M 338 265 L 328 260 L 326 271 Z" fill="#92ad39"/>
+
+<line x1="562" y1="235" x2="638" y2="105" stroke="#92ad39" stroke-width="2"/>
+<path d="M 638 105 L 627 103 L 632 113 Z" fill="#92ad39"/>
+<line x1="562" y1="250" x2="638" y2="250" stroke="#92ad39" stroke-width="2"/>
+<path d="M 638 250 L 628 245 L 628 255 Z" fill="#92ad39"/>
+<line x1="562" y1="265" x2="638" y2="395" stroke="#92ad39" stroke-width="2"/>
+<path d="M 638 395 L 632 387 L 627 397 Z" fill="#92ad39"/>
+</svg>

@@ -37,6 +37,8 @@ We wrote one identical prompt that we fed to every neural network. That prompt i
 5. Insert keywords
 6. Produce meta tags
 
+![Flow diagram showing the same identical prompt, covering six tasks (writing 7k characters from scratch, analysing and parsing a client page, building a table, inserting native hyperlinks, inserting keywords, and producing meta tags), was fed to all five AI tools so the results could be scored side by side.](/insights/media/best-ai-for-text-generation-2026/test-methodology-flow.svg)
+
 ## Which AI is best for text generation in 2026?
 
 Here are the final results of the test:
