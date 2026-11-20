@@ -1,6 +1,7 @@
 ---
 title: 'AI for bookkeepers and accountants: what is really automatable right now'
 description: 'A plain-English look at AI for bookkeepers and accountants - which tasks like reconciliation, data entry and invoice matching are genuinely automatable now, and which still need a human.'
+author: 'Val Melamed'
 pubDate: 'Oct 04 2026'
 ---
 

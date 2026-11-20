@@ -4,10 +4,12 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
+import { getAuthor } from '../data/authors';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate } = Astro.props;
+const { title, description, author, pubDate, updatedDate } = Astro.props;
+const byline = getAuthor(author);
 const base = import.meta.env.BASE_URL.endsWith('/')
 	? import.meta.env.BASE_URL
 	: `${import.meta.env.BASE_URL}/`;
@@ -45,6 +47,33 @@ const base = import.meta.env.BASE_URL.endsWith('/')
 			.last-updated-on {
 				font-style: italic;
 			}
+			.byline {
+				display: flex;
+				align-items: center;
+				gap: 0.65rem;
+				margin-bottom: 1em;
+			}
+			.byline img {
+				width: 40px;
+				height: 40px;
+				border-radius: 50%;
+				object-fit: cover;
+				flex-shrink: 0;
+			}
+			.byline-text {
+				display: flex;
+				flex-direction: column;
+				line-height: 1.3;
+			}
+			.byline-name {
+				font-size: 0.92rem;
+				font-weight: 600;
+				color: rgb(var(--black));
+			}
+			.byline-role {
+				font-size: 0.8rem;
+				color: rgb(var(--gray));
+			}
 			.back {
 				display: inline-block;
 				margin-bottom: 1.5rem;
@@ -64,6 +93,13 @@ const base = import.meta.env.BASE_URL.endsWith('/')
 				<div class="prose">
 					<a class="back" href={base}>← All insights</a>
 					<div class="title">
+						<div class="byline">
+							<img src={`${base}${byline.photo}`} alt={byline.name} />
+							<div class="byline-text">
+								<span class="byline-name">{byline.name}</span>
+								<span class="byline-role">{byline.role}</span>
+							</div>
+						</div>
 						<div class="date">
 							<FormattedDate date={pubDate} />
 							{

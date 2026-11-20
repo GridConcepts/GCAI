@@ -1,6 +1,7 @@
 ---
 title: 'Evaluating AI vendors: a due-diligence checklist for professional services'
 description: 'A due-diligence checklist for evaluating AI vendors in professional services - the data, model and contract questions a standard SaaS procurement process misses, and how to score the answers before you sign.'
+author: 'Val Melamed'
 pubDate: 'Oct 22 2026'
 ---
 

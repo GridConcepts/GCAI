@@ -1,6 +1,7 @@
 ---
 title: 'AI data governance in Australia: what to answer before any AI pilot'
 description: 'A plain-English guide to AI data governance in Australia - the questions on data location, overseas AI vendors and automated decisions you need answered before you fund a pilot, not after.'
+author: 'Val Melamed'
 pubDate: 'Sep 01 2026'
 ---
 

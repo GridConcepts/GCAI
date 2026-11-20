@@ -1,6 +1,7 @@
 ---
 title: 'Website enquiries going cold? Fixing slow lead response time before it costs you jobs'
 description: 'A plain-English look at fixing slow lead response time - why website enquiries go cold, what the data says it costs you, and where to start before you lose the next job.'
+author: 'Val Melamed'
 pubDate: 'Oct 01 2026'
 ---
 

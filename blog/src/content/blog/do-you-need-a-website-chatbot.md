@@ -1,6 +1,7 @@
 ---
 title: 'Do you need a website chatbot? What small businesses get wrong about AI chat'
 description: 'Do you need a website chatbot? A plain-English look at what AI chat actually fixes, what it does not, and why it is usually not the first thing worth buying.'
+author: 'Val Melamed'
 pubDate: 'Oct 07 2026'
 ---
 

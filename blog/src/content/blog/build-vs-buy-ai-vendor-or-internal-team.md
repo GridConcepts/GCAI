@@ -1,6 +1,7 @@
 ---
 title: 'Build vs. buy: choosing between an AI vendor and an internal team'
 description: 'Build vs. buy for AI - a plain-cost comparison between hiring an internal team and engaging an AI vendor, and the questions that actually decide which one is right for your business.'
+author: 'Val Melamed'
 pubDate: 'Oct 13 2026'
 ---
 

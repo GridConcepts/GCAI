@@ -1,6 +1,7 @@
 ---
 title: 'AI use cases for buyers agencies and property advisory firms'
 description: 'A COO-level guide to AI use cases for buyers agencies and property advisory firms in Australia - what already works, the AML/CTF obligations landing on 1 July 2026, and how to pilot without pilot theatre.'
+author: 'Val Melamed'
 pubDate: 'Sep 07 2026'
 ---
 

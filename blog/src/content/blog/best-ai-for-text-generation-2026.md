@@ -1,10 +1,9 @@
 ---
 title: 'Choosing the best AI for text generation in 2026 (comparative test)'
 description: 'We tested Claude, Gemini, Copilot, DeepSeek and ChatGPT on real SEO writing tasks. See which AI wrote best in 2026 and why ChatGPT came last.'
+author: 'Anton Sednin'
 pubDate: 'Oct 31 2026'
 ---
-
-*By Anton Sednin, Grid Concepts*
 
 Which neural network (AI) is best suited for text creation if you are an SEO specialist, a marketer, a copywriter, an SMM specialist or a content manager?
 

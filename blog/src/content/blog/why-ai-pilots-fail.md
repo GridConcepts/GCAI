@@ -1,6 +1,7 @@
 ---
 title: 'Why most AI pilots fail to show financial benefit'
 description: 'The pattern behind failed experiments: weak measurement, thin foundations, and no path from pilot to practice.'
+author: 'Val Melamed'
 pubDate: 'Jun 24 2026'
 ---
 

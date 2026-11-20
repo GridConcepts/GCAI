@@ -1,6 +1,7 @@
 ---
 title: 'Most businesses are not AI-ready - how to tell'
 description: 'Is your business AI-ready? Ten plain-English signs that it is not, what AI-ready looks like, three real client cases, and a free ten-minute test.'
+author: 'Val Melamed'
 pubDate: 'Aug 13 2026'
 updatedDate: 'Oct 31 2026'
 ---

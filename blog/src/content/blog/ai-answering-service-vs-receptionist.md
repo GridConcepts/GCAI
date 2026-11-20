@@ -1,6 +1,7 @@
 ---
 title: 'AI answering services vs. a real receptionist: what actually stops missed calls'
 description: 'AI answering services vs. a real receptionist - a plain comparison of cost and capability, and what actually stops missed calls from costing you jobs.'
+author: 'Val Melamed'
 pubDate: 'Sep 22 2026'
 ---
 

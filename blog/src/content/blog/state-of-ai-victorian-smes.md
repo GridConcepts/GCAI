@@ -1,6 +1,7 @@
 ---
 title: 'The State of AI for Victorian SMEs'
 description: 'Why the gap is not ambition but foundation - and what the 2026 readiness signals actually mean.'
+author: 'Val Melamed'
 pubDate: 'Jul 15 2026'
 ---
 

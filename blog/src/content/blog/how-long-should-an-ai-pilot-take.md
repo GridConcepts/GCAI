@@ -1,6 +1,7 @@
 ---
 title: 'How long should an AI pilot take? Realistic timelines from discovery to go-live'
 description: 'How long should an AI pilot take, realistically - the stages from discovery to go-live, what Gartner survey data actually shows, and why "AI transformation in weeks" claims rarely hold up.'
+author: 'Val Melamed'
 pubDate: 'Oct 25 2026'
 ---
 

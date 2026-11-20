@@ -1,6 +1,7 @@
 ---
 title: 'Getting staff buy-in for an AI pilot: a change-management checklist'
 description: 'A practical checklist for getting staff buy-in for an AI pilot - why resistance is rising, what actually drives it, and the steps that get a pilot adopted instead of quietly ignored.'
+author: 'Val Melamed'
 pubDate: 'Oct 16 2026'
 ---
 

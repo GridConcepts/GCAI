@@ -1,6 +1,7 @@
 ---
 title: 'AI agents for trades and field service businesses'
 description: 'AI agents for trades and field service: the four admin jobs worth automating, Australian adoption data, real client examples and where to start.'
+author: 'Val Melamed'
 pubDate: 'Aug 28 2026'
 updatedDate: 'Oct 31 2026'
 ---

@@ -1,6 +1,7 @@
 ---
 title: 'How GEO and AI Overviews changed Australian local business websites in 2025–2026'
 description: 'How GEO and AI Overviews have reshaped traffic for Australian local business websites in 2025-2026, based on real client data - and what actually still works.'
+author: 'Val Melamed'
 pubDate: 'Aug 26 2026'
 ---
 

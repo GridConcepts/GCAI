@@ -1,10 +1,9 @@
 ---
 title: 'How to use the em dash in 2026: why the web turned it off and what it means for your content'
 description: 'Why top-ranking sites dropped the em dash in 2026, whether it affects SEO or AI detectors, and how to stop ChatGPT, Claude, Gemini and Copilot using it.'
+author: 'Anton Sednin'
 pubDate: 'Sep 11 2026'
 ---
-
-*By Anton Sednin, Grid Concepts*
 
 **Short answer:** across 2025 and 2026 the web fell out of love with the em dash because it became a tell for AI-written text, and top-ranking marketing blogs now use very few of them, with the shorter en dash where a dash is needed. It has no negative effect on SEO, and stripping it out does not make text pass an AI detector. Leave your existing pages alone, and swap the em dash for the en dash only when you are building or redesigning something new.
 

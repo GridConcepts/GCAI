@@ -1,6 +1,7 @@
 ---
 title: 'Chasing unpaid invoices: can AI actually speed up follow-ups?'
 description: 'A plain-English look at chasing unpaid invoices with AI - what it actually speeds up, what still needs a human, and where to start if cash flow is the problem.'
+author: 'Val Melamed'
 pubDate: 'Sep 25 2026'
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: 'A 100-day roadmap for practical AI readiness'
 description: 'A staged path for SMEs: clarity on data, connections between systems, guardrails, and people.'
+author: 'Val Melamed'
 pubDate: 'Jun 10 2026'
 ---
 

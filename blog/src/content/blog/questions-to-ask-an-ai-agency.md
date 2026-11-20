@@ -1,6 +1,7 @@
 ---
 title: 'Questions to ask an AI agency before you hire one'
 description: 'The questions to ask an AI agency before you hire one - on data ownership, pricing, governance and proof - so you can tell real expertise from a reseller with a slide deck.'
+author: 'Val Melamed'
 pubDate: 'Aug 17 2026'
 ---
 

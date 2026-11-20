@@ -1,6 +1,7 @@
 ---
 title: 'Automating quoting, scheduling and after-hours enquiries for service businesses'
 description: 'A plain-English look at automating quoting, scheduling and after-hours enquiries for service businesses - what actually works, what it costs, and where to start.'
+author: 'Val Melamed'
 pubDate: 'Aug 22 2026'
 ---
 

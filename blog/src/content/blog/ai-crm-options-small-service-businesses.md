@@ -1,6 +1,7 @@
 ---
 title: 'AI CRM options for small service businesses: what actually matters'
 description: 'A vendor-neutral look at AI CRM options for small service businesses - which AI features actually save time, which are marketing gloss, and what to check before you switch.'
+author: 'Val Melamed'
 pubDate: 'Sep 28 2026'
 ---
 

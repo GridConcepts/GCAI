@@ -1,6 +1,7 @@
 ---
 title: 'How to structure an AI pilot for professional services (without pilot theatre)'
 description: 'How to structure an AI pilot for professional services so it survives contact with the business - defined success criteria, data governance answered upfront, and a real path to production instead of pilot theatre.'
+author: 'Val Melamed'
 pubDate: 'Aug 31 2026'
 ---
 

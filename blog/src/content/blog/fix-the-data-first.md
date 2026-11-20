@@ -1,6 +1,7 @@
 ---
 title: 'Fix the data first - then AI works'
 description: 'A practical view of why disconnected information quietly kills AI pilots before they start.'
+author: 'Val Melamed'
 pubDate: 'Jul 08 2026'
 ---
 

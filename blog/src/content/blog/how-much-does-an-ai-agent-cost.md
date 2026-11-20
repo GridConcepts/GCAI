@@ -1,6 +1,7 @@
 ---
 title: 'How much does an AI agent actually cost?'
 description: 'A plain answer to how much does an AI agent actually cost for a small business - what drives the price, realistic ranges, and how to avoid an open-ended bill.'
+author: 'Val Melamed'
 pubDate: 'Aug 19 2026'
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: 'Connecting ActionStep and Keap: turning disconnected CRM data into a marketing engine'
 description: 'The marketing case for connecting ActionStep and Keap - why practice data trapped in your CRM never reaches your marketing automation, and what changes once it does.'
+author: 'Val Melamed'
 pubDate: 'Aug 25 2026'
 ---
 

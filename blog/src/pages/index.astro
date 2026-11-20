@@ -5,13 +5,27 @@ import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import { getAuthor } from '../data/authors';
 
 const base = import.meta.env.BASE_URL.endsWith('/')
 	? import.meta.env.BASE_URL
 	: `${import.meta.env.BASE_URL}/`;
-const posts = (await getCollection('blog')).sort(
+const allPosts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
+
+// Every post already carries 2+ hand-built inline SVGs placed through the body (see
+// blog/public/media/{slug}/). Reuse the first one as the card's visual rather than
+// maintaining a second, separate hero-image field per post.
+const imagePattern = /!\[[^\]]*\]\((\/insights\/media\/[^)\s]+)\)/;
+const posts = allPosts.map((post) => {
+	const match = post.body?.match(imagePattern);
+	return {
+		post,
+		cardImage: match ? match[1] : null,
+		author: getAuthor(post.data.author),
+	};
+});
 ---
 
 <!doctype html>
@@ -20,7 +34,7 @@ const posts = (await getCollection('blog')).sort(
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 		<style>
 			.intro {
-				margin-bottom: 2.5rem;
+				margin-bottom: 2.75rem;
 			}
 			.eyebrow {
 				margin: 0 0 0.75rem;
@@ -34,44 +48,111 @@ const posts = (await getCollection('blog')).sort(
 				color: rgb(var(--gray));
 				max-width: 40rem;
 			}
-			ul {
+			.grid {
+				display: grid;
+				grid-template-columns: 1fr;
+				gap: 2.25rem 1.75rem;
+			}
+			@media (min-width: 860px) {
+				.grid {
+					grid-template-columns: repeat(2, 1fr);
+				}
+			}
+			.card {
 				display: flex;
 				flex-direction: column;
-				gap: 1.25rem;
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-			}
-			li a {
-				display: block;
-				padding: 1.25rem 1.35rem;
-				border: 1px solid rgb(var(--gray-light));
-				background: #fff;
+				height: 100%;
 				text-decoration: none;
-				transition: border-color 0.2s ease, transform 0.2s ease;
+				color: inherit;
 			}
-			li a:hover {
-				border-color: var(--accent);
-				transform: translateY(-2px);
+			.card-media {
+				display: block;
+				aspect-ratio: 12 / 5;
+				overflow: hidden;
+				background: #f1f3eb;
+				border: 1px solid rgb(var(--gray-light));
+				border-radius: 10px;
 			}
-			.title {
+			.card-media img {
+				width: 100%;
+				height: 100%;
+				object-fit: contain;
+				object-position: center;
+				padding: 0.6rem;
+				box-sizing: border-box;
+				transition: transform 0.3s ease;
+			}
+			.card:hover .card-media img {
+				transform: scale(1.02);
+			}
+			.card-media.no-image {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.card-media.no-image::after {
+				content: 'Grid Concepts Insights';
+				font-size: 0.75rem;
+				font-weight: 700;
+				letter-spacing: 0.1em;
+				text-transform: uppercase;
+				color: var(--accent-dark);
+				opacity: 0.6;
+			}
+			.card-body {
+				display: flex;
+				flex-direction: column;
+				flex: 1;
+				padding-top: 1.1rem;
+			}
+			.card-title {
 				margin: 0;
 				color: rgb(var(--black));
-				font-size: 1.35rem;
-				line-height: 1.25;
+				font-size: 1.3rem;
+				line-height: 1.3;
+				transition: color 0.2s ease;
+			}
+			.card:hover .card-title {
+				color: var(--accent-dark);
+			}
+			.card-description {
+				margin: 0.6rem 0 0;
+				color: rgb(var(--gray-dark));
+				font-size: 0.96rem;
+				line-height: 1.55;
+				flex: 1;
+			}
+			.card-meta {
+				display: flex;
+				align-items: center;
+				gap: 0.65rem;
+				margin-top: 1.1rem;
+				padding-top: 1.1rem;
+				border-top: 1px solid rgb(var(--gray-light));
+			}
+			.avatar {
+				width: 32px;
+				height: 32px;
+				border-radius: 50%;
+				object-fit: cover;
+				flex-shrink: 0;
+			}
+			.meta-text {
+				display: flex;
+				flex-direction: column;
+				line-height: 1.3;
+			}
+			.author-name {
+				font-size: 0.85rem;
+				font-weight: 600;
+				color: rgb(var(--black));
 			}
 			.date {
-				margin: 0.45rem 0 0;
+				font-size: 0.8rem;
 				color: rgb(var(--gray));
-				font-size: 0.9rem;
-			}
-			.description {
-				margin: 0.7rem 0 0;
-				color: rgb(var(--gray-dark));
-				font-size: 0.98rem;
 			}
 			.report {
-				margin-top: 2.5rem;
+				margin-top: 3rem;
 				padding: 1.35rem 1.5rem;
 				background: #10252a;
 				color: #c8d3d0;
@@ -101,21 +182,34 @@ const posts = (await getCollection('blog')).sort(
 				</p>
 			</section>
 			<section>
-				<ul>
+				<div class="grid">
 					{
-						posts.map((post) => (
-							<li>
-								<a href={`${base}${post.id}/`}>
-									<h2 class="title">{post.data.title}</h2>
-									<p class="date">
-										<FormattedDate date={post.data.pubDate} />
-									</p>
-									<p class="description">{post.data.description}</p>
-								</a>
-							</li>
+						posts.map(({ post, cardImage, author }) => (
+							<a class="card" href={`${base}${post.id}/`}>
+								{cardImage ? (
+									<span class="card-media">
+										<img src={cardImage} alt="" loading="lazy" />
+									</span>
+								) : (
+									<span class="card-media no-image" />
+								)}
+								<div class="card-body">
+									<h2 class="card-title">{post.data.title}</h2>
+									<p class="card-description">{post.data.description}</p>
+									<div class="card-meta">
+										<img class="avatar" src={`${base}${author.photo}`} alt={author.name} loading="lazy" />
+										<div class="meta-text">
+											<span class="author-name">{author.name}</span>
+											<span class="date">
+												<FormattedDate date={post.data.pubDate} />
+											</span>
+										</div>
+									</div>
+								</div>
+							</a>
 						))
 					}
-				</ul>
+				</div>
 			</section>
 			<section class="report">
 				<h2>The State of AI Report</h2>

@@ -1,6 +1,7 @@
 ---
 title: 'How to measure ROI on an AI pilot: metrics that survive board scrutiny'
 description: 'How to measure ROI on an AI pilot with metrics that hold up at board level - the baseline, the financial attribution, and the risk indicators to report before you ask for scale-up budget.'
+author: 'Val Melamed'
 pubDate: 'Oct 10 2026'
 ---
 

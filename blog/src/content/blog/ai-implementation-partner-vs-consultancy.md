@@ -1,6 +1,7 @@
 ---
 title: 'AI implementation partner vs. consultancy: what''s the difference'
 description: 'AI implementation partner vs. consultancy - the real difference between a firm that hands you a strategy deck and one that builds, ships and stays accountable for the result.'
+author: 'Val Melamed'
 pubDate: 'Sep 04 2026'
 ---
 
