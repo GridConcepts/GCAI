@@ -231,10 +231,10 @@ export function MetropoleCaseStudy() {
         <section className="bg-[#f1f3eb]">
           <div className="mx-auto max-w-[1180px] px-6 py-20 md:px-12 md:py-28">
             <Eyebrow>WHAT A SINGLE JOURNEY LOOKS LIKE</Eyebrow>
-            <h2 className={`${display} mt-5 max-w-[24ch] text-[35px] leading-[1.15] tracking-[-.03em] sm:text-[46px]`}>One client, every touchpoint, in order.</h2>
-            <p className={`${sans} mt-6 max-w-[720px] text-[16px] leading-7 text-[#586058]`}>Below is a representative customer journey of the kind the Central Customer View produces - the real sequence of touchpoints across every connected system, from first contact to signed client. Names, contact details and the engagement value are redacted.</p>
+            <h2 className={`${display} mt-5 max-w-[24ch] text-[35px] leading-[1.15] tracking-[-.03em] sm:text-[46px]`}>One real client, every touchpoint, in order.</h2>
+            <p className={`${sans} mt-6 max-w-[720px] text-[16px] leading-7 text-[#586058]`}>Below is a real client journey pulled straight from the Central Customer View - newsletter signup to webinar to discovery call to purchase, with the actual gaps in between. It took 63 days from first contact to enquiry, and 86 to a signed Strategic Property Plan. The client's name, contact details and portfolio specifics are redacted.</p>
             <div className="mt-10 overflow-x-auto border border-[#d8ded0] bg-[#f9faf5] p-4 md:p-6">
-              <img src={journeyIllustration} alt="An illustrative eight-step customer journey through Metropole's Central Customer View, from webinar registration through to signing as a client, with the client's name, email and engagement value shown redacted." className="min-w-[980px]" />
+              <img src={journeyIllustration} alt="An eight-step real client journey through Metropole's Central Customer View, from subscribing to a property newsletter through to purchasing a Strategic Property Plan 86 days later, with the client's name, email and portfolio details shown redacted." className="min-w-[980px]" />
             </div>
           </div>
         </section>
