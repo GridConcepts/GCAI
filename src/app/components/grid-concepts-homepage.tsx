@@ -14,7 +14,7 @@ import {
   valTeamPortrait,
 } from "../../imports/images";
 import svgPaths from "../../imports/GridConceptsHomepageLight/svg-vcinlohbnv";
-import { insightPostPath, insightPosts, insightsIndexPath } from "../../data/insights";
+import { getInsightAuthor, insightPostPath, insightPosts, insightsIndexPath } from "../../data/insights";
 import { getStoredClickIds } from "../../lib/click-ids";
 import { trackConversion } from "../../lib/oaiq";
 const metropoleLogo = "https://metropole.com.au/wp-content/themes/metropole-theme/assets/images/2025/Metropole_primary_logo.svg";
@@ -170,20 +170,37 @@ function StateOfAiTeaser() {
             </a>
           </div>
           <div className="mt-8 grid gap-4 md:grid-cols-3">
-            {latestPosts.map((post) => (
-              <a
-                key={post.slug}
-                href={insightPostPath(post.slug)}
-                className="group flex flex-col border border-white/12 bg-[#0b1b1e] p-6 transition hover:border-[#92ad39]/55"
-              >
-                <p className={`${sans} text-[10px] font-semibold tracking-[.14em] text-[#b4cc66]`}>{post.dateLabel}</p>
-                <h4 className={`${display} mt-3 text-[22px] leading-[1.2] text-white`}>{post.title}</h4>
-                <p className={`${sans} mt-4 text-[13px] leading-6 text-[#aab8b4]`}>{post.description}</p>
-                <p className={`${sans} mt-auto pt-6 text-[11px] font-semibold tracking-[.12em] text-[#cfe28a] transition group-hover:text-white`}>
-                  READ →
-                </p>
-              </a>
-            ))}
+            {latestPosts.map((post) => {
+              const author = getInsightAuthor(post.author);
+              return (
+                <a
+                  key={post.slug}
+                  href={insightPostPath(post.slug)}
+                  className="group flex flex-col overflow-hidden border border-white/12 bg-[#0b1b1e] transition hover:border-[#92ad39]/55"
+                >
+                  <div className="flex aspect-[12/5] items-center justify-center border-b border-white/10 bg-[#0d1f22] p-4">
+                    <img
+                      src={post.image}
+                      alt=""
+                      loading="lazy"
+                      className="max-h-full max-w-full object-contain transition duration-300 group-hover:scale-[1.02]"
+                    />
+                  </div>
+                  <div className="flex flex-1 flex-col p-6">
+                    <p className={`${sans} text-[10px] font-semibold tracking-[.14em] text-[#b4cc66]`}>{post.dateLabel}</p>
+                    <h4 className={`${display} mt-3 text-[22px] leading-[1.2] text-white`}>{post.title}</h4>
+                    <p className={`${sans} mt-4 text-[13px] leading-6 text-[#aab8b4]`}>{post.description}</p>
+                    <div className="mt-6 flex items-center gap-3 border-t border-white/10 pt-5">
+                      <img src={author.photo} alt={author.name} className="size-8 shrink-0 rounded-full object-cover" />
+                      <span className={`${sans} text-[12px] font-semibold text-white`}>{author.name}</span>
+                      <p className={`${sans} ml-auto whitespace-nowrap text-[11px] font-semibold tracking-[.12em] text-[#cfe28a] transition group-hover:text-white`}>
+                        READ →
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              );
+            })}
           </div>
         </div>
       </div>
