@@ -19,6 +19,8 @@ You do not need a perfect data warehouse to start. You do need:
 
 Without those, AI amplifies confusion. With them, even modest automation starts to pay off.
 
+![Side-by-side comparison showing that without the basics in place AI amplifies confusion from missing source of truth, duplicate records and no field ownership, while with the basics in place automation starts to pay off on connected ground.](/insights/media/fix-the-data-first/without-vs-with-basics.svg)
+
 ## A useful sequence
 
 1. **Find the trustworthy core** - Pick the customer and operational data that matter most.

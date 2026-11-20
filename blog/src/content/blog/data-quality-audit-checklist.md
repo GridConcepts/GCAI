@@ -28,6 +28,8 @@ The instinct in a lot of professional-services firms is to run the data quality 
 
 It also changes what the pilot's success criteria can honestly claim. If nobody checked completeness and consistency on the inputs before launch, you cannot tell afterwards whether a disappointing result reflects the AI tool or the data it was fed. The audit is what makes the rest of the pilot's measurement plan trustworthy.
 
+![A comparison flow showing that without a data quality gate, budget and a team get committed, the pilot is built, the data turns out not to be AI-ready, and the project stops mid-build at high cost, while with a gate the two-week audit runs first, a go or no-go decision is made, fields below the bar get fixed, and the pilot is built on checked data.](/insights/media/data-quality-audit-checklist/audit-timing-comparison.svg)
+
 ## Set a go/no-go threshold before you see the result
 
 A data quality audit is only useful if someone has agreed, in advance, what score clears the bar. That means picking a completeness threshold for the required fields (a reasonable starting point is 90% or higher on anything the use case treats as mandatory), a maximum acceptable duplicate rate, and a hard rule on freshness for time-sensitive fields. Write these down before you run the audit, not after you see where the data actually lands - a threshold set to match the result you already have isn't a threshold, it's a rationalisation.

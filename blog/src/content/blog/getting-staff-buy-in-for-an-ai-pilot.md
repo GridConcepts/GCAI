@@ -34,6 +34,8 @@ Because trust and ethics concerns now outrank job security as the top driver of 
 2. **What decision, if any, does it make on its own** - and what stays with a person.
 3. **What happens if it gets something wrong?** Who catches it, and what's the process for flagging an error.
 
+![Three boxes showing the trust questions staff want answered early: what does the tool actually see, what decision does it make on its own, and what happens if it gets something wrong.](/insights/media/getting-staff-buy-in-for-an-ai-pilot/trust-questions.svg)
+
 These are the same governance questions a board or an auditor would ask of the pilot - answering them for staff isn't a separate communication track, it's reusing the governance work you should already be doing.
 
 ## What to watch for once the pilot is live

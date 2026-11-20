@@ -22,6 +22,8 @@ None of that means a chatbot is a bad idea. It means most of the damage happens 
 - **It has no way to hand anything off properly.** A name and number typed into a chat window does not help you if it sits in a dashboard nobody checks, instead of landing with whoever needs to follow up.
 - **It is treated as the whole strategy.** Owners install a chatbot hoping it will fix slow replies, missed calls, or a messy pipeline, when the chatbot is only ever handling the enquiries that arrive through one channel, in one format, well after the real problem started.
 
+![Three tiles describing the common failure patterns in website chatbots: trying to handle every question including ones that need judgement, having no reliable way to hand a captured lead off to a person, and being treated as the whole strategy instead of one narrow piece of it.](/insights/media/do-you-need-a-website-chatbot/chatbot-failure-patterns.svg)
+
 ## Do you need a website chatbot?
 
 Usually, not first. If your actual problem is enquiries going cold because nobody replies fast enough, or jobs clashing because your booking details live in three places, a chatbot does not touch either of those - it just adds a fourth place to check. A chatbot is worth doing once you have a narrow, repetitive set of questions eating staff time, and somewhere reliable for whatever it captures to land. Installed before that, it is a cost that looks like progress without being any.

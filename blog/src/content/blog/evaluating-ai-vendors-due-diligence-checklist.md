@@ -6,6 +6,8 @@ pubDate: 'Oct 22 2026'
 
 Most firms evaluating AI vendors are still running the same procurement checklist they used for a practice-management system a decade ago: uptime, support hours, price per seat. Gartner's forecast that more than 40% of agentic AI projects will be scrapped before the end of 2027 is not mainly a story about bad models - it is a story about unclear business value and inadequate risk controls that a standard SaaS checklist was never built to catch. For a COO putting a vendor in front of the board, evaluating AI vendors properly means adding a handful of AI-specific questions to due diligence before the contract, not discovering the gaps after rollout.
 
+![Stat callout showing Gartner's forecast that more than 40 percent of agentic AI projects will be scrapped before the end of 2027, with a note that the cause is unclear business value and inadequate risk controls rather than bad models.](/insights/media/evaluating-ai-vendors-due-diligence-checklist/gartner-scrap-stat.svg)
+
 ## What a standard SaaS checklist misses
 
 A conventional vendor review checks security certifications, data residency and support SLAs, and all of that still matters. What it typically does not check is anything specific to how the AI component behaves: where the underlying model's training data came from, how the vendor handles model updates once you are live, whether your data is used to improve a shared model other customers also use, and who in the vendor's chain (a subprocessor, a foundation-model provider) your data actually passes through. Those gaps do not show up in a demo. They show up six months in, when the model changes behaviour without warning or a subprocessor you never vetted has been handling client data the whole time.

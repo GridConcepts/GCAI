@@ -32,6 +32,8 @@ None of that replaces the phone call that actually gets a difficult invoice paid
 
 Automated reminders only work if the underlying invoice data is trustworthy. If your invoicing software, your job records, and your client contact details live in three different places, an automated reminder either goes to an old email address, chases an invoice that was already paid in cash, or misses one entirely because it was never entered properly in the first place. That is not an AI problem - it is the same data mess that undermines quoting and scheduling automation, covered in more detail in [Fix the data first - then AI works](/insights/fix-the-data-first/). Chasing unpaid invoices with AI is only as reliable as the invoice list it is working from.
 
+![A flow diagram showing invoicing software, job records, and client contact details feeding into an automated reminder, which then either goes to an old email address, chases an invoice already paid in cash, or misses an invoice entirely.](/insights/media/chasing-unpaid-invoices-with-ai/invoice-data-mess-flow.svg)
+
 ## Where to actually start
 
 Before you buy anything to chase unpaid invoices, check one thing: how much of your invoice, payment, and client contact information already sits in your accounting software in a clean, current state, and how much lives in someone's memory or a separate spreadsheet. If the answer is "mostly clean," a scheduled reminder tool is a quick, low-cost first step. If it is not, fixing that gap comes first, or you are just automating the chasing of information that is already wrong.

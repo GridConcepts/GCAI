@@ -39,6 +39,8 @@ Skip "which is cheaper" - on a fair accounting, they're often closer than either
 
 Gartner has forecast that more than 40% of agentic AI projects will be abandoned by the end of 2027 due to escalating costs, unclear business value, and inadequate risk controls - and that failure mode hits build and buy decisions equally when the underlying question was skipped. The businesses getting this wrong aren't choosing the wrong side of the ledger; they're choosing a side before asking whether the capability was ever worth owning in the first place.
 
+![A stat callout showing Gartner's forecast that more than 40% of agentic AI projects will be abandoned by the end of 2027 due to escalating costs, unclear business value, and inadequate risk controls.](/insights/media/build-vs-buy-ai-vendor-or-internal-team/gartner-abandonment-stat.svg)
+
 ## A simpler test for a resource-constrained SME
 
 If you don't have the budget to build a proper team (engineering and data science both, not just one hire), buying isn't a compromise - it's the realistic option, and you can revisit build later once a use case has proven its value and its advantage is clear enough to justify owning it outright. Most Victorian SMEs are better served starting there: prove the use case with a vendor or implementation partner, keep the contract terms clean on data ownership and exit, and only consider building in-house once you can name the specific advantage that justifies the cost of owning it.

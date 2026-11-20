@@ -322,6 +322,8 @@ We have two comparable local clients. Both have strong Google Maps reviews. Both
 
 The difference is competitive density: the first client operates in a niche with only a handful of competitors, while the second is in a niche with hundreds.
 
+![Comparison of two clients with the same strong Google Maps reviews and top 10 service page rankings: the client without an FAQ section, in a niche with only a handful of competitors, got picked up in AI Overviews, while the client with an FAQ section, in a niche with hundreds of competitors, did not.](/insights/media/how-geo-and-ai-overviews-changed-australia-local-business-websites/faq-vs-competitive-density.svg)
+
 FAQs have become more important than they used to be - but they're not more important than your link profile or your Google Maps ranking.
 
 ## Does using AI tools actually help us win more for our clients?

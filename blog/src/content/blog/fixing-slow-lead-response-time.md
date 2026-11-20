@@ -20,6 +20,8 @@ It is rarely a lack of effort. It is almost always one of three gaps:
 - **The enquiry lands in the wrong place.** A website form that emails one inbox, a Facebook message in another app, and a phone call that goes to voicemail all need separate checking - so something always gets missed.
 - **Following up takes more than a glance.** If replying means finding the enquiry, checking whether you can even take the job, and writing a reply from scratch, it gets pushed to "later," and later becomes two days.
 
+![Three boxes showing the causes of slow lead response: an after-hours blind spot where forms sit unread overnight, fragmented channels across web forms, social messages and voicemail, and replies that take too much effort to send quickly.](/insights/media/fixing-slow-lead-response-time/three-causes-of-delay.svg)
+
 ## Fixing it without overbuilding
 
 Fixing slow lead response time does not require a full CRM overhaul or a chatbot that tries to sound human. It requires three much smaller things, in order:

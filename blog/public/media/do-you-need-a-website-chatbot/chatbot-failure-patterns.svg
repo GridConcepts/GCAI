@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" aria-labelledby="t5 d5" font-family="Inter, Segoe UI, Arial, sans-serif">
+<title id="t5">Three ways a website chatbot backfires</title>
+<desc id="d5">Three tiles describing the common failure patterns in website chatbots: trying to handle every question including ones that need judgement, having no reliable way to hand a captured lead off to a person, and being treated as the whole strategy instead of one narrow piece of it.</desc>
+<rect width="900" height="320" fill="#f9faf5" stroke="#d8ded0"/>
+<text x="40" y="38" font-family="Lora, Georgia, serif" font-size="22" font-weight="600" fill="#1d2720">Three ways a chatbot backfires</text>
+<text x="40" y="60" font-size="13" fill="#657067">The most common mistakes, not a reason to skip one</text>
+
+<rect x="30" y="90" width="266" height="200" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="55" y="125" font-family="Lora, Georgia, serif" font-size="16" font-weight="600" fill="#1d2720">Tries to do too much</text>
+<text x="55" y="155" font-size="12" fill="#657067">Handles every question,</text>
+<text x="55" y="173" font-size="12" fill="#657067">including ones that need</text>
+<text x="55" y="191" font-size="12" fill="#657067">judgement - a complaint, a</text>
+<text x="55" y="209" font-size="12" fill="#657067">tricky quote, a nervous</text>
+<text x="55" y="227" font-size="12" fill="#657067">first-time customer.</text>
+
+<rect x="317" y="90" width="266" height="200" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="342" y="125" font-family="Lora, Georgia, serif" font-size="16" font-weight="600" fill="#1d2720">No handoff that works</text>
+<text x="342" y="155" font-size="12" fill="#657067">A name and number typed</text>
+<text x="342" y="173" font-size="12" fill="#657067">into chat sits in a</text>
+<text x="342" y="191" font-size="12" fill="#657067">dashboard nobody checks,</text>
+<text x="342" y="209" font-size="12" fill="#657067">instead of reaching whoever</text>
+<text x="342" y="227" font-size="12" fill="#657067">needs to follow up.</text>
+
+<rect x="604" y="90" width="266" height="200" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="629" y="125" font-family="Lora, Georgia, serif" font-size="16" font-weight="600" fill="#1d2720">Treated as the whole</text>
+<text x="629" y="146" font-family="Lora, Georgia, serif" font-size="16" font-weight="600" fill="#1d2720">strategy</text>
+<text x="629" y="176" font-size="12" fill="#657067">Expected to fix slow replies,</text>
+<text x="629" y="194" font-size="12" fill="#657067">missed calls, or a messy</text>
+<text x="629" y="212" font-size="12" fill="#657067">pipeline - when it only covers</text>
+<text x="629" y="230" font-size="12" fill="#657067">one channel, after the real</text>
+<text x="629" y="248" font-size="12" fill="#657067">problem started.</text>
+</svg>

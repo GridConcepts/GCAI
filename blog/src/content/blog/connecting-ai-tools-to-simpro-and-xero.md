@@ -47,6 +47,8 @@ Where it gets more involved is deeper, judgement-based automation - matching a c
 
 Before any of this, the more common failure point isn't the connection - it's what's on either end of it. If a client's name is spelled two different ways between ActionStep and Keap, or the same matter shows different values in each system, connecting them just moves the mismatch faster and makes it harder to catch. We cover this in more detail in [Fix the data first - then AI works](/insights/fix-the-data-first/) - it's the step most integration quotes skip, and it's usually why a project costs more than the first number you were given.
 
+![A comparison flow showing that connecting ActionStep and Keap without first checking client records just moves a mismatch like "J. Smith" versus "John Smith" faster, while pulling ten recent client records and fixing mismatches first means automation runs on records that agree.](/insights/media/connecting-ai-tools-to-simpro-and-xero/data-mismatch-risk.svg)
+
 ## Where to start
 
 Don't start by shopping for a marketing automation platform or a developer. Start by checking whether your ActionStep and Keap client records actually agree with each other right now - pull ten recent clients and compare. If they line up, a Zapier connection or a small custom build will go smoothly. If they don't, that's the real first project.

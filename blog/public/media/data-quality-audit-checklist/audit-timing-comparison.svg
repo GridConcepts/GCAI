@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" role="img" aria-labelledby="t4 d4" font-family="Inter, Segoe UI, Arial, sans-serif">
+<title id="t4">Running the audit first turns a costly mid-pilot stop into a two-week finding</title>
+<desc id="d4">A comparison flow showing that without a data quality gate, budget and a team get committed, the pilot is built, the data turns out not to be AI-ready, and the project stops mid-build at high cost, while with a gate the two-week audit runs first, a go or no-go decision is made, fields below the bar get fixed, and the pilot is built on checked data.</desc>
+<rect width="900" height="380" fill="#f9faf5" stroke="#d8ded0"/>
+<text x="40" y="36" font-family="Lora, Georgia, serif" font-size="22" font-weight="600" fill="#1d2720">Run the audit before the pilot, not alongside it</text>
+<text x="40" y="58" font-size="13" fill="#657067">The same finding, at a fraction of the cost, if it comes first</text>
+
+<text x="30" y="80" font-size="13" fill="#657067" font-weight="600">Without a gate</text>
+<rect x="30" y="90" width="190" height="80" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="125" y="125" text-anchor="middle" font-size="12" fill="#1d2720">Budget and team</text>
+<text x="125" y="143" text-anchor="middle" font-size="12" fill="#1d2720">committed</text>
+
+<rect x="250" y="90" width="190" height="80" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="345" y="134" text-anchor="middle" font-size="12" fill="#1d2720">Pilot build</text>
+<text x="345" y="152" text-anchor="middle" font-size="12" fill="#1d2720">begins</text>
+
+<rect x="470" y="90" width="190" height="80" fill="#faf3ea" stroke="#c8a27a" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="565" y="125" text-anchor="middle" font-size="12" fill="#1d2720" font-weight="600">Data turns out not</text>
+<text x="565" y="143" text-anchor="middle" font-size="12" fill="#1d2720" font-weight="600">to be AI-ready</text>
+
+<rect x="690" y="90" width="190" height="80" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="785" y="125" text-anchor="middle" font-size="12" fill="#1d2720">Costly mid-pilot</text>
+<text x="785" y="143" text-anchor="middle" font-size="12" fill="#1d2720">stop</text>
+
+<line x1="220" y1="130" x2="248" y2="130" stroke="#92ad39" stroke-width="2"/>
+<path d="M 248 130 L 238 125 L 238 135 Z" fill="#92ad39"/>
+<line x1="440" y1="130" x2="468" y2="130" stroke="#92ad39" stroke-width="2"/>
+<path d="M 468 130 L 458 125 L 458 135 Z" fill="#92ad39"/>
+<line x1="660" y1="130" x2="688" y2="130" stroke="#92ad39" stroke-width="2"/>
+<path d="M 688 130 L 678 125 L 678 135 Z" fill="#92ad39"/>
+
+<text x="30" y="240" font-size="13" fill="#657067" font-weight="600">With a gate</text>
+<rect x="30" y="250" width="190" height="80" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="125" y="285" text-anchor="middle" font-size="12" fill="#1d2720">Audit runs first</text>
+<text x="125" y="303" text-anchor="middle" font-size="12" fill="#1d2720">(about two weeks)</text>
+
+<rect x="250" y="250" width="190" height="80" fill="#faf3ea" stroke="#c8a27a" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="345" y="294" text-anchor="middle" font-size="12" fill="#1d2720" font-weight="600">Go / no-go</text>
+<text x="345" y="312" text-anchor="middle" font-size="12" fill="#1d2720" font-weight="600">decision</text>
+
+<rect x="470" y="250" width="190" height="80" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="565" y="285" text-anchor="middle" font-size="12" fill="#1d2720">Fix fields that</text>
+<text x="565" y="303" text-anchor="middle" font-size="12" fill="#1d2720">fall below the bar</text>
+
+<rect x="690" y="250" width="190" height="80" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="785" y="285" text-anchor="middle" font-size="12" fill="#1d2720">Pilot built on</text>
+<text x="785" y="303" text-anchor="middle" font-size="12" fill="#1d2720">checked data</text>
+
+<line x1="220" y1="290" x2="248" y2="290" stroke="#92ad39" stroke-width="2"/>
+<path d="M 248 290 L 238 285 L 238 295 Z" fill="#92ad39"/>
+<line x1="440" y1="290" x2="468" y2="290" stroke="#92ad39" stroke-width="2"/>
+<path d="M 468 290 L 458 285 L 458 295 Z" fill="#92ad39"/>
+<line x1="660" y1="290" x2="688" y2="290" stroke="#92ad39" stroke-width="2"/>
+<path d="M 688 290 L 678 285 L 678 295 Z" fill="#92ad39"/>
+</svg>
