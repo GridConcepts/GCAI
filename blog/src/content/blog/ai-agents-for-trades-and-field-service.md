@@ -62,6 +62,8 @@ The same four jobs turn up well beyond the trades. Four recent examples from our
 - **A property lawyer.** "Clients call at 7pm when the contract lands, and we are closed." Before any tool, we settled which system would see client details and how that squares with the Privacy Act. The capture takes only name, number and matter type - nothing from the contract - so the firm gained response time without a privacy problem.
 - **A salesperson.** "I am on the road four days a week, so quotes wait until Friday." The price list lived in his head. It moved into a product sheet, and quotes are now drafted from the note he dictates after each visit, with the follow-up scheduled automatically.
 
+![Four client examples showing the same before-and-after pattern: a real estate agency now captures after-hours enquiries immediately, a construction company drafts quotes from the closest past job, a property lawyer captures only name, number and matter type, and a salesperson drafts quotes from a dictated note after each visit.](/insights/media/ai-agents-for-trades-and-field-service/client-examples.svg)
+
 ## Why does the same AI agent work for one trade business and not the next?
 
 The tool is rarely the reason an AI agent underperforms. It is that the job history lives in one app, the customer's phone number lives in a spreadsheet, and the pricing lives in someone's head - so an agent built to speed up quoting has nothing reliable to pull from. We cover this gap in more detail in [Fix the data first - then AI works](/insights/fix-the-data-first/), and go deeper on quoting, scheduling and after-hours specifically in [Automating quoting, scheduling and after-hours enquiries for service businesses](/insights/automating-quoting-scheduling-after-hours-enquiries/).

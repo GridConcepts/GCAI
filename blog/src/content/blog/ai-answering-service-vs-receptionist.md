@@ -27,6 +27,8 @@ Neither is automatically the right call. A business with low call volume and cal
 
 The tool is rarely why an answering service underperforms. It is that the captured message has nowhere reliable to land - the caller's details go into a text or an email, and someone still has to copy them into your job system by hand, which is exactly the delay you were trying to remove. An answering service, human or AI, is only as useful as the system it hands the message to. We cover that gap in more detail in [Fix the data first - then AI works](/insights/fix-the-data-first/), and go wider on the surrounding tasks in [Automating quoting, scheduling and after-hours enquiries for service businesses](/insights/automating-quoting-scheduling-after-hours-enquiries/).
 
+![A four-step flow diagram showing a call coming in, the answering service capturing the message, the message landing in a text or email as the break point, and someone retyping it into the job system by hand later, which is the delay the answering service was meant to remove.](/insights/media/ai-answering-service-vs-receptionist/message-handoff.svg)
+
 ## Where to actually start
 
 Do not sign a contract for either option before you know two things: how many calls you are actually missing, and where that information needs to land to be useful. Most owners have never measured the first, and few have checked the second.

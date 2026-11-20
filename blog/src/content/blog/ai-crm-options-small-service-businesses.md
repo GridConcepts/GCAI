@@ -33,6 +33,8 @@ None of these is the right answer on its own. The right answer depends on what y
 
 The most common reason a new AI CRM disappoints has nothing to do with the AI. It is client records split across an old spreadsheet, a paper diary, and whatever system the last office manager preferred, none of which get migrated properly. An AI feature built to flag a cold lead cannot do that if half your leads are not in the system at all, or sit under three different spellings of the same client's name. Fixing that mess after the fact costs more than checking for it first would have.
 
+![A flow diagram showing client records split across an old spreadsheet, a paper diary and a previous office manager's system feeding into a new AI CRM, with a warning that if migration skips half of this the AI feature has nothing to flag because leads can sit under three different spellings of the same name.](/insights/media/ai-crm-options-small-service-businesses/fragmented-records.svg)
+
 ## The first step before you sign anything
 
 Before you compare AI CRM options for small service businesses feature by feature, check what is actually in your current system: how much of your client, quote, and job history is clean and current, and how much lives somewhere else entirely. Our complimentary [AI-Readiness Data Check](https://gridconcepts.com.au/#contact) takes about ten minutes and gives you that picture, so you are choosing a CRM based on what it needs to fix rather than what a salesperson tells you it does.

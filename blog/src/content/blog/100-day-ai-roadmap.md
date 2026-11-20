@@ -35,4 +35,6 @@ Here is a practical 100-day shape we use with clients.
 
 Tools are the easy part. Sequence is the hard part. Businesses that jump straight to agents usually rediscover, later and at higher cost, that the information layer was never ready.
 
+![A flow diagram comparing two paths: jumping straight to agents leads to rediscovering an unready information layer and higher cost later, while following the clarity, connection, practice sequence builds guardrails and training first and produces one AI use case that holds up.](/insights/media/100-day-ai-roadmap/sequence-vs-shortcut.svg)
+
 If you want a starting snapshot, use the complimentary Data Check on the [Grid Concepts site](https://gridconcepts.com.au/), then book a Discovery Call when the picture is clear enough to discuss.
