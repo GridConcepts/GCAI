@@ -10,6 +10,7 @@ const navLinks = [
   ["Approach", "/#approach"],
   ["Capabilities", "/#services"],
   ["Our story", "/#story"],
+  ["Case Studies", "/#case-studies"],
   ["Insights", "/insights/"],
   ["The State of AI Report", "/state-of-ai-report"],
   ["Contact", "/#get-in-touch"],
