@@ -18,6 +18,12 @@ const pages = [
     description:
       "How Grid Concepts rebuilt a Brisbane law firm's lead calculator in Keap and swapped Parsey for Zapier, fixing two broken integrations with zero new software costs.",
   },
+  {
+    path: "case-studies/metropole",
+    title: "Metropole Case Study: A Central Customer View From 6 Disconnected Systems | Grid Concepts",
+    description:
+      "How Grid Concepts unified Metropole's CRM, marketing, eCommerce, analytics, webinar and ticketing data into one Central Customer View, queryable by humans and AI agents alike.",
+  },
 ];
 
 for (const { path, title, description } of pages) {

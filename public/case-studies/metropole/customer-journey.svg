@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 540" role="img" aria-labelledby="t d" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <title id="t">A single client's path through Metropole, reconstructed from the Central Customer View</title>
+  <desc id="d">An eight-step illustrative customer journey from webinar registration through to signing as a client, spanning WebinarJam, Thryv, Google Analytics, Mailchimp, Humanitix and SuiteCRM. The client's name, email and engagement value are redacted.</desc>
+
+  <rect width="1180" height="540" fill="#f9faf5" stroke="#d8ded0" />
+
+  <!-- Header -->
+  <text x="40" y="22" font-size="10" font-weight="700" letter-spacing="1.2" fill="#71872b">CENTRAL CUSTOMER VIEW &#183; ILLUSTRATIVE JOURNEY</text>
+  <text x="40" y="50" font-family="Lora, Georgia, serif" font-size="22" font-weight="600" fill="#1d2720">A single client's path through Metropole</text>
+  <text x="40" y="74" font-size="13" fill="#657067">Reconstructed from the Central Customer View - personal and financial details are redacted</text>
+
+  <!-- Redacted client record card -->
+  <rect x="760" y="20" width="380" height="104" fill="#ffffff" stroke="#d8ded0" />
+  <text x="780" y="44" font-size="10" font-weight="700" letter-spacing="1" fill="#9a7442">CLIENT</text>
+  <rect x="780" y="50" width="160" height="16" rx="3" fill="#dfe3d8" />
+  <text x="780" y="88" font-size="10" font-weight="700" letter-spacing="1" fill="#9a7442">EMAIL</text>
+  <rect x="780" y="94" width="200" height="16" rx="3" fill="#dfe3d8" />
+
+  <!-- Row 1 label -->
+  <text x="40" y="148" font-size="11" font-weight="700" letter-spacing="1" fill="#92ad39">FIRST 24 DAYS &#183; AWARENESS &amp; ENGAGEMENT</text>
+
+  <!-- Row 1 boxes -->
+  <g>
+    <rect x="40" y="160" width="252" height="110" fill="#ffffff" stroke="#d8ded0" stroke-width="1" />
+    <text x="56" y="188" font-size="11" font-weight="700" letter-spacing="0.5" fill="#92ad39">DAY 0</text>
+    <text x="56" y="214" font-size="13" font-weight="600" fill="#1d2720">Registered for the webinar</text>
+    <line x1="56" y1="238" x2="276" y2="238" stroke="#e9ede0" />
+    <text x="56" y="256" font-size="11" fill="#657067">WebinarJam</text>
+  </g>
+
+  <line x1="292" y1="215" x2="312" y2="215" stroke="#92ad39" stroke-width="2" />
+  <path d="M312 215 L305.7 218 M312 215 L305.7 212" fill="none" stroke="#92ad39" stroke-width="2" stroke-linecap="round" />
+
+  <g>
+    <rect x="322" y="160" width="252" height="110" fill="#ffffff" stroke="#d8ded0" stroke-width="1" />
+    <text x="338" y="188" font-size="11" font-weight="700" letter-spacing="0.5" fill="#92ad39">DAY 2</text>
+    <text x="338" y="214" font-size="13" font-weight="600" fill="#1d2720">Attended the webinar live</text>
+    <line x1="338" y1="238" x2="558" y2="238" stroke="#e9ede0" />
+    <text x="338" y="256" font-size="11" fill="#657067">WebinarJam</text>
+  </g>
+
+  <line x1="574" y1="215" x2="594" y2="215" stroke="#92ad39" stroke-width="2" />
+  <path d="M594 215 L587.7 218 M594 215 L587.7 212" fill="none" stroke="#92ad39" stroke-width="2" stroke-linecap="round" />
+
+  <g>
+    <rect x="604" y="160" width="252" height="110" fill="#ffffff" stroke="#d8ded0" stroke-width="1" />
+    <text x="620" y="188" font-size="11" font-weight="700" letter-spacing="0.5" fill="#92ad39">DAY 9</text>
+    <text x="620" y="214" font-size="13" font-weight="600" fill="#1d2720">Downloaded the Buyer's Toolkit</text>
+    <line x1="620" y1="238" x2="840" y2="238" stroke="#e9ede0" />
+    <text x="620" y="256" font-size="11" fill="#657067">Thryv + Google Analytics</text>
+  </g>
+
+  <line x1="856" y1="215" x2="876" y2="215" stroke="#92ad39" stroke-width="2" />
+  <path d="M876 215 L869.7 218 M876 215 L869.7 212" fill="none" stroke="#92ad39" stroke-width="2" stroke-linecap="round" />
+
+  <g>
+    <rect x="886" y="160" width="252" height="110" fill="#ffffff" stroke="#d8ded0" stroke-width="1" />
+    <text x="902" y="188" font-size="11" font-weight="700" letter-spacing="0.5" fill="#92ad39">DAY 18</text>
+    <text x="902" y="214" font-size="13" font-weight="600" fill="#1d2720">Opened 4 nurture emails</text>
+    <line x1="902" y1="238" x2="1122" y2="238" stroke="#e9ede0" />
+    <text x="902" y="256" font-size="11" fill="#657067">Mailchimp</text>
+  </g>
+
+  <!-- Transition -->
+  <line x1="589" y1="280" x2="589" y2="332" stroke="#92ad39" stroke-width="2" stroke-dasharray="4 3" />
+  <path d="M589 332 L585 324 M589 332 L593 324" fill="none" stroke="#92ad39" stroke-width="2" stroke-linecap="round" />
+  <text x="604" y="310" font-size="11" fill="#657067">10+ weeks later</text>
+
+  <!-- Row 2 label -->
+  <text x="40" y="338" font-size="11" font-weight="700" letter-spacing="1" fill="#92ad39">DAY 24-74 &#183; CONSIDERATION &amp; CLOSE</text>
+
+  <!-- Row 2 boxes -->
+  <g>
+    <rect x="40" y="350" width="252" height="130" fill="#ffffff" stroke="#d8ded0" stroke-width="1" />
+    <text x="56" y="378" font-size="11" font-weight="700" letter-spacing="0.5" fill="#92ad39">DAY 24</text>
+    <text x="56" y="404" font-size="13" font-weight="600" fill="#1d2720">Bought a Melbourne event ticket</text>
+    <line x1="56" y1="428" x2="276" y2="428" stroke="#e9ede0" />
+    <text x="56" y="446" font-size="11" fill="#657067">Humanitix</text>
+  </g>
+
+  <line x1="292" y1="405" x2="312" y2="405" stroke="#92ad39" stroke-width="2" />
+  <path d="M312 405 L305.7 408 M312 405 L305.7 402" fill="none" stroke="#92ad39" stroke-width="2" stroke-linecap="round" />
+
+  <g>
+    <rect x="322" y="350" width="252" height="130" fill="#ffffff" stroke="#d8ded0" stroke-width="1" />
+    <text x="338" y="378" font-size="11" font-weight="700" letter-spacing="0.5" fill="#92ad39">DAY 31</text>
+    <text x="338" y="404" font-size="13" font-weight="600" fill="#1d2720">Attended the event in person</text>
+    <line x1="338" y1="428" x2="558" y2="428" stroke="#e9ede0" />
+    <text x="338" y="446" font-size="11" fill="#657067">Humanitix</text>
+  </g>
+
+  <line x1="574" y1="405" x2="594" y2="405" stroke="#92ad39" stroke-width="2" />
+  <path d="M594 405 L587.7 408 M594 405 L587.7 402" fill="none" stroke="#92ad39" stroke-width="2" stroke-linecap="round" />
+
+  <g>
+    <rect x="604" y="350" width="252" height="130" fill="#ffffff" stroke="#d8ded0" stroke-width="1" />
+    <text x="620" y="378" font-size="11" font-weight="700" letter-spacing="0.5" fill="#92ad39">DAY 46</text>
+    <text x="620" y="404" font-size="13" font-weight="600" fill="#1d2720">Submitted an enquiry</text>
+    <line x1="620" y1="428" x2="840" y2="428" stroke="#e9ede0" />
+    <text x="620" y="446" font-size="11" fill="#657067">SuiteCRM</text>
+  </g>
+
+  <line x1="856" y1="405" x2="876" y2="405" stroke="#92ad39" stroke-width="2" />
+  <path d="M876 405 L869.7 408 M876 405 L869.7 402" fill="none" stroke="#92ad39" stroke-width="2" stroke-linecap="round" />
+
+  <g>
+    <rect x="886" y="350" width="252" height="130" fill="#f1f5e2" stroke="#92ad39" stroke-width="1.5" />
+    <text x="902" y="378" font-size="11" font-weight="700" letter-spacing="0.5" fill="#71872b">DAY 74</text>
+    <text x="902" y="404" font-size="13" font-weight="700" fill="#1d2720">Signed as a client</text>
+    <line x1="902" y1="418" x2="1122" y2="418" stroke="#d7e2bb" />
+    <text x="902" y="434" font-size="9" font-weight="700" letter-spacing="0.8" fill="#71872b">ENGAGEMENT VALUE</text>
+    <text x="902" y="454" font-size="14" fill="#1d2720">$</text>
+    <rect x="918" y="442" width="106" height="16" rx="3" fill="#e4ead2" />
+    <line x1="918" y1="442" x2="1024" y2="458" stroke="#9a7442" stroke-width="1.6" />
+    <line x1="918" y1="458" x2="1024" y2="442" stroke="#9a7442" stroke-width="1.6" />
+  </g>
+
+  <!-- Legend -->
+  <rect x="40" y="500" width="24" height="12" rx="2" fill="#dfe3d8" />
+  <text x="72" y="510" font-size="11" fill="#657067">Personal detail, redacted</text>
+  <rect x="300" y="500" width="24" height="12" rx="2" fill="#e4ead2" />
+  <line x1="300" y1="500" x2="324" y2="512" stroke="#9a7442" stroke-width="1.4" />
+  <line x1="300" y1="512" x2="324" y2="500" stroke="#9a7442" stroke-width="1.4" />
+  <text x="332" y="510" font-size="11" fill="#657067">Financial figure, redacted</text>
+</svg>
