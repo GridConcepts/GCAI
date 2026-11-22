@@ -89,11 +89,11 @@ function StateOfAiTeaser() {
               The AI boom is moving from chatbots to digital workers. Our plain-English report shows why reliable data, connected systems, practical governance, and prepared people are the difference between experimentation and results.
             </p>
             <div className="mt-8 max-w-[530px] border-l-2 border-[#92ad39]/60 pl-4">
-              <p className={`${sans} text-[10px] font-semibold tracking-[.16em] text-[#b4cc66]`}>UPDATED 15 NOV 2026</p>
+              <p className={`${sans} text-[10px] font-semibold tracking-[.16em] text-[#b4cc66]`}>UPDATED 22 NOV 2026</p>
               <ul className={`${sans} mt-3 space-y-2 text-[12px] leading-5 text-[#c8d3d0]`}>
-                <li>+ Added a free Mornington Peninsula Shire AI workshop for small businesses with no prior AI knowledge.</li>
-                <li>+ Added a National AI Centre webinar on being found in AI search, aimed at Victorian small businesses.</li>
-                <li>+ Added two new Victorian sources, taking the report to 38 cited sources.</li>
+                <li>+ Added a training-rounds timeline for the Victorian Digital Jobs AI Career Conversion program (up to 5 vouchers per round for businesses under 200 staff).</li>
+                <li>+ Added state election context: Victorians vote on 28 November 2026.</li>
+                <li>+ Added two new Victorian sources, taking the report to 40 cited sources.</li>
               </ul>
             </div>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
