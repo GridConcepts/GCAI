@@ -38,6 +38,15 @@ export function getInsightAuthor(name: string): InsightAuthor {
 /** Keep in sync with Markdown posts under blog/src/content/blog/ */
 export const insightPosts: InsightPost[] = [
   {
+    slug: "ai-for-hospitality-venues-rostering-and-stock-takes",
+    author: "Val Melamed",
+    image: "/insights/media/ai-for-hospitality-venues-rostering-and-stock-takes/venue-pressure-stats.svg",
+    title: "AI for hospitality venues: rostering and stock takes without the spreadsheet chaos",
+    description:
+      "A plain-English look at AI for hospitality venues - how it actually helps with rostering and stock takes, what still needs a human, and where a venue manager should start.",
+    dateLabel: "Nov 2026",
+  },
+  {
     slug: "best-ai-for-text-generation-2026",
     author: "Anton Sednin",
     image: "/insights/media/best-ai-for-text-generation-2026/test-methodology-flow.svg",
