@@ -52,6 +52,13 @@ const pages = [
       "Australian small businesses use Grid Concepts to connect their systems and put AI to work. See real client stories and book a complimentary consultation.",
     noindex: true,
   },
+  {
+    path: "small-business-d",
+    title: "Claude Specialists for Small Business in Melbourne | Grid Concepts",
+    description:
+      "Grid Concepts is a Melbourne team that sets up Claude for small businesses and connects it to your accounting, CRM, email and files. Book a complimentary consultation.",
+    noindex: true,
+  },
   // Internal reference page, not linked from the site.
   {
     path: "internal/landing-page-matrix",

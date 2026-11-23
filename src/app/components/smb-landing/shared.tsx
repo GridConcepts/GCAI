@@ -551,11 +551,11 @@ export function TestimonialSlider({ tone = "dark" }: { tone?: Tone }) {
 /* FAQ                                                                  */
 /* ------------------------------------------------------------------ */
 
-export function FaqList({ tone = "light" }: { tone?: Tone }) {
+export function FaqList({ tone = "light", items = faqs }: { tone?: Tone; items?: { q: string; a: string }[] }) {
   const dark = tone === "dark";
   return (
     <div className={`border-t ${dark ? "border-white/15" : "border-[#d8ded0]"}`}>
-      {faqs.map((f, i) => (
+      {items.map((f, i) => (
         <details key={f.q} className={`group border-b ${dark ? "border-white/15" : "border-[#d8ded0]"}`} open={i === 0}>
           <summary className={`flex cursor-pointer list-none items-start justify-between gap-6 py-5 [&::-webkit-details-marker]:hidden`}>
             <span className={`${display} text-[19px] leading-snug sm:text-[21px] ${dark ? "text-white" : "text-[#1d2720]"}`}>{f.q}</span>

@@ -110,14 +110,43 @@ const variants: Variant[] = [
       { q: "How is this different from another AI agency?", where: "Hero, Is this right for you?, FAQ" },
     ],
   },
+  {
+    code: "D",
+    name: "Claude Specialists",
+    path: "/small-business-d",
+    context: "Melbourne-based Claude specialist agency for small businesses. Hero visual shows Claude in the centre, connected to every internal system, with example questions and answers.",
+    focus: "Setting up Claude and connecting it to accounting, CRM, email, files and job software. Local, in-person team; services, rollout steps and Claude-specific FAQs.",
+    audience: "Owners who already know (or are curious about) Claude and want a local expert to set it up properly.",
+    chatgptAngle: "Owner asks ChatGPT about Claude, Claude vs ChatGPT, or how to connect an AI assistant to their business systems.",
+    googleAngle: "Claude-specific and \"Claude + Melbourne / consultant\" searches.",
+    keywords: [
+      "Claude AI consultant Melbourne",
+      "Claude specialist agency",
+      "Claude for small business",
+      "Claude AI setup for business",
+      "Anthropic Claude integration",
+      "connect Claude to Xero",
+      "Claude MCP connector developer",
+      "Claude Team plan setup",
+      "Claude AI training for staff",
+      "AI assistant for small business Melbourne",
+    ],
+    questions: [
+      { q: "Who can set up Claude for my business in Melbourne?", where: "Hero, Why a Melbourne Claude specialist" },
+      { q: "Can Claude connect to my accounting, CRM and email?", where: "Hero visual, Services, FAQ" },
+      { q: "What would Claude actually do in my business?", where: "Hero example chats, Claude at work" },
+      { q: "Is my data safe with Claude?", where: "Why Claude, FAQ" },
+      { q: "What does it cost and how do we start?", where: "How we roll Claude out, FAQ" },
+    ],
+  },
 ];
 
 const shared = [
   ["Primary CTA", "Complimentary Consultation (Microsoft Bookings, opens in new tab)"],
   ["Secondary CTA", "Get in touch (scrolls to the Contact section with form, address and phone)"],
-  ["Form source tag", "\"Small business landing page A / B / C (paid ads)\" in the contact webhook payload. A gclid on the lead means it came from Google Ads."],
+  ["Form source tag", "\"Small business landing page A / B / C (paid ads)\" and \"Small business landing page D - Claude (paid ads)\" in the contact webhook payload. A gclid on the lead means it came from Google Ads."],
   ["Tracking", "gclid and msclkid stored and sent with the form; OpenAI pixel conversion fires on form submit"],
-  ["Indexing", "All three pages and this matrix are noindex and excluded from the sitemap"],
+  ["Indexing", "All landing pages and this matrix are noindex and excluded from the sitemap"],
 ];
 
 function CopyButton({ text }: { text: string }) {
@@ -159,14 +188,14 @@ export function InternalLandingMatrix() {
         <p className={rowLabel}>Paid traffic · ChatGPT Ads &amp; Google Ads</p>
         <h1 className={`${display} mt-4 text-[38px] leading-[1.1] tracking-[-.03em] sm:text-[48px]`}>Small business landing page matrix</h1>
         <p className={`${sans} mt-4 max-w-[70ch] text-[15px] leading-7 text-[#586058]`}>
-          Three variants of the same offer, each built for a different first question a cold visitor brings. Use the keywords to build ad groups and to keep ad copy matched to the page it lands on.
+          Four variants: A to C are the same offer built for different first questions a cold visitor brings; D positions us as Melbourne's Claude specialists. Use the keywords to build ad groups and to keep ad copy matched to the page it lands on.
         </p>
       </section>
 
       {/* Matrix: one column per variant, one row per attribute */}
       <section className="mx-auto max-w-[1400px] px-5 pb-12 md:px-10">
         <div className="overflow-x-auto border border-[#d8ded0] bg-white">
-          <table className={`${sans} w-full min-w-[980px] border-collapse text-left align-top`}>
+          <table className={`${sans} w-full min-w-[1240px] border-collapse text-left align-top`}>
             <thead>
               <tr className="border-b border-[#d8ded0] bg-[#1d2720] text-white">
                 <th className="w-[160px] px-5 py-5 align-bottom"><span className="text-[10px] font-semibold uppercase tracking-[.16em] text-[#b4cc66]">Variant</span></th>
@@ -246,7 +275,7 @@ export function InternalLandingMatrix() {
       </section>
 
       <section className="mx-auto max-w-[1400px] px-5 pb-20 md:px-10">
-        <h2 className={`${display} text-[26px]`}>Shared across all three</h2>
+        <h2 className={`${display} text-[26px]`}>Shared across all variants</h2>
         <dl className="mt-5 grid border-t border-[#d8ded0]">
           {shared.map(([k, v]) => (
             <div key={k} className="grid gap-1 border-b border-[#d8ded0] py-3.5 sm:grid-cols-[200px_1fr] sm:gap-6">
