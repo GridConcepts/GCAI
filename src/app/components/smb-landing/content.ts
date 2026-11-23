@@ -164,7 +164,8 @@ export type Customer = {
   logo?: string;
   // "opaque": logo file has a solid background (JPG/GIF), so it can't be recoloured for dark sections.
   // "onDark": logo is light-coloured and needs a dark backing on light sections.
-  logoStyle?: "opaque" | "onDark";
+  // "asIs": logo is self-contained (e.g. its own dark background), shown unchanged everywhere.
+  logoStyle?: "opaque" | "onDark" | "asIs";
   href?: string;
 };
 
@@ -177,7 +178,7 @@ export const customers: Customer[] = [
   { name: "PrintForce", industry: "Printing", size: "10-50 staff", logo: "https://online.printforce.com.au/images/logo.png" },
   { name: "Eggler Institute of Technology", industry: "Education & training", size: "5-10 staff", logo: "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_480,h_91/https://www.eit.global/wp-content/uploads/2024/12/eggler-logo-optimized.gif", logoStyle: "opaque" },
   { name: "HeartKids", industry: "Not-for-profit", size: "10-25 staff", logo: "https://www.heartkids.org.au/wp-content/uploads/2024/05/HeartKids_logo_small.png?x72718" },
-  { name: "Kingston Water Tanks", industry: "Manufacturing", size: "2-5 staff", logo: "https://kingstonwatertanks.com.au/wp-content/uploads/2020/11/kwt-new-logo.jpg", logoStyle: "opaque" },
+  { name: "Kingston Water Tanks", industry: "Manufacturing", size: "2-5 staff", logo: "/logos/kingston-water-tanks.jpg", logoStyle: "asIs" },
   { name: "Verona Homes", industry: "Home building", size: "10-50 staff", logo: "https://veronahomes.com.au/wp-content/uploads/2023/03/logored.png" },
   { name: "Applied Cleansing Solutions", industry: "Industrial cleaning", size: "5-15 staff", logo: "https://appliedcleansing.com.au/wp-content/themes/acs-theme/img/logo.png" },
 ];

@@ -367,6 +367,7 @@ export function LogoMark({ customer, tone = "light", size = "md", monogramOnly =
     // Light logo on a light section: give it a dark backing.
     if (customer.logoStyle === "onDark" && !dark) return <span className="inline-block bg-[#1d2720] px-3 py-2">{img("")}</span>;
     if (customer.logoStyle === "onDark") return img("");
+    if (customer.logoStyle === "asIs") return img("");
     // Logo with a solid background: show as-is, on a white tile in dark sections.
     if (customer.logoStyle === "opaque") return dark ? <span className="inline-block bg-white px-2.5 py-1.5">{img("")}</span> : img("");
     // Default: transparent dark logo, recoloured white on dark sections.
