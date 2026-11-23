@@ -558,7 +558,7 @@ export function ContactSection({ source = "GCAI Website Contact Section" }: { so
     } catch (submitError) {
       const msg = submitError instanceof Error ? submitError.message : String(submitError);
       console.error("[ContactSection] Submission failed:", msg);
-      setError("Something went wrong sending your message. Please try again, or call us directly on 1300 976 426.");
+      setError("Something went wrong sending your message. Please try again, or call us directly on 1300 976 425.");
     } finally {
       setSubmitting(false);
     }
@@ -647,12 +647,12 @@ export function ContactSection({ source = "GCAI Website Contact Section" }: { so
         <div className="border border-[#dfe3d8] bg-[#fbfcf8] p-7 sm:p-8">
           <h3 className={`${display} text-[22px] text-[#1d2720]`}>Get in Touch</h3>
           <p className={`${sans} mt-3 text-[13px] leading-[1.6] text-[#586058]`}>
-            We typically respond within 24 hours. For urgent inquiries, call us directly on <b className="font-semibold text-[#1d2720]">1300 976 426</b>.
+            We typically respond within 24 hours. For urgent inquiries, call us directly on <a href="tel:1300976425" className="font-semibold text-[#1d2720] hover:text-[#52631e]">1300 976 425</a>.
           </p>
           <div className="mt-7 flex flex-col gap-5">
             <ContactMeta label="PREFER A FACE TO FACE MEETING?">
               <a href="mailto:hello@gridconcepts.com.au" className="text-[#3d473e] transition hover:text-[#52631e]">
-                We can come to your office in Melbourne or we can meet either at a Chadstone or Moorabbin location
+                We can come to your office in Melbourne, or meet you at our Chadstone office
               </a>
             </ContactMeta>
             <ContactMeta label="OUR OFFICE">Level 2, 1341 Dandenong Rd, Chadstone, VIC, 3148, Australia</ContactMeta>

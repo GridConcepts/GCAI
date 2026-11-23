@@ -251,6 +251,7 @@ export function OrthodonticsAustraliaCaseStudy() {
           </div>
           <div className="sm:text-right">
             <a href="tel:1300976425" className={`${display} text-[24px] tracking-[.03em] text-white transition hover:text-[#b4cc66]`}>1300 976 425</a>
+            <address className={`${sans} mt-4 text-[12px] leading-5 not-italic text-[#a9b0a4]`}>Level 2, 1341 Dandenong Rd,<br />Chadstone, Victoria, 3148</address>
             <p className={`${sans} mt-5 text-[11px] text-[#8f978b]`}>© 2026 Grid Concepts Pty Ltd. Melbourne, Australia.</p>
           </div>
         </div>
