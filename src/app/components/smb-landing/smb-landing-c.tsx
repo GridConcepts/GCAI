@@ -57,7 +57,7 @@ function Hero() {
           <figure className="relative bg-[#10252a] p-8 sm:p-10">
             <span className={`${display} block text-[72px] leading-[.6] text-[#92ad39]`} aria-hidden="true">“</span>
             <blockquote className={`${display} mt-4 text-[22px] italic leading-[1.4] text-white sm:text-[25px]`}>{t.quote}</blockquote>
-            <figcaption className={`${sans} mt-6 text-[12px] text-[#c8d3d0]`}><b className="text-white">{t.name}</b> · {t.role}, {t.company}</figcaption>
+            <figcaption className={`${sans} mt-6 text-[12px] text-[#c8d3d0]`}><b className="text-white">{t.company}</b> · {t.descriptor}</figcaption>
             <span className="absolute -bottom-3 -right-3 size-10 bg-[#92ad39]" aria-hidden="true" />
           </figure>
           <div className="border border-[#d8ded0] bg-white p-6">

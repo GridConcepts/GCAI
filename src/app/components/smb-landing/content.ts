@@ -180,32 +180,29 @@ export const customers: Customer[] = [
 ];
 
 /* ------------------------------------------------------------------ */
-/* Testimonials - DRAFT copy awaiting real client quotes and approval.  */
+/* Testimonials                                                         */
 /* ------------------------------------------------------------------ */
 
-export type Testimonial = { quote: string; name: string; role: string; company: string };
+export type Testimonial = { quote: string; company: string; descriptor: string };
 
 export const testimonials: Testimonial[] = [
   {
     quote:
-      "We were paying for software that didn't talk to each other. Grid Concepts connected what we already had, and now the follow-ups just happen. We didn't have to buy a single new subscription.",
-    name: "Client name",
-    role: "Role to confirm",
-    company: "Professional services firm",
+      "We were paying for software that didn't talk to each other & some of it we didn't need. Grid Concepts connected what we already had, and now the marketing communications are enabled without double-handling the data. We didn't have to buy a single new subscription.",
+    company: "GM Law",
+    descriptor: "Professional services firm",
   },
   {
     quote:
-      "For the first time we can see the whole customer journey in one place. The team stopped arguing about whose numbers were right and started asking better questions.",
-    name: "Client name",
-    role: "Role to confirm",
-    company: "Property advisory business",
+      "For the first time we can see the whole customer journey in one place. We can now see the complete picture, even if it is years in leadup to a sale! The team stopped arguing which numbers were right and started asking better questions.",
+    company: "Metropole",
+    descriptor: "Property advisory",
   },
   {
     quote:
       "They explained everything in plain English and started small. Within a few weeks we had something useful running, not a 40-page strategy document.",
-    name: "Client name",
-    role: "Role to confirm",
-    company: "Healthcare organisation",
+    company: "Orthodontics Australia",
+    descriptor: "Healthcare association",
   },
 ];
 

@@ -507,7 +507,7 @@ export function TestimonialSlider({ tone = "dark" }: { tone?: Tone }) {
               <figcaption className={`${sans} mt-7 flex items-center gap-3 text-[13px] ${dark ? "text-[#c8d3d0]" : "text-[#586058]"}`}>
                 <span className="h-px w-7 bg-[#92ad39]" />
                 <span>
-                  <b className={dark ? "text-white" : "text-[#1d2720]"}>{t.name}</b> · {t.role}, {t.company}
+                  <b className={dark ? "text-white" : "text-[#1d2720]"}>{t.company}</b> · {t.descriptor}
                 </span>
               </figcaption>
             </figure>
