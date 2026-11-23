@@ -261,7 +261,7 @@ export function SmbLandingA() {
       <Customers />
       <HowItWorks />
       <Faq />
-      <ContactSection source="Small business landing page A (ChatGPT ads)" />
+      <ContactSection source="Small business landing page A (paid ads)" />
       <ClosingBand title="Ready to get your tools working together?" text="Book a free 30-minute consultation with a Grid Concepts partner. No jargon, no obligation, just practical next steps for your business." />
       <Footer />
       <MobileStickyCta />

@@ -192,7 +192,7 @@ export function SmbLandingB() {
       <Testimonials />
       <Faq />
       <ClosingBand title="See your own systems mapped out." text="On a free 30-minute call we'll sketch how your tools could connect and where AI would save the most time. No obligation." />
-      <ContactSection source="Small business landing page B (ChatGPT ads)" />
+      <ContactSection source="Small business landing page B (paid ads)" />
       <Footer />
       <MobileStickyCta />
     </main>

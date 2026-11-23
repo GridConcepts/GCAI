@@ -7,6 +7,7 @@ import { OrthodonticsAustraliaCaseStudy } from "./components/case-study-orthodon
 import { SmbLandingA } from "./components/smb-landing/smb-landing-a";
 import { SmbLandingB } from "./components/smb-landing/smb-landing-b";
 import { SmbLandingC } from "./components/smb-landing/smb-landing-c";
+import { InternalLandingMatrix } from "./components/internal-landing-matrix";
 import { NotFound } from "./components/not-found";
 
 export const router = createBrowserRouter([
@@ -18,5 +19,6 @@ export const router = createBrowserRouter([
   { path: "/small-business-a", Component: SmbLandingA, errorElement: <NotFound /> },
   { path: "/small-business-b", Component: SmbLandingB, errorElement: <NotFound /> },
   { path: "/small-business-c", Component: SmbLandingC, errorElement: <NotFound /> },
+  { path: "/internal/landing-page-matrix", Component: InternalLandingMatrix, errorElement: <NotFound /> },
   { path: "*", Component: NotFound },
 ]);

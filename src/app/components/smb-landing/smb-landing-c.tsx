@@ -253,7 +253,7 @@ export function SmbLandingC() {
       <IsThisForYou />
       <Testimonials />
       <Faq />
-      <ContactSection source="Small business landing page C (ChatGPT ads)" />
+      <ContactSection source="Small business landing page C (paid ads)" />
       <ClosingBand title="Talk to a real person. It's free." text="Book a 30-minute consultation with one of our partners and get practical ideas for your business, whether or not you work with us." />
       <Footer />
       <MobileStickyCta />

@@ -52,6 +52,13 @@ const pages = [
       "Australian small businesses use Grid Concepts to connect their systems and put AI to work. See real client stories and book a complimentary consultation.",
     noindex: true,
   },
+  // Internal reference page, not linked from the site.
+  {
+    path: "internal/landing-page-matrix",
+    title: "Landing Page Matrix | Grid Concepts (internal)",
+    description: "Internal reference for the small business paid-traffic landing pages.",
+    noindex: true,
+  },
 ];
 
 for (const { path, title, description, noindex } of pages) {
