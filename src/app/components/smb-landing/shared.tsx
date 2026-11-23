@@ -359,6 +359,7 @@ export function LogoMark({ customer, tone = "light", size = "md", monogramOnly =
         src={customer.logo}
         alt={`${customer.name} logo`}
         loading="lazy"
+        referrerPolicy="no-referrer"
         onError={() => setFailed(true)}
         className={`block ${h} max-w-[150px] object-contain object-left ${extra}`}
       />
