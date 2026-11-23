@@ -154,7 +154,7 @@ export const useCases: UseCase[] = [
 
 /* ------------------------------------------------------------------ */
 /* Customers                                                            */
-/* Industry and size are working estimates - confirm before going live. */
+/* Sizes confirmed by Grid Concepts (Metropole and Orthodontics Australia still estimates). */
 /* ------------------------------------------------------------------ */
 
 export type Customer = {
@@ -162,6 +162,9 @@ export type Customer = {
   industry: string;
   size: string;
   logo?: string;
+  // "opaque": logo file has a solid background (JPG/GIF), so it can't be recoloured for dark sections.
+  // "onDark": logo is light-coloured and needs a dark backing on light sections.
+  logoStyle?: "opaque" | "onDark";
   href?: string;
 };
 
@@ -169,14 +172,14 @@ export const customers: Customer[] = [
   { name: "Metropole Property Strategists", industry: "Property investment", size: "50-100 staff", logo: "https://metropole.com.au/wp-content/themes/metropole-theme/assets/images/2025/Metropole_primary_logo.svg", href: "/case-studies/metropole" },
   { name: "GM Law", industry: "Legal services", size: "10-15 staff", logo: "https://www.gmlaw.com.au/wp-content/uploads/2020/02/GMLaw-logo.svg", href: "/case-studies/gm-law" },
   { name: "Orthodontics Australia", industry: "Healthcare", size: "Member body, national", logo: "https://orthodonticsaustralia.org.au/wp-content/themes/oa2023/img/logo.svg", href: "/case-studies/orthodontics-australia" },
-  { name: "Mornington Vet", industry: "Veterinary", size: "20-50 staff" },
-  { name: "InvestLink Group", industry: "Financial services", size: "20-50 staff" },
-  { name: "PrintForce", industry: "Printing", size: "10-20 staff" },
-  { name: "Eggler Institute of Technology", industry: "Education & training", size: "20-50 staff" },
-  { name: "HeartKids", industry: "Not-for-profit", size: "50-100 staff" },
-  { name: "Kingston Water Tanks", industry: "Manufacturing", size: "10-20 staff" },
-  { name: "Verona Homes", industry: "Home building", size: "20-50 staff" },
-  { name: "Applied Cleansing Solutions", industry: "Industrial cleaning", size: "10-20 staff" },
+  { name: "Mornington Vet", industry: "Veterinary", size: "5-10 staff", logo: "https://morningtonvetclinic.com.au/wp-content/uploads/2022/10/MVC-logo.svg" },
+  { name: "InvestLink Group", industry: "Financial services", size: "5-10 staff", logo: "https://www.investlinkgroup.com.au/wp-content/uploads/2022/10/Investlink_Logo_Light_RGB-1024x378.png", logoStyle: "onDark" },
+  { name: "PrintForce", industry: "Printing", size: "10-50 staff", logo: "https://online.printforce.com.au/images/logo.png" },
+  { name: "Eggler Institute of Technology", industry: "Education & training", size: "5-10 staff", logo: "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_480,h_91/https://www.eit.global/wp-content/uploads/2024/12/eggler-logo-optimized.gif", logoStyle: "opaque" },
+  { name: "HeartKids", industry: "Not-for-profit", size: "10-25 staff", logo: "https://www.heartkids.org.au/wp-content/uploads/2024/05/HeartKids_logo_small.png?x72718" },
+  { name: "Kingston Water Tanks", industry: "Manufacturing", size: "2-5 staff", logo: "https://kingstonwatertanks.com.au/wp-content/uploads/2020/11/kwt-new-logo.jpg", logoStyle: "opaque" },
+  { name: "Verona Homes", industry: "Home building", size: "10-50 staff", logo: "https://veronahomes.com.au/wp-content/uploads/2023/03/logored.png" },
+  { name: "Applied Cleansing Solutions", industry: "Industrial cleaning", size: "5-15 staff", logo: "https://appliedcleansing.com.au/wp-content/themes/acs-theme/img/logo.png" },
 ];
 
 /* ------------------------------------------------------------------ */
