@@ -137,9 +137,9 @@ export const rolloutSteps = [
   { title: "Expand", text: "Add the next workflow once the first one is paying for itself." },
 ];
 
-/* Use cases. These describe Claude workflows we can build. They link to
-   case studies of the data foundation work underneath, without claiming
-   those clients use Claude. */
+/* Use cases. Claude workflows we build, each linked to the case study of
+   the data foundation underneath. GM Law and Metropole use Claude
+   (confirmed); Orthodontics Australia is linked for the foundation only. */
 export type ClaudeUseCase = {
   id: string;
   title: string;
@@ -148,7 +148,7 @@ export type ClaudeUseCase = {
   claudeDoes: string[];
   systems: string[];
   data: string[];
-  foundation: { client: string; text: string; href: string };
+  foundation: { client: string; usesClaude?: boolean; text: string; href: string };
 };
 
 export const claudeUseCases: ClaudeUseCase[] = [
@@ -164,7 +164,7 @@ export const claudeUseCases: ClaudeUseCase[] = [
     ],
     systems: ["Website forms", "Outlook", "HubSpot or Keap", "Practice software"],
     data: ["Contact details", "Past matters or jobs", "Pricing notes", "Follow-up dates"],
-    foundation: { client: "GM Law", text: "Built on the same connected CRM foundation we delivered for GM Law.", href: "/case-studies/gm-law" },
+    foundation: { client: "GM Law", usesClaude: true, text: "GM Law uses Claude. This workflow builds on the connected CRM foundation we delivered for them.", href: "/case-studies/gm-law" },
   },
   {
     id: "customer-view",
@@ -178,7 +178,7 @@ export const claudeUseCases: ClaudeUseCase[] = [
     ],
     systems: ["CRM", "Mailchimp", "Online store", "Webinar & event tools"],
     data: ["Enquiries & deals", "Email engagement", "Purchases", "Event attendance"],
-    foundation: { client: "Metropole", text: "Uses the kind of central customer view we built for Metropole from six systems.", href: "/case-studies/metropole" },
+    foundation: { client: "Metropole", usesClaude: true, text: "Metropole uses Claude. This workflow builds on the central customer view we created from their six systems.", href: "/case-studies/metropole" },
   },
   {
     id: "answers",

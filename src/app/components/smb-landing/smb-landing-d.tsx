@@ -153,6 +153,9 @@ function Hero() {
             <li className="flex items-center gap-2"><Users size={16} className="shrink-0 text-[#92ad39]" />Meet us in person</li>
             <li className="flex items-center gap-2"><CalendarDays size={16} className="shrink-0 text-[#92ad39]" />Helping SMEs since 2010</li>
           </ul>
+          <p className={`${sans} mt-6 max-w-[540px] border-l-2 border-[#92ad39] pl-4 text-[14px] leading-6 text-[#3d473e]`}>
+            Clients including <b className="font-semibold text-[#1d2720]">Metropole</b> and <b className="font-semibold text-[#1d2720]">GM Law</b> already use Claude.
+          </p>
         </div>
         <div className="min-w-0"><ClaudeOrbit /></div>
       </div>
@@ -234,7 +237,7 @@ function UseCases() {
           <Eyebrow>Claude at work</Eyebrow>
           <div>
             <SectionTitle className="max-w-[17ch]">Three Claude workflows small businesses use every day.</SectionTitle>
-            <p className={`${sans} mt-6 max-w-[560px] text-[16px] leading-7 text-[#586058]`}>Each one sits on a connected data foundation like the ones we've built for our clients.</p>
+            <p className={`${sans} mt-6 max-w-[560px] text-[16px] leading-7 text-[#586058]`}>Each one sits on a connected data foundation like the ones we've built for our clients, two of whom already use Claude.</p>
           </div>
         </div>
         <div className="mt-14 space-y-6">
@@ -266,6 +269,11 @@ function UseCases() {
                   <div className="mt-3"><Chips items={uc.data} /></div>
                 </div>
                 <div className="mt-auto border-l-2 border-[#92ad39] pl-4">
+                  {uc.foundation.usesClaude && (
+                    <p className={`${sans} mb-2 inline-flex items-center gap-1.5 bg-[#1d2720] px-2 py-1 text-[10px] font-semibold uppercase tracking-[.12em] text-[#cfe28a]`}>
+                      <Sparkles size={11} aria-hidden="true" /> {uc.foundation.client} uses Claude
+                    </p>
+                  )}
                   <p className={`${sans} text-[13px] leading-5 text-[#3d473e]`}>{uc.foundation.text}</p>
                   <a href={uc.foundation.href} className={`${sans} group mt-2 inline-flex items-center gap-2 text-[12px] font-semibold text-[#53661c] hover:text-[#1d2720]`}>
                     Read the {uc.foundation.client} case study <ArrowRight size={14} className="transition group-hover:translate-x-1" />

@@ -944,8 +944,8 @@ function ContactCol() {
     <div className="[word-break:break-word] content-stretch flex flex-col gap-[12px] items-start leading-[normal] not-italic overflow-clip relative shrink-0 whitespace-nowrap" data-name="Contact Col">
       <p className="font-['Inter:Semi_Bold',sans-serif] font-semibold relative shrink-0 text-[#1a1a1a] text-[13px]">Contact</p>
       <p className="font-['Inter:Regular',sans-serif] font-normal relative shrink-0 text-[#5a5a5a] text-[14px]">1300 976 425</p>
-      <p className="font-['Inter:Regular',sans-serif] font-normal relative shrink-0 text-[#5a5a5a] text-[14px]">6D/596 North Rd</p>
-      <p className="font-['Inter:Regular',sans-serif] font-normal relative shrink-0 text-[#5a5a5a] text-[14px]">Ormond VIC 3204</p>
+      <p className="font-['Inter:Regular',sans-serif] font-normal relative shrink-0 text-[#5a5a5a] text-[14px]">Level 2, 1341 Dandenong Rd</p>
+      <p className="font-['Inter:Regular',sans-serif] font-normal relative shrink-0 text-[#5a5a5a] text-[14px]">Chadstone VIC 3148</p>
     </div>
   );
 }
