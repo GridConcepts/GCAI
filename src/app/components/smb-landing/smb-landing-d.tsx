@@ -66,7 +66,7 @@ function ClaudeOrbit() {
       <style>{orbitCss}</style>
       <div className="flex items-center justify-between gap-3">
         <p className={`${sans} text-[10px] font-semibold uppercase tracking-[.16em] text-[#b4cc66]`}>Claude, connected to your business</p>
-        <p className={`${sans} text-[10px] text-[#899b96]`}>Tap a system</p>
+        <p className={`${sans} shrink-0 whitespace-nowrap text-[12px] text-[#9fb0ab]`}>Tap a system</p>
       </div>
 
       <div className="relative mx-auto mt-6 aspect-square w-full max-w-[500px]">
@@ -90,7 +90,7 @@ function ClaudeOrbit() {
         <div className="gc-orbit-core absolute left-1/2 top-1/2 flex aspect-square w-[30%] -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center rounded-full bg-[#f9faf5] text-center">
           <Sparkles className="size-[22%] text-[#71872b]" aria-hidden="true" />
           <p className={`${display} mt-1 text-[clamp(16px,4.6vw,26px)] leading-none text-[#1d2720]`}>Claude</p>
-          <p className={`${sans} mt-1 text-[clamp(8px,2vw,10px)] font-semibold uppercase tracking-[.12em] text-[#71872b]`}>AI assistant</p>
+          <p className={`${sans} mt-1 hidden text-[10px] font-semibold uppercase tracking-[.12em] text-[#71872b] sm:block`}>AI assistant</p>
         </div>
 
         {/* Systems around it */}
@@ -111,7 +111,7 @@ function ClaudeOrbit() {
               }`}
             >
               <span className={`${sans} block text-[11px] font-semibold leading-tight sm:text-[12px]`}>{s.label}</span>
-              <span className={`${sans} mt-0.5 block text-[9px] leading-tight sm:text-[10px] ${isActive ? "text-[#2b3a0d]" : "text-[#9fb0ab]"}`}>{s.tools}</span>
+              <span className={`${sans} mt-0.5 block text-[10px] leading-tight sm:text-[11px] ${isActive ? "text-[#2b3a0d]" : "text-[#9fb0ab]"}`}>{s.tools}</span>
             </button>
           );
         })}
@@ -129,7 +129,7 @@ function ClaudeOrbit() {
           </p>
           <p className={`${sans} mt-1 text-[14px] leading-6 text-[#1d2720]`}>{sys.answer}</p>
         </div>
-        <p className={`${sans} text-[11px] text-[#899b96]`}>Example conversation with sample data.</p>
+        <p className={`${sans} text-[12px] text-[#9fb0ab]`}>Example conversation with sample data.</p>
       </div>
     </div>
   );
@@ -275,7 +275,7 @@ function UseCases() {
                     </p>
                   )}
                   <p className={`${sans} text-[13px] leading-5 text-[#3d473e]`}>{uc.foundation.text}</p>
-                  <a href={uc.foundation.href} className={`${sans} group mt-2 inline-flex items-center gap-2 text-[12px] font-semibold text-[#53661c] hover:text-[#1d2720]`}>
+                  <a href={uc.foundation.href} className={`${sans} group mt-1 inline-flex min-h-[44px] items-center gap-2 text-[13px] font-semibold text-[#53661c] hover:text-[#1d2720]`}>
                     Read the {uc.foundation.client} case study <ArrowRight size={14} className="transition group-hover:translate-x-1" />
                   </a>
                 </div>

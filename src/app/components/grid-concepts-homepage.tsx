@@ -504,14 +504,14 @@ const CONTACT_WEBHOOK = "https://hook.eu2.make.com/335wsoqp2hh64izx1pfppbg02y7ec
 
 function ContactField({ label, children }: { label: string; children: ReactNode }) {
   return (
-    <label className="flex flex-col gap-2">
+    <label className="flex min-w-0 flex-col gap-2">
       <span className={`${sans} text-[13px] font-medium text-[#1d2720]`}>{label}</span>
       {children}
     </label>
   );
 }
 
-const contactFieldClass = `${sans} border border-[#cfd7c5] bg-white px-3.5 py-3 text-[14px] text-[#1d2720] outline-none transition placeholder:text-[#93998d] focus:border-[#92ad39]`;
+const contactFieldClass = `${sans} w-full min-w-0 border border-[#cfd7c5] bg-white px-3.5 py-3 text-[16px] sm:text-[14px] text-[#1d2720] outline-none transition placeholder:text-[#93998d] focus:border-[#92ad39]`;
 
 function ContactMeta({ label, children }: { label: string; children: ReactNode }) {
   return (
@@ -565,9 +565,9 @@ export function ContactSection({ source = "GCAI Website Contact Section" }: { so
   };
 
   return (
-    <section id="get-in-touch" className="border-t border-[#dfe3d8] bg-white">
+    <section id="get-in-touch" className="scroll-mt-[68px] border-t border-[#dfe3d8] bg-white">
       <div className="mx-auto grid max-w-[1180px] gap-14 px-6 py-20 md:grid-cols-[1fr_.78fr] md:px-12 md:py-28">
-        <div className="flex flex-col gap-8">
+        <div className="flex min-w-0 flex-col gap-8">
           <div className="flex flex-col gap-5">
             <h2 className={`${display} max-w-[19ch] text-[35px] leading-[1.16] tracking-[-.03em] text-[#1d2720] sm:text-[45px]`}>
               Not sure where to start with AI &amp; just want to talk to a human being?

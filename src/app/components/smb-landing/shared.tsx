@@ -1,4 +1,4 @@
-import { useEffect, useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import { ArrowRight, ChevronLeft, ChevronRight, Plus } from "lucide-react";
 import { Logo } from "../grid-concepts-homepage";
 import {
@@ -108,7 +108,7 @@ export function SlimHeader({ tone = "light" }: { tone?: Tone }) {
             href={BOOKING_URL}
             target="_blank"
             rel="noreferrer"
-            className={`${sans} whitespace-nowrap px-3.5 py-2.5 text-[11px] font-semibold transition sm:px-4 sm:text-[12px] ${dark ? "bg-[#92ad39] text-[#17220d] hover:bg-white" : "bg-[#1d2720] text-white hover:bg-[#92ad39]"}`}
+            className={`${sans} flex min-h-[44px] items-center whitespace-nowrap px-3.5 text-[12px] font-semibold transition sm:px-4 ${dark ? "bg-[#92ad39] text-[#17220d] hover:bg-white" : "bg-[#1d2720] text-white hover:bg-[#92ad39]"}`}
           >
             <span className="sm:hidden">Free consultation</span>
             <span className="hidden sm:inline">{PRIMARY_CTA}</span>
@@ -121,15 +121,33 @@ export function SlimHeader({ tone = "light" }: { tone?: Tone }) {
 
 /* Sticky bottom bar on phones, so the primary CTA is always one tap away. */
 export function MobileStickyCta() {
+  const [pastHero, setPastHero] = useState(false);
+  const [atContact, setAtContact] = useState(false);
+  useEffect(() => {
+    const onScroll = () => setPastHero(window.scrollY > window.innerHeight * 0.8);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    const contact = document.getElementById("get-in-touch");
+    const io = contact ? new IntersectionObserver(([e]) => setAtContact(e.isIntersecting), { threshold: 0.05 }) : null;
+    if (contact && io) io.observe(contact);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      io?.disconnect();
+    };
+  }, []);
+  const show = pastHero && !atContact;
   return (
-    <div className="fixed inset-x-0 bottom-0 z-40 border-t border-white/10 bg-[#1d2720] px-4 py-3 pb-[max(12px,env(safe-area-inset-bottom))] md:hidden">
+    <div
+      aria-hidden={!show}
+      className={`fixed inset-x-0 bottom-0 z-40 border-t border-white/10 bg-[#1d2720] px-4 py-3 pb-[max(12px,env(safe-area-inset-bottom))] transition-transform duration-300 motion-reduce:transition-none md:hidden ${show ? "translate-y-0" : "pointer-events-none translate-y-full"}`}
+    >
       <div className="flex items-center justify-between gap-3">
         <p className={`${sans} text-[12px] leading-4 text-[#c8d3d0]`}>
           Free 30-minute call
           <br />
           <span className="text-white">No obligation</span>
         </p>
-        <a href={BOOKING_URL} target="_blank" rel="noreferrer" className={`${sans} bg-[#92ad39] px-4 py-3 text-[12px] font-semibold text-[#17220d]`}>
+        <a href={BOOKING_URL} target="_blank" rel="noreferrer" tabIndex={show ? 0 : -1} className={`${sans} flex min-h-[44px] items-center bg-[#92ad39] px-4 text-[13px] font-semibold text-[#17220d]`}>
           {PRIMARY_CTA}
         </a>
       </div>
@@ -170,7 +188,23 @@ const flowCss = `
 
 export function IntegrationMap({ tone = "light" }: { tone?: Tone }) {
   const [selected, setSelected] = useState(systemGroups[1].id);
+  const mobileDetailRef = useRef<HTMLDivElement>(null);
   const dark = tone === "dark";
+  const choose = (id: string) => {
+    setSelected(id);
+    // On phones the detail sits under the grid; bring it into view if it's below the fold.
+    if (window.matchMedia("(max-width: 1023px)").matches) {
+      window.requestAnimationFrame(() => {
+        const el = mobileDetailRef.current;
+        if (!el) return;
+        const r = el.getBoundingClientRect();
+        if (r.bottom > window.innerHeight - 80) {
+          const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+          el.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "nearest" });
+        }
+      });
+    }
+  };
   const active = systemGroups.find((g) => g.id === selected) ?? systemGroups[0];
   const left = systemGroups.slice(0, 3);
   const right = systemGroups.slice(3);
@@ -189,9 +223,9 @@ export function IntegrationMap({ tone = "light" }: { tone?: Tone }) {
   const systemButton = ({ id, label, tools }: { id: string; label: string; tools: string[] }) => {
     const isActive = id === selected;
     return (
-      <button key={id} type="button" onClick={() => setSelected(id)} aria-pressed={isActive} className={card(isActive)}>
+      <button key={id} type="button" onClick={() => choose(id)} aria-pressed={isActive} className={card(isActive)}>
         <span className={`${sans} block text-[13px] font-semibold ${dark ? "text-white" : "text-[#1d2720]"}`}>{label}</span>
-        <span className={`${sans} mt-1 block text-[11px] leading-4 ${dark ? "text-[#aab8b4]" : "text-[#657067]"}`}>{tools.join(" · ")}</span>
+        <span className={`${sans} mt-1 block text-[12px] leading-4 ${dark ? "text-[#aab8b4]" : "text-[#657067]"}`}>{tools.join(" · ")}</span>
       </button>
     );
   };
@@ -223,58 +257,69 @@ export function IntegrationMap({ tone = "light" }: { tone?: Tone }) {
     </div>
   );
 
+  const detail = (
+    <div className={`grid gap-4 border p-5 sm:grid-cols-[.8fr_1fr_1fr] sm:gap-5 sm:p-6 ${dark ? "border-white/15 bg-white/[.03]" : "border-[#d8ded0] bg-[#fbfcf8]"}`}>
+      <div>
+        <p className={`${sans} text-[10px] font-semibold uppercase tracking-[.16em] ${dark ? "text-[#b4cc66]" : "text-[#71872b]"}`}>Selected</p>
+        <p className={`${display} mt-2 text-[22px] leading-tight ${dark ? "text-white" : "text-[#1d2720]"}`}>{active.label}</p>
+      </div>
+      <div>
+        <p className={`${sans} text-[10px] font-semibold uppercase tracking-[.16em] ${dark ? "text-[#b4cc66]" : "text-[#71872b]"}`}>Data that moves</p>
+        <p className={`${sans} mt-2 text-[14px] leading-6 ${dark ? "text-[#c8d3d0]" : "text-[#3d473e]"}`}>{active.data}</p>
+      </div>
+      <div>
+        <p className={`${sans} text-[10px] font-semibold uppercase tracking-[.16em] ${dark ? "text-[#b4cc66]" : "text-[#71872b]"}`}>What it unlocks</p>
+        <p className={`${sans} mt-2 text-[14px] leading-6 ${dark ? "text-[#c8d3d0]" : "text-[#3d473e]"}`}>{active.unlocks}</p>
+      </div>
+    </div>
+  );
+  const hint = (
+    <p className={`${sans} text-[13px] leading-5 ${dark ? "text-[#899b96]" : "text-[#7a8279]"}`}>
+      Tap a system to see what we connect. Don't see yours? If it has an export or an API, we can almost always work with it.
+    </p>
+  );
+
   return (
     <div>
       <style>{flowCss}</style>
 
       {/* Desktop: systems on both sides, flowing into the hub */}
-      <div className="hidden grid-cols-[1fr_250px_1fr] lg:grid">
-        <div className="flex flex-col justify-between gap-3 py-2">
-          {left.map((g) => (
-            <div key={g.id} className="flex items-center">
-              <div className="w-[230px] shrink-0">{systemButton(g)}</div>
-              <div className={`gc-flow min-w-6 flex-1 ${lineColor(g.id)}`} aria-hidden="true" />
-            </div>
-          ))}
+      <div className="hidden lg:block">
+        <div className="grid grid-cols-[1fr_250px_1fr]">
+          <div className="flex flex-col justify-between gap-3 py-2">
+            {left.map((g) => (
+              <div key={g.id} className="flex items-center">
+                <div className="w-[230px] shrink-0">{systemButton(g)}</div>
+                <div className={`gc-flow min-w-6 flex-1 ${lineColor(g.id)}`} aria-hidden="true" />
+              </div>
+            ))}
+          </div>
+          {hub}
+          <div className="flex flex-col justify-between gap-3 py-2">
+            {right.map((g) => (
+              <div key={g.id} className="flex items-center">
+                <div className={`gc-flow gc-left min-w-6 flex-1 ${lineColor(g.id)}`} aria-hidden="true" />
+                <div className="w-[230px] shrink-0">{systemButton(g)}</div>
+              </div>
+            ))}
+          </div>
         </div>
-        {hub}
-        <div className="flex flex-col justify-between gap-3 py-2">
-          {right.map((g) => (
-            <div key={g.id} className="flex items-center">
-              <div className={`gc-flow gc-left min-w-6 flex-1 ${lineColor(g.id)}`} aria-hidden="true" />
-              <div className="w-[230px] shrink-0">{systemButton(g)}</div>
-            </div>
-          ))}
-        </div>
+        <div aria-live="polite" className="mt-5">{detail}</div>
+        <div className="mt-3">{hint}</div>
       </div>
 
-      {/* Phone & tablet: systems grid flowing down into the hub */}
+      {/* Phone & tablet: pick a system, read what moves right below it, then the hub */}
       <div className="lg:hidden">
+        <div className="mb-4">{hint}</div>
         <div className="grid grid-cols-2 gap-2.5">
           {systemGroups.map((g) => systemButton(g))}
         </div>
+        <div ref={mobileDetailRef} aria-live="polite" className="mt-3 scroll-mb-24">{detail}</div>
         <div className="flex justify-center">
           <div className="gc-flow-v h-9 text-[#92ad39]" aria-hidden="true" />
         </div>
         {hub}
       </div>
-
-      {/* Detail for the selected system */}
-      <div aria-live="polite" className={`mt-5 grid gap-5 border p-5 sm:grid-cols-[.8fr_1fr_1fr] sm:p-6 ${dark ? "border-white/15 bg-white/[.03]" : "border-[#d8ded0] bg-[#fbfcf8]"}`}>
-        <div>
-          <p className={`${sans} text-[10px] font-semibold uppercase tracking-[.16em] ${dark ? "text-[#b4cc66]" : "text-[#71872b]"}`}>Selected</p>
-          <p className={`${display} mt-2 text-[22px] leading-tight ${dark ? "text-white" : "text-[#1d2720]"}`}>{active.label}</p>
-        </div>
-        <div>
-          <p className={`${sans} text-[10px] font-semibold uppercase tracking-[.16em] ${dark ? "text-[#b4cc66]" : "text-[#71872b]"}`}>Data that moves</p>
-          <p className={`${sans} mt-2 text-[14px] leading-6 ${dark ? "text-[#c8d3d0]" : "text-[#3d473e]"}`}>{active.data}</p>
-        </div>
-        <div>
-          <p className={`${sans} text-[10px] font-semibold uppercase tracking-[.16em] ${dark ? "text-[#b4cc66]" : "text-[#71872b]"}`}>What it unlocks</p>
-          <p className={`${sans} mt-2 text-[14px] leading-6 ${dark ? "text-[#c8d3d0]" : "text-[#3d473e]"}`}>{active.unlocks}</p>
-        </div>
-      </div>
-      <p className={`${sans} mt-3 text-[12px] ${dark ? "text-[#899b96]" : "text-[#7a8279]"}`}>Tap a system to see what we connect. Don't see yours? If it has an export or an API, we can almost always work with it.</p>
     </div>
   );
 }
@@ -331,7 +376,7 @@ export function SystemsFlow({ uc, tone = "light" }: { uc: UseCase; tone?: Tone }
 
 export function CaseStudyLink({ uc, tone = "light" }: { uc: UseCase; tone?: Tone }) {
   return (
-    <a href={uc.href} className={`${sans} group inline-flex items-center gap-2 text-[12px] font-semibold transition ${tone === "dark" ? "text-[#cfe28a] hover:text-white" : "text-[#53661c] hover:text-[#1d2720]"}`}>
+    <a href={uc.href} className={`${sans} group inline-flex min-h-[44px] items-center gap-2 text-[13px] font-semibold transition ${tone === "dark" ? "text-[#cfe28a] hover:text-white" : "text-[#53661c] hover:text-[#1d2720]"}`}>
       Read the {uc.client} case study <ArrowRight size={14} className="transition group-hover:translate-x-1" />
     </a>
   );
@@ -433,7 +478,7 @@ export function CustomersGrid({ tone = "light" }: { tone?: Tone }) {
       })}
       <div className={`flex min-h-[170px] flex-col justify-between border-b border-r p-6 ${dark ? "border-white/12 bg-[#92ad39]/10" : "border-[#d8ded0] bg-[#eef2dc]"}`}>
         <p className={`${display} text-[20px] leading-tight ${dark ? "text-white" : "text-[#1d2720]"}`}>Your business could be next.</p>
-        <a href={BOOKING_URL} target="_blank" rel="noreferrer" className={`${sans} text-[12px] font-semibold ${dark ? "text-[#cfe28a]" : "text-[#53661c]"}`}>Book a {PRIMARY_CTA} →</a>
+        <a href={BOOKING_URL} target="_blank" rel="noreferrer" className={`${sans} inline-flex min-h-[44px] items-center text-[13px] font-semibold ${dark ? "text-[#cfe28a]" : "text-[#53661c]"}`}>Book a {PRIMARY_CTA} →</a>
       </div>
     </div>
   );
@@ -466,7 +511,7 @@ export function CustomersTable() {
               <td className="px-5 py-4 text-[13px] text-[#3d473e]">{c.industry}</td>
               <td className="px-5 py-4 text-[13px] text-[#3d473e]">{c.size}</td>
               <td className="px-5 py-4 text-right">
-                {c.href && <a href={c.href} className="whitespace-nowrap text-[12px] font-semibold text-[#53661c] hover:text-[#1d2720]">Case study →</a>}
+                {c.href && <a href={c.href} className="inline-flex min-h-[44px] items-center whitespace-nowrap text-[13px] font-semibold text-[#53661c] hover:text-[#1d2720]">Case study →</a>}
               </td>
             </tr>
           ))}
@@ -486,6 +531,7 @@ export function TestimonialSlider({ tone = "dark" }: { tone?: Tone }) {
   const dark = tone === "dark";
   const count = testimonials.length;
   const go = (next: number) => setIndex((next + count) % count);
+  const touch = useRef<{ x: number; y: number } | null>(null);
 
   useEffect(() => {
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -504,8 +550,21 @@ export function TestimonialSlider({ tone = "dark" }: { tone?: Tone }) {
       onMouseLeave={() => setPaused(false)}
       onFocus={() => setPaused(true)}
       onBlur={() => setPaused(false)}
+      onTouchStart={(e) => {
+        setPaused(true);
+        touch.current = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+      }}
+      onTouchEnd={(e) => {
+        const start = touch.current;
+        touch.current = null;
+        if (!start) return;
+        const dx = e.changedTouches[0].clientX - start.x;
+        const dy = e.changedTouches[0].clientY - start.y;
+        // Horizontal swipe only; vertical drags keep scrolling the page.
+        if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy) * 1.5) go(index + (dx < 0 ? 1 : -1));
+      }}
     >
-      <div className="overflow-hidden">
+      <div className="overflow-hidden touch-pan-y">
         <div className="flex transition-transform duration-700 ease-out motion-reduce:transition-none" style={{ transform: `translateX(-${index * 100}%)` }}>
           {testimonials.map((t, i) => (
             <figure key={i} className="w-full shrink-0 pr-1" aria-hidden={i !== index} aria-roledescription="slide" aria-label={`${i + 1} of ${count}`}>
@@ -524,13 +583,13 @@ export function TestimonialSlider({ tone = "dark" }: { tone?: Tone }) {
         </div>
       </div>
       <div className="mt-9 flex items-center gap-4">
-        <button type="button" onClick={() => go(index - 1)} aria-label="Previous testimonial" className={`flex size-10 items-center justify-center border transition ${dark ? "border-white/25 text-white hover:border-[#92ad39]" : "border-[#c9d1bd] text-[#1d2720] hover:border-[#92ad39]"}`}>
+        <button type="button" onClick={() => go(index - 1)} aria-label="Previous testimonial" className={`flex size-11 items-center justify-center border transition ${dark ? "border-white/25 text-white hover:border-[#92ad39]" : "border-[#c9d1bd] text-[#1d2720] hover:border-[#92ad39]"}`}>
           <ChevronLeft size={18} />
         </button>
-        <button type="button" onClick={() => go(index + 1)} aria-label="Next testimonial" className={`flex size-10 items-center justify-center border transition ${dark ? "border-white/25 text-white hover:border-[#92ad39]" : "border-[#c9d1bd] text-[#1d2720] hover:border-[#92ad39]"}`}>
+        <button type="button" onClick={() => go(index + 1)} aria-label="Next testimonial" className={`flex size-11 items-center justify-center border transition ${dark ? "border-white/25 text-white hover:border-[#92ad39]" : "border-[#c9d1bd] text-[#1d2720] hover:border-[#92ad39]"}`}>
           <ChevronRight size={18} />
         </button>
-        <div className="ml-2 flex gap-2">
+        <div className="ml-1 flex">
           {testimonials.map((_, i) => (
             <button
               key={i}
@@ -538,8 +597,10 @@ export function TestimonialSlider({ tone = "dark" }: { tone?: Tone }) {
               onClick={() => go(i)}
               aria-label={`Show testimonial ${i + 1}`}
               aria-current={i === index}
-              className={`h-1.5 transition-all ${i === index ? "w-8 bg-[#92ad39]" : dark ? "w-4 bg-white/25" : "w-4 bg-[#c9d1bd]"}`}
-            />
+              className="flex h-11 items-center px-1.5"
+            >
+              <span className={`block h-1.5 transition-all ${i === index ? "w-8 bg-[#92ad39]" : dark ? "w-4 bg-white/25" : "w-4 bg-[#c9d1bd]"}`} />
+            </button>
           ))}
         </div>
       </div>

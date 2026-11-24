@@ -48,7 +48,7 @@ function Hero() {
             {stats.map((s, i) => (
               <div key={s.label} className={`${i > 0 ? "border-l border-[#dfe3d8] pl-4 sm:pl-6" : "pr-4"}`}>
                 <p className={`${display} text-[30px] leading-none text-[#1d2720] sm:text-[38px]`}>{s.value}</p>
-                <p className={`${sans} mt-2 text-[11px] leading-4 text-[#657067] sm:text-[12px]`}>{s.label}</p>
+                <p className={`${sans} mt-2 text-[12px] leading-4 text-[#657067]`}>{s.label}</p>
               </div>
             ))}
           </div>
@@ -71,7 +71,7 @@ function Hero() {
                   <img src={p.photo} alt={p.name} className="size-12 shrink-0 object-cover object-top" />
                   <div className="min-w-0">
                     <p className={`${display} text-[15px] leading-tight text-[#1d2720]`}>{p.name}</p>
-                    <p className={`${sans} mt-1 text-[11px] leading-4 text-[#657067]`}>{p.role}</p>
+                    <p className={`${sans} mt-1 text-[12px] leading-4 text-[#657067]`}>{p.role}</p>
                   </div>
                 </div>
               ))}

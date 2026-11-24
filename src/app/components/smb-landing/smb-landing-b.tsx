@@ -81,7 +81,7 @@ function UseCaseTabs() {
         <Eyebrow>Real examples</Eyebrow>
         <SectionTitle className="mt-6 max-w-[20ch]">See exactly what gets connected, and what changes.</SectionTitle>
 
-        <div role="tablist" aria-label="Use cases" className="mt-12 flex gap-1 overflow-x-auto border-b border-[#d8ded0]">
+        <div role="tablist" aria-label="Use cases" className="mt-12 grid grid-cols-3 border-b border-[#d8ded0] sm:flex sm:gap-1">
           {useCases.map((u, i) => (
             <button
               key={u.id}
@@ -91,7 +91,7 @@ function UseCaseTabs() {
               aria-selected={i === active}
               aria-controls={`uc-panel-${u.id}`}
               onClick={() => setActive(i)}
-              className={`${sans} -mb-px shrink-0 border-b-2 px-4 py-3 text-left text-[13px] font-semibold transition ${i === active ? "border-[#92ad39] text-[#1d2720]" : "border-transparent text-[#7a8279] hover:text-[#1d2720]"}`}
+              className={`${sans} -mb-px min-h-[56px] border-b-2 px-2 py-3 text-left text-[13px] font-semibold leading-snug transition sm:shrink-0 sm:px-4 ${i === active ? "border-[#92ad39] text-[#1d2720]" : "border-transparent text-[#7a8279] hover:text-[#1d2720]"}`}
             >
               <span className="block text-[10px] font-semibold uppercase tracking-[.14em] text-[#71872b]">0{i + 1}</span>
               {u.short}
