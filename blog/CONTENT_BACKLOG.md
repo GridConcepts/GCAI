@@ -34,7 +34,7 @@ Persona and gap sourcing: `positioning-cross-examination-and-wedge-translations.
 | Evaluating AI vendors: a due-diligence checklist for professional services | David | published | Extends the implementation-partner-vs-consultancy piece into a practical scorecard for procurement. |
 | How long should an AI pilot take? Realistic timelines from discovery to go-live | Both | published | Sets expectations for both personas and corrects inflated "AI transformation in weeks" claims common among competitors. |
 | AI for hospitality venues: rostering and stock takes without the spreadsheet chaos | Mark | published | New vertical angle - venues juggle casual rosters and stock on paper or spreadsheets; names the two concrete pain points directly. |
-| AI for real estate agents: open-home follow-ups and vendor reporting | Mark | pending | Vertical angle outside trades/professional services; targets the admin grind around open homes and vendor updates. |
+| AI for real estate agents: open-home follow-ups and vendor reporting | Mark | published | Vertical angle outside trades/professional services; targets the admin grind around open homes and vendor updates. |
 | AI for allied health clinics: cutting no-shows with better reminders | Mark | pending | Healthcare-adjacent vertical; no-shows are a direct revenue pain point he'd search for. |
 | AI for retail SMEs: stock reordering without guesswork | Mark | pending | Retail vertical; concrete task (reordering) rather than "inventory management" abstraction. |
 | AI for logistics and courier businesses: dispatch and ETA updates | Mark | pending | Low-competition vertical; task-level language (dispatch, ETAs) matches his search behaviour. |

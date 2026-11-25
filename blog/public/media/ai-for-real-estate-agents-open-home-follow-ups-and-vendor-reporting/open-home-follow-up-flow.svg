@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" role="img" aria-labelledby="t2 d2" font-family="Inter, Segoe UI, Arial, sans-serif">
+<title id="t2">Why the follow-up is slow today, and what changes</title>
+<desc id="d2">A flow diagram comparing a paper sign-in sheet that leads to a list typed up the next day and a follow-up sent two to three days later, against a digital sign-in synced straight to the CRM that leads to a same-day follow-up message.</desc>
+<rect width="900" height="400" fill="#f9faf5" stroke="#d8ded0"/>
+<text x="40" y="38" font-family="Lora, Georgia, serif" font-size="22" font-weight="600" fill="#1d2720">Where the follow-up actually slows down</text>
+<text x="40" y="60" font-size="13" fill="#657067">Same open home, two different paths from sign-in to first message</text>
+
+<text x="40" y="92" font-size="12.5" fill="#8a6a42" font-weight="700">TODAY</text>
+<rect x="40" y="100" width="230" height="70" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="155" y="130" text-anchor="middle" font-size="13" fill="#1d2720">Paper sign-in sheet</text>
+<text x="155" y="148" text-anchor="middle" font-size="13" fill="#1d2720">at the open home</text>
+
+<rect x="335" y="100" width="230" height="70" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="450" y="130" text-anchor="middle" font-size="13" fill="#1d2720">Typed up back at the</text>
+<text x="450" y="148" text-anchor="middle" font-size="13" fill="#1d2720">office, next day</text>
+
+<rect x="630" y="100" width="230" height="70" fill="#faf3ea" stroke="#c8a27a" stroke-width="1.5"/>
+<text x="745" y="130" text-anchor="middle" font-size="13" fill="#1d2720" font-weight="600">Follow-up sent two to</text>
+<text x="745" y="148" text-anchor="middle" font-size="13" fill="#1d2720" font-weight="600">three days later</text>
+
+<line x1="270" y1="135" x2="333" y2="135" stroke="#c8a27a" stroke-width="2"/>
+<path d="M 333 135 L 323 130 L 323 140 Z" fill="#c8a27a"/>
+<line x1="565" y1="135" x2="628" y2="135" stroke="#c8a27a" stroke-width="2"/>
+<path d="M 628 135 L 618 130 L 618 140 Z" fill="#c8a27a"/>
+
+<text x="40" y="232" font-size="12.5" fill="#53661c" font-weight="700">WITH AI CAPTURING ATTENDEES DIGITALLY</text>
+<rect x="40" y="240" width="230" height="70" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="155" y="270" text-anchor="middle" font-size="13" fill="#1d2720">Digital sign-in, synced</text>
+<text x="155" y="288" text-anchor="middle" font-size="13" fill="#1d2720">straight to the CRM</text>
+
+<rect x="335" y="240" width="230" height="70" fill="#ffffff" stroke="#d8ded0" stroke-width="1"/>
+<text x="450" y="270" text-anchor="middle" font-size="13" fill="#1d2720">Attendee list ready</text>
+<text x="450" y="288" text-anchor="middle" font-size="13" fill="#1d2720">that same afternoon</text>
+
+<rect x="630" y="240" width="230" height="70" fill="#f1f6e6" stroke="#92ad39" stroke-width="1.5"/>
+<text x="745" y="270" text-anchor="middle" font-size="13" fill="#1d2720" font-weight="600">Follow-up message sent</text>
+<text x="745" y="288" text-anchor="middle" font-size="13" fill="#1d2720" font-weight="600">the same day</text>
+
+<line x1="270" y1="275" x2="333" y2="275" stroke="#92ad39" stroke-width="2"/>
+<path d="M 333 275 L 323 270 L 323 280 Z" fill="#92ad39"/>
+<line x1="565" y1="275" x2="628" y2="275" stroke="#92ad39" stroke-width="2"/>
+<path d="M 628 275 L 618 270 L 618 280 Z" fill="#92ad39"/>
+
+<text x="40" y="360" font-size="11" fill="#657067">The attendees are the same people either way - only the time between the door and the first message changes.</text>
+</svg>

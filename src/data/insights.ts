@@ -38,6 +38,15 @@ export function getInsightAuthor(name: string): InsightAuthor {
 /** Keep in sync with Markdown posts under blog/src/content/blog/ */
 export const insightPosts: InsightPost[] = [
   {
+    slug: "ai-for-real-estate-agents-open-home-follow-ups-and-vendor-reporting",
+    author: "Val Melamed",
+    image: "/insights/media/ai-for-real-estate-agents-open-home-follow-ups-and-vendor-reporting/market-pressure-stats.svg",
+    title: "AI for real estate agents: open-home follow-ups and vendor reporting",
+    description:
+      "A plain-English look at AI for real estate agents - how it actually speeds up open-home follow-ups and vendor reporting, what still needs a human, and where to start.",
+    dateLabel: "Nov 2026",
+  },
+  {
     slug: "ai-for-hospitality-venues-rostering-and-stock-takes",
     author: "Val Melamed",
     image: "/insights/media/ai-for-hospitality-venues-rostering-and-stock-takes/venue-pressure-stats.svg",
